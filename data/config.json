@@ -1,0 +1,28 @@
+{
+  "_comment": "Single source of truth for the site. Edit here, run `node tools/build-library.mjs`, commit.",
+
+  "author": {
+    "name": "Carlos Eduardo Peixoto",
+    "handle": "@carlospx",
+    "portfolio": "https://carlospx.com",
+    "contra": "https://contra.com/carlospx",
+    "email": "carlos@carlospx.com"
+  },
+
+  "site": "https://carlospx.com",
+
+  "pro": {
+    "_todo": "Paste your Stripe Payment Link below. Until you do, every Get-the-SVGs button shows a 'coming soon' notice instead of a dead link.",
+    "checkout_url": "",
+    "price": "$29",
+    "price_note": "one payment, yours forever",
+    "format": "SVG"
+  },
+
+  "free": {
+    "format": "PNG",
+    "resolution": "up to 2000px",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

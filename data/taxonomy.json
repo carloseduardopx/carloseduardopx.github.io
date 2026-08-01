@@ -1,0 +1,77 @@
+{
+  "ai": {
+    "title": "AI",
+    "category": "technology",
+    "tags": ["ai", "brain", "machine learning", "robot", "thinking", "model"]
+  },
+  "api": {
+    "title": "API",
+    "category": "technology",
+    "tags": ["api", "integration", "connection", "developer", "endpoint", "data"]
+  },
+  "backpack": {
+    "title": "Backpack",
+    "category": "outdoors",
+    "tags": ["backpack", "travel", "hiking", "gear", "journey", "carry"]
+  },
+  "box": {
+    "title": "Open box",
+    "category": "objects",
+    "tags": ["box", "unboxing", "launch", "delivery", "surprise", "empty state"]
+  },
+  "confused": {
+    "title": "Confused",
+    "category": "people",
+    "tags": ["confused", "face", "question", "lost", "error", "empty state"]
+  },
+  "dna": {
+    "title": "DNA",
+    "category": "science",
+    "tags": ["dna", "biology", "genetics", "helix", "research", "science"]
+  },
+  "hiking": {
+    "title": "Hiking",
+    "category": "outdoors",
+    "tags": ["hiking", "trail", "trees", "rest", "nature", "walk"]
+  },
+  "maps": {
+    "title": "Maps",
+    "category": "technology",
+    "tags": ["map", "navigation", "location", "phone", "travel", "directions"]
+  },
+  "plant": {
+    "title": "Plant",
+    "category": "nature",
+    "tags": ["plant", "growth", "flower", "home", "care", "green"]
+  },
+  "reading": {
+    "title": "Reading",
+    "category": "people",
+    "tags": ["reading", "book", "study", "learning", "focus", "calm"]
+  },
+  "scribble-arrow": {
+    "title": "Scribble arrow",
+    "category": "scribbles",
+    "tags": ["arrow", "pointer", "mark", "annotation", "direction", "hand-drawn"]
+  },
+  "scribble-circle": {
+    "title": "Scribble circle",
+    "category": "scribbles",
+    "tags": ["circle", "highlight", "mark", "annotation", "emphasis", "hand-drawn"]
+  },
+  "scribble-star": {
+    "title": "Scribble star",
+    "category": "scribbles",
+    "tags": ["star", "burst", "spark", "mark", "annotation", "hand-drawn"]
+  },
+  "sunbathing": {
+    "title": "Sunbathing",
+    "category": "people",
+    "tags": ["sunbathing", "summer", "beach", "rest", "leisure", "vacation"]
+  },
+  "support": {
+    "title": "Support",
+    "category": "people",
+    "tags": ["support", "headphones", "help", "service", "listening", "customer"]
+  }
+}

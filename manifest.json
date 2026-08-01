@@ -1,0 +1,325 @@
+{
+  "name": "Pay for Layers — hand-drawn illustrations",
+  "description": "Hand-drawn black and white illustrations. Every PNG is free, including for commercial use, under CC BY 4.0. The editable SVG source is the paid product.",
+  "author": {
+    "name": "Carlos Eduardo Peixoto",
+    "handle": "@carlospx",
+    "portfolio": "https://carlospx.com",
+    "contra": "https://contra.com/carlospx",
+    "email": "carlos@carlospx.com"
+  },
+  "homepage": "https://carlospx.com",
+  "free": {
+    "format": "PNG",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution_required": true,
+    "base_url": "https://carlospx.com/png/"
+  },
+  "pro": {
+    "format": "SVG",
+    "price": "$29",
+    "checkout_url": "",
+    "includes": "Every illustration as an editable, layered SVG."
+  },
+  "attribution": "Illustration by Carlos Eduardo Peixoto — https://carlospx.com",
+  "llms_txt": "https://carlospx.com/llms.txt",
+  "updated": "2026-07-27",
+  "count": 15,
+  "categories": [
+    "nature",
+    "objects",
+    "outdoors",
+    "people",
+    "science",
+    "scribbles",
+    "technology"
+  ],
+  "illustrations": [
+    {
+      "id": "ai",
+      "title": "AI",
+      "category": "technology",
+      "tags": [
+        "ai",
+        "brain",
+        "machine learning",
+        "robot",
+        "thinking",
+        "model"
+      ],
+      "png": "png/ai.png",
+      "url": "https://carlospx.com/png/ai.png",
+      "width": 2746,
+      "height": 1357,
+      "bytes": 254936,
+      "svg": "pro"
+    },
+    {
+      "id": "api",
+      "title": "API",
+      "category": "technology",
+      "tags": [
+        "api",
+        "integration",
+        "connection",
+        "developer",
+        "endpoint",
+        "data"
+      ],
+      "png": "png/api.png",
+      "url": "https://carlospx.com/png/api.png",
+      "width": 1065,
+      "height": 750,
+      "bytes": 30674,
+      "svg": "pro"
+    },
+    {
+      "id": "backpack",
+      "title": "Backpack",
+      "category": "outdoors",
+      "tags": [
+        "backpack",
+        "travel",
+        "hiking",
+        "gear",
+        "journey",
+        "carry"
+      ],
+      "png": "png/backpack.png",
+      "url": "https://carlospx.com/png/backpack.png",
+      "width": 1573,
+      "height": 1681,
+      "bytes": 118923,
+      "svg": "pro"
+    },
+    {
+      "id": "box",
+      "title": "Open box",
+      "category": "objects",
+      "tags": [
+        "box",
+        "unboxing",
+        "launch",
+        "delivery",
+        "surprise",
+        "empty state"
+      ],
+      "png": "png/box.png",
+      "url": "https://carlospx.com/png/box.png",
+      "width": 2237,
+      "height": 2035,
+      "bytes": 491124,
+      "svg": "pro"
+    },
+    {
+      "id": "confused",
+      "title": "Confused",
+      "category": "people",
+      "tags": [
+        "confused",
+        "face",
+        "question",
+        "lost",
+        "error",
+        "empty state"
+      ],
+      "png": "png/confused.png",
+      "url": "https://carlospx.com/png/confused.png",
+      "width": 1122,
+      "height": 1140,
+      "bytes": 62221,
+      "svg": "pro"
+    },
+    {
+      "id": "dna",
+      "title": "DNA",
+      "category": "science",
+      "tags": [
+        "dna",
+        "biology",
+        "genetics",
+        "helix",
+        "research",
+        "science"
+      ],
+      "png": "png/dna.png",
+      "url": "https://carlospx.com/png/dna.png",
+      "width": 513,
+      "height": 1466,
+      "bytes": 119822,
+      "svg": "pro"
+    },
+    {
+      "id": "hiking",
+      "title": "Hiking",
+      "category": "outdoors",
+      "tags": [
+        "hiking",
+        "trail",
+        "trees",
+        "rest",
+        "nature",
+        "walk"
+      ],
+      "png": "png/hiking.png",
+      "url": "https://carlospx.com/png/hiking.png",
+      "width": 2741,
+      "height": 2573,
+      "bytes": 607726,
+      "svg": "pro"
+    },
+    {
+      "id": "maps",
+      "title": "Maps",
+      "category": "technology",
+      "tags": [
+        "map",
+        "navigation",
+        "location",
+        "phone",
+        "travel",
+        "directions"
+      ],
+      "png": "png/maps.png",
+      "url": "https://carlospx.com/png/maps.png",
+      "width": 684,
+      "height": 1400,
+      "bytes": 650034,
+      "svg": "pro"
+    },
+    {
+      "id": "plant",
+      "title": "Plant",
+      "category": "nature",
+      "tags": [
+        "plant",
+        "growth",
+        "flower",
+        "home",
+        "care",
+        "green"
+      ],
+      "png": "png/plant.png",
+      "url": "https://carlospx.com/png/plant.png",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 158354,
+      "svg": "pro"
+    },
+    {
+      "id": "reading",
+      "title": "Reading",
+      "category": "people",
+      "tags": [
+        "reading",
+        "book",
+        "study",
+        "learning",
+        "focus",
+        "calm"
+      ],
+      "png": "png/reading.png",
+      "url": "https://carlospx.com/png/reading.png",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 108360,
+      "svg": "pro"
+    },
+    {
+      "id": "scribble-arrow",
+      "title": "Scribble arrow",
+      "category": "scribbles",
+      "tags": [
+        "arrow",
+        "pointer",
+        "mark",
+        "annotation",
+        "direction",
+        "hand-drawn"
+      ],
+      "png": "png/scribble-arrow.png",
+      "url": "https://carlospx.com/png/scribble-arrow.png",
+      "width": 540,
+      "height": 274,
+      "bytes": 6502,
+      "svg": "pro"
+    },
+    {
+      "id": "scribble-circle",
+      "title": "Scribble circle",
+      "category": "scribbles",
+      "tags": [
+        "circle",
+        "highlight",
+        "mark",
+        "annotation",
+        "emphasis",
+        "hand-drawn"
+      ],
+      "png": "png/scribble-circle.png",
+      "url": "https://carlospx.com/png/scribble-circle.png",
+      "width": 507,
+      "height": 424,
+      "bytes": 10241,
+      "svg": "pro"
+    },
+    {
+      "id": "scribble-star",
+      "title": "Scribble star",
+      "category": "scribbles",
+      "tags": [
+        "star",
+        "burst",
+        "spark",
+        "mark",
+        "annotation",
+        "hand-drawn"
+      ],
+      "png": "png/scribble-star.png",
+      "url": "https://carlospx.com/png/scribble-star.png",
+      "width": 360,
+      "height": 469,
+      "bytes": 10370,
+      "svg": "pro"
+    },
+    {
+      "id": "sunbathing",
+      "title": "Sunbathing",
+      "category": "people",
+      "tags": [
+        "sunbathing",
+        "summer",
+        "beach",
+        "rest",
+        "leisure",
+        "vacation"
+      ],
+      "png": "png/sunbathing.png",
+      "url": "https://carlospx.com/png/sunbathing.png",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 82761,
+      "svg": "pro"
+    },
+    {
+      "id": "support",
+      "title": "Support",
+      "category": "people",
+      "tags": [
+        "support",
+        "headphones",
+        "help",
+        "service",
+        "listening",
+        "customer"
+      ],
+      "png": "png/support.png",
+      "url": "https://carlospx.com/png/support.png",
+      "width": 914,
+      "height": 1381,
+      "bytes": 81933,
+      "svg": "pro"
+    }
+  ]
+}

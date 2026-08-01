@@ -1,0 +1,7 @@
+# The SVG masters are the product. Stage them here locally to regenerate PNGs,
+# but never commit them — anything in this repo is served publicly by GitHub Pages.
+/svg/
+/svg-master/
+
+.DS_Store
+node_modules/
