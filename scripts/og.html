@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- Source for pfl/og.png. Rendered at exactly 1200x630 by scripts/og.mjs.
+     Edit this, then re-run `node scripts/og.mjs`.
+
+     Same tokens as pfl/css/pfl.css — #131313 ink, #595959 muted, #0000ee link,
+     #f3f3f3 tile, Mint Grotesk V131. A share card that does not look like the
+     site it links to is a wasted impression. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face {
+    font-family: 'Mint Grotesk';
+    src: url('../pfl/fonts/Mint-Grotesk-Regular-V131.woff2') format('woff2');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'Mint Grotesk';
+    src: url('../pfl/fonts/Mint-Grotesk-Bold-V131.woff2') format('woff2');
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: 'Mint Grotesk';
+    src: url('../pfl/fonts/Mint-Grotesk-Black-V131.woff2') format('woff2');
+    font-weight: 900;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1200px;
+    height: 630px;
+    background: #fff;
+    font-family: 'Mint Grotesk', sans-serif;
+    color: #131313;
+    position: relative;
+    padding: 64px 72px;
+    overflow: hidden;
+  }
+
+  .top {
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    gap: 64px;
+    align-items: center;
+    height: 420px;
+  }
+
+  h1 { font-size: 52px; line-height: 64px; font-weight: 700; }
+
+  .sub {
+    margin-top: 32px;
+    font-size: 24px;
+    line-height: 34px;
+    color: #595959;
+  }
+
+  /* The box, the same drawing the page leads with. */
+  .art { display: flex; justify-content: flex-end; }
+  .art img { width: 380px; height: auto; }
+
+  /* Five thumbnails on the tile, square corners, as in the grid. */
+  .strip {
+    position: absolute;
+    left: 72px;
+    top: 470px;
+    display: flex;
+    gap: 12px;
+  }
+  .strip span {
+    width: 76px;
+    height: 76px;
+    background: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .strip img { max-width: 56px; max-height: 56px; }
+
+  .foot {
+    /* Anchored from the top on purpose. With `bottom` and a viewport whose
+       height exactly equals the body height, headless Chrome drops this row
+       from the capture. `top` renders reliably at any viewport height. */
+    position: absolute;
+    left: 72px;
+    right: 72px;
+    top: 470px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    height: 76px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .foot .url { font-weight: 900; color: #0000ee; }
+  .foot .by { color: #595959; }
+</style>
+</head>
+<body>
+  <div class="top">
+    <div>
+      <h1>Hand-drawn line<br>illustrations.</h1>
+      <p class="sub">Black and white, minimal.<br>Free as PNG — pay for the layers.</p>
+    </div>
+    <div class="art">
+      <img src="../pfl/images/png/open-box-line-illustration.png" alt="">
+    </div>
+  </div>
+
+  <div class="strip">
+    <span><img src="../pfl/images/png/ai-robot-line-illustration-500.png" alt=""></span>
+    <span><img src="../pfl/images/png/hiker-line-illustration-500.png" alt=""></span>
+    <span><img src="../pfl/images/png/dna-helix-line-illustration-500.png" alt=""></span>
+    <span><img src="../pfl/images/png/headphones-line-illustration-500.png" alt=""></span>
+    <span><img src="../pfl/images/png/api-cloud-line-illustration-500.png" alt=""></span>
+  </div>
+
+  <div class="foot">
+    <span class="by">Carlos Peixoto</span>
+    <span class="url">payforlayers.com</span>
+  </div>
+</body>
+</html>

@@ -1,0 +1,627 @@
+/* Pay For Layers v3
+   ==================================================================
+   Every colour, size and space below is a value already in use on v.2
+   (css/pfl-418f99.webflow.css at the repo root). Nothing is invented.
+   Two deliberate departures, both noted where they occur:
+
+     - #999 becomes #595959.  v.2 puts #999 on 12px labels; it measures
+       2.85:1 on white and fails AA. #595959 is the smallest darkening
+       that clears AAA at 12px.
+     - h3-at-170% (~41px) is gone.  v.2 sets display-sized headings for
+       copy that is not display copy. The scale below tops out at 26px.
+
+   v.2                                    -> v3
+   .heading            Mint 24/700        -> h1   Mint 26/34
+   .heading-2 (h3)     Mint 24 @170%      -> (deleted)
+   .text-span          Inter 20/400       -> h2   Mint 20/28
+   .paragraph          Inter 16/180%/500  -> body Inter 16/1.6/500
+   .paragraph.ar       Inter 14           -> .small
+   .legenda            Inter 12/170%/500  -> .micro
+   .big-number         Mint 32/900        -> .counter__n
+   ================================================================== */
+
+/* --- Faces --------------------------------------------------------
+   Mint Grotesk V131 is self-hosted, as on v.2. Inter is not: neither
+   fonts.gstatic.com nor rsms.me is reachable from the build
+   environment, so it is still linked from Google Fonts in the <head>
+   — but via the CSS API, not v.2's render-blocking webfont.js. The
+   stack below degrades to system-ui, so a blocked or slow Google
+   Fonts costs nothing but the exact face. See PFL.md, open items. */
+
+@font-face {
+  font-family: 'Mint Grotesk';
+  src: url('../fonts/Mint-Grotesk-Regular-V131.woff2') format('woff2'),
+       url('../fonts/Mint-Grotesk-Regular-V131.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mint Grotesk';
+  src: url('../fonts/Mint-Grotesk-Medium-V131.woff2') format('woff2'),
+       url('../fonts/Mint-Grotesk-Medium-V131.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mint Grotesk';
+  src: url('../fonts/Mint-Grotesk-Bold-V131.woff2') format('woff2'),
+       url('../fonts/Mint-Grotesk-Bold-V131.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mint Grotesk';
+  src: url('../fonts/Mint-Grotesk-Black-V131.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Neutrals — v.2's, except --muted. */
+  --ink:     #131313;   /* 18.58:1  headings, card names, FAQ questions   */
+  --body:    #333333;   /* 12.63:1  running text                          */
+  --muted:   #595959;   /*  7.00:1  replaces v.2's #999 (2.85:1, fails)   */
+  --rule:    #dddddd;   /*  hairlines only — never carries text           */
+  --tile:    #f3f3f3;   /*  v.2's rgba(230,230,230,.5) flattened on white */
+  --paper:   #ffffff;
+
+  /* The single accent. v.2's own link colour, and the browser default.
+     Everything blue is interactive; everything interactive is blue. */
+  --link:    #0000ee;   /*  9.40:1 on paper, 8.47:1 on tile              */
+  --visited: #551a8b;   /* 11.01:1                                        */
+
+  --display: 'Mint Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --text:    Inter, system-ui, -apple-system, 'Segoe UI', Roboto,
+             'Helvetica Neue', Arial, sans-serif;
+
+  /* Spacing — every value already in v.2's stylesheet. */
+  --s1:  4px;
+  --s2:  8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 24px;
+  --s6: 32px;
+  --s7: 40px;
+  --s8: 48px;
+  --s9: 64px;
+  --s10: 80px;
+
+  --page:  1140px;   /* v.2 .content-wrapper — the grid only */
+  --prose:  940px;   /* v.2 .content-wrapper.slim — everything else */
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--body);
+  font-family: var(--text);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: .3px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* --- Type ---------------------------------------------------------- */
+
+h1, h2 {
+  font-family: var(--display);
+  font-weight: 700;
+  color: var(--ink);
+  letter-spacing: 0;
+  margin: 0;
+}
+
+h1 { font-size: 26px; line-height: 34px; }
+h2 { font-size: 20px; line-height: 28px; margin-bottom: var(--s4); }
+
+h3 {
+  font-family: var(--text);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0;
+}
+
+p { margin: 0 0 var(--s4); }
+p:last-child { margin-bottom: 0; }
+
+.small { font-size: 14px; line-height: 1.5; }
+.micro { font-size: 12px; line-height: 1.7; }
+.muted { color: var(--muted); }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* --- Links ---------------------------------------------------------
+   No underline on navigational and standalone links — colour plus
+   position carries it. Links inside running prose keep the underline:
+   colour as the sole affordance is a WCAG 1.4.1 failure. */
+
+a { color: var(--link); text-decoration: none; }
+a:visited { color: var(--visited); }
+p > a, dd > a, li > a, td > a, summary > a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+a:hover, a:focus-visible { text-decoration: underline; text-underline-offset: 2px; }
+
+:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+
+/* --- Shell ---------------------------------------------------------- */
+
+.wrap { max-width: var(--prose); margin: 0 auto; padding: 0 var(--s5); }
+.wrap--wide { max-width: var(--page); }
+
+hr { border: 0; border-top: 1px solid var(--rule); margin: 0; }
+
+/* Section rhythm is set per section, not globally, and it is set as space
+   ABOVE each block only. Symmetric padding on every section makes the gaps
+   add up in pairs, which is how a page ends up with 130px of nothing between
+   two short paragraphs. Reading down, the gaps are:
+
+     hero 48 · library 64 · formats 80 · price 32 · formats-dl 48 ·
+     newsletter 80 · author 48 · agents 32 · faq 64 · footer 48
+
+   Deliberately uneven. The newsletter and the FAQ get the most room because
+   they are the two things a visitor is most likely to have come for after
+   the grid; the agents note and the price line get the least. */
+
+/* --- 1 · Masthead — no heading element at all ----------------------- */
+
+.masthead {
+  display: flex;
+  align-items: baseline;
+  gap: var(--s2);
+  padding: var(--s5) 0 var(--s4);
+}
+
+.masthead__mark {
+  font-family: var(--display);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+/* On sub-pages the wordmark is a link home, so it is blue. "Everything
+   interactive is blue" has no exceptions, wordmarks included. */
+a.masthead__mark { color: var(--link); }
+a.masthead__mark:visited { color: var(--visited); }
+
+.masthead__v { font-size: 12px; color: var(--muted); }
+
+/* --- 2 · Hero — text, art, two actions. No paragraph. --------------- */
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: var(--s9);
+  align-items: center;
+  padding-top: var(--s8);
+}
+
+/* No max-width: the grid column already sets the measure, and capping it
+   here is what pushed the third line into a fourth. */
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s5);
+  margin-top: var(--s6);
+}
+
+.hero__count {
+  margin-top: var(--s4);
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.hero__art { width: 100%; height: auto; }
+
+/* --- Buttons — the only filled elements on the page. Square, flat. -- */
+
+.btn {
+  display: inline-block;
+  background: var(--link);
+  color: var(--paper);
+  font-family: var(--display);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  padding: var(--s3) var(--s5);
+  border: 0;
+  border-radius: 0;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.btn:visited { color: var(--paper); }
+.btn:hover, .btn:focus-visible { background: var(--visited); color: var(--paper); text-decoration: none; }
+.btn[disabled] { opacity: .55; cursor: default; }
+
+.btn-group { display: flex; flex-direction: column; gap: var(--s2); }
+.btn-group .micro { color: var(--muted); }
+
+/* --- 3 · Library — no heading, no intro. Tags, then cards. ---------- */
+
+.library { padding-top: var(--s9); }
+
+.tagnav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s4);
+  margin: 0 0 var(--s5);
+  padding: 0;
+  list-style: none;
+  font-family: var(--display);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  text-transform: uppercase;
+}
+
+.tagnav a { text-decoration: none; }
+.tagnav a:visited { color: var(--link); }
+.tagnav [aria-current="true"] {
+  color: var(--ink);
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: 2px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: var(--s4);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card__link { display: block; text-decoration: none; }
+.card__link:visited .card__name { color: var(--visited); }
+
+.card__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--tile);
+  aspect-ratio: 1;
+  padding: var(--s4);
+  /* Square. The ban on uniform corner radius is the point; the tile is
+     here so black line art reads as a discrete object, not as decoration. */
+  border-radius: 0;
+}
+
+.card__img { max-width: 100%; max-height: 100%; width: auto; height: auto; }
+
+.card__name {
+  display: block;
+  margin-top: var(--s2);
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--link);
+}
+
+.card__meta {
+  display: block;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--muted);
+}
+
+.card__link:hover .card__name,
+.card__link:focus-visible .card__name { text-decoration: underline; text-underline-offset: 2px; }
+
+/* The last cell. Not a stat band — it is what stops the grid from
+   overclaiming, in place, with no separate section and no invented
+   number: 121 illustrations and 35 scribbles, minus what is shown. */
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1;
+  text-align: center;
+  padding: var(--s3);
+}
+
+.counter__n {
+  font-family: var(--display);
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1;
+  color: var(--ink);
+}
+
+.counter__label {
+  margin-top: var(--s2);
+  font-family: var(--display);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+.library__note { margin-top: var(--s5); }
+
+/* --- 4 · Formats — a plain table. No cards, no highlighted tier. ---- */
+
+.formats { padding-top: var(--s10); }
+
+.formats table {
+  width: 100%;
+  max-width: 640px;
+  border-collapse: collapse;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.formats th, .formats td {
+  text-align: left;
+  padding: var(--s3) var(--s4) var(--s3) 0;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+}
+
+.formats thead th {
+  font-family: var(--display);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.formats tbody th { font-weight: 500; color: var(--body); }
+.formats td { color: var(--ink); }
+
+/* --- 5 · Price — one running sentence. Shortest block on the page. -- */
+
+.price { padding-top: var(--s6); }
+.price p { max-width: 640px; }
+
+/* --- 6 · Formats explained — the only definition list on the page,
+       and the only block with neither a heading nor an image. --------- */
+
+.edit-formats { padding-top: var(--s8); }
+
+.formats-dl {
+  display: grid;
+  grid-template-columns: 5rem minmax(0, 1fr);
+  gap: var(--s3) var(--s5);
+  margin: 0;
+  max-width: 640px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.formats-dl dt {
+  font-family: var(--display);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  color: var(--muted);
+  padding-top: 3px;
+}
+
+.formats-dl dd { margin: 0; color: var(--ink); }
+
+/* --- 7 · Newsletter — the most vertical air on the page. ------------ */
+
+.newsletter { padding-top: var(--s10); }
+.newsletter p { max-width: 54ch; }
+
+.signup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s3);
+  align-items: flex-end;
+  margin-top: var(--s5);
+}
+
+.signup label {
+  display: block;
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--muted);
+  margin-bottom: var(--s1);
+}
+
+.signup input[type="email"] {
+  font-family: var(--text);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 0;
+  padding: var(--s3);
+  width: 20rem;
+  max-width: 100%;
+}
+
+.signup input[type="email"]:focus-visible { border-color: var(--link); }
+
+/* Both states are ink. Blue means interactive and nothing else, and there is
+   no second accent to spend on a red, so the sentence itself has to say what
+   happened — which is the accessible behaviour anyway (WCAG 1.4.1). */
+.signup__msg { flex-basis: 100%; margin: 0; font-size: 14px; color: var(--ink); }
+.signup__msg[hidden] { display: none; }
+.signup__msg--err { padding-left: var(--s3); border-left: 2px solid var(--ink); }
+
+/* --- 8 · Author — headingless, portrait-led. ------------------------ */
+
+.author {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  gap: var(--s5);
+  align-items: start;
+  padding-top: var(--s8);
+}
+
+.author img { width: 96px; height: 96px; border-radius: 50%; }
+.author p { max-width: 60ch; }
+
+/* --- 9 · Agents — the smallest, quietest block. --------------------- */
+
+.agents { padding-top: var(--s6); }
+.agents p { max-width: 66ch; }
+.agents code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 13px;
+  color: var(--ink);
+}
+
+/* --- 10 · FAQ — disclosure widgets, hairlines, no tiles. ------------ */
+
+.faq { padding: var(--s9) 0 var(--s8); }
+.faq__list { max-width: 720px; }
+
+.faq details { border-top: 1px solid var(--rule); }
+.faq details:last-of-type { border-bottom: 1px solid var(--rule); }
+
+.faq summary {
+  cursor: pointer;
+  list-style: none;
+  padding: var(--s4) var(--s7) var(--s4) 0;
+  position: relative;
+  font-family: var(--text);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.faq summary::-webkit-details-marker { display: none; }
+
+.faq summary::after {
+  content: "+";
+  position: absolute;
+  right: 0;
+  top: var(--s4);
+  font-weight: 500;
+  color: var(--link);
+}
+
+.faq details[open] summary::after { content: "\2013"; }
+.faq details > *:not(summary) { padding-bottom: var(--s4); }
+.faq .small { max-width: 68ch; }
+
+/* --- Long-form pages (licence, terms) ------------------------------- */
+
+.doc { padding: var(--s8) 0 var(--s9); max-width: 68ch; }
+.doc h1 { margin-bottom: var(--s5); }
+.doc h2 { margin-top: var(--s8); }
+.doc h3 { margin-top: var(--s6); margin-bottom: var(--s2); }
+.doc p, .doc li { font-size: 16px; line-height: 1.6; }
+.doc ul { padding-left: 1.2em; margin: 0 0 var(--s4); }
+.doc li { margin-bottom: var(--s2); }
+
+.doc__quote {
+  margin: var(--s4) 0;
+  padding: var(--s4);
+  background: var(--tile);
+  font-family: var(--display);
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.doc__updated { color: var(--muted); font-size: 12px; line-height: 1.7; }
+
+/* --- 11 · Footer — micro type throughout. --------------------------- */
+
+.footer { padding: var(--s8) 0 var(--s9); }
+
+.footer__cols {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: var(--s5);
+  margin-bottom: var(--s6);
+}
+
+.footer h2 {
+  font-family: var(--display);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  text-transform: uppercase;
+  color: var(--muted);
+  line-height: 1.7;
+  margin-bottom: var(--s2);
+}
+
+.footer ul { margin: 0; padding: 0; list-style: none; font-size: 12px; line-height: 1.9; }
+.footer li > a { text-decoration: none; }
+.footer__legal { color: var(--muted); }
+.footer__legal a { text-decoration: underline; text-underline-offset: 2px; }
+
+/* --- Responsive ----------------------------------------------------
+   v.2 breaks at 991 / 767 / 479. Same points. */
+
+@media (max-width: 991px) {
+  .wrap { max-width: 728px; }
+  .hero { grid-template-columns: minmax(0, 1fr) 220px; gap: var(--s7); }
+}
+
+@media (max-width: 767px) {
+  .wrap { max-width: none; padding: 0 var(--s4); }
+
+  .hero {
+    grid-template-columns: 1fr;
+    gap: var(--s5);
+    padding: var(--s6) 0 var(--s7);
+  }
+  .hero__art { max-width: 260px; }
+
+  .edit { grid-template-columns: 1fr; gap: var(--s5); }
+  .edit img { max-width: 200px; }
+
+  .library { padding: var(--s7) 0; }
+  .newsletter { padding: var(--s9) 0; }
+}
+
+@media (max-width: 479px) {
+  /* 26px runs to four lines on a 375px screen and pushes the grid down.
+     22px is still inside v.2's range (.heading was 24). */
+  h1 { font-size: 22px; line-height: 29px; }
+
+  .grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: var(--s3); }
+  .hero__actions { gap: var(--s4); }
+  .signup input[type="email"] { width: 100%; }
+  .author { grid-template-columns: 1fr; }
+}
+
+@media print {
+  .tagnav, .hero__actions, .signup { display: none; }
+  a { color: var(--ink); }
+}

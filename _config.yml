@@ -1,0 +1,22 @@
+# GitHub Pages (Jekyll) configuration.
+#
+# This exists for one reason: to stop `Back-up/` being published.
+#
+# That directory is the 2020 Webflow export, kept as an archive. It contains
+# four PFL v1 SVGs — bikini, plant, reading, icons8-twitter — and those v1
+# drawings now ship inside the paid pack as bonus files. Served from GitHub
+# Pages they sit at guessable public paths with no directory listing to hide
+# them, which is exactly the exposure the rest of this project is built to
+# avoid. Excluding it keeps the archive in git and off the web.
+#
+# The v3 site under pfl/ deploys from Vercel (see vercel.json), where a
+# `*.svg` rewrite returns 404 regardless of what is on disk. Pages only ever
+# serves the v.2 site at the root.
+
+exclude:
+  - Back-up
+  - scripts
+  - node_modules
+  - README.md
+  - PFL.md
+  - vercel.json

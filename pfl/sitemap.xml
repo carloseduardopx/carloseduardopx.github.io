@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://payforlayers.com/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/open-box-line-illustration.png</image:loc>
+      <image:title>Open box</image:title>
+      <image:caption>An open box tipped towards you, with stars and a halftone swoosh rising out of it.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/ai-robot-line-illustration.png</image:loc>
+      <image:title>Robot in a party hat</image:title>
+      <image:caption>A robot's head wearing a cone hat, one antenna bent over, joined by a segmented cable to a plug on the left.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/api-cloud-line-illustration.png</image:loc>
+      <image:title>API cloud</image:title>
+      <image:caption>A cloud lettered Api, with one arrow curving up into it and another curving down and away.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/dna-helix-line-illustration.png</image:loc>
+      <image:title>DNA helix</image:title>
+      <image:caption>A DNA double helix drawn as two twisting ribbons, halftone shading behind the rungs.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/hiker-line-illustration.png</image:loc>
+      <image:title>Hiker between pines</image:title>
+      <image:caption>A walker in a knitted hat striding between two halftone pine trees, leaning on a long pole.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/backpack-line-illustration.png</image:loc>
+      <image:title>Backpack</image:title>
+      <image:caption>A figure in a patterned cap seen in profile, carrying a large rounded backpack, a long line sweeping away behind.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/headphones-line-illustration.png</image:loc>
+      <image:title>Headphones</image:title>
+      <image:caption>A face with a wide fringe wearing over-ear headphones, the ear cups filled with halftone.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/confused-face-line-illustration.png</image:loc>
+      <image:title>Confused head</image:title>
+      <image:caption>A head in profile with loops and squiggles rising off the top and small spirals drifting away.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-star.png</image:loc>
+      <image:title>Star burst</image:title>
+      <image:caption>A solid inked star burst with uneven points.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-circle.png</image:loc>
+      <image:title>Circle loop</image:title>
+      <image:caption>A hand-drawn loop circling back on itself, the kind used to ring something on a page.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-arrow.png</image:loc>
+      <image:title>Curved arrow</image:title>
+      <image:caption>A thick hand-drawn arrow curving in from the right and pointing left.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://payforlayers.com/tags/technology.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/ai-robot-line-illustration.png</image:loc>
+      <image:title>Robot in a party hat</image:title>
+      <image:caption>A robot's head wearing a cone hat, one antenna bent over, joined by a segmented cable to a plug on the left.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/api-cloud-line-illustration.png</image:loc>
+      <image:title>API cloud</image:title>
+      <image:caption>A cloud lettered Api, with one arrow curving up into it and another curving down and away.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/dna-helix-line-illustration.png</image:loc>
+      <image:title>DNA helix</image:title>
+      <image:caption>A DNA double helix drawn as two twisting ribbons, halftone shading behind the rungs.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/headphones-line-illustration.png</image:loc>
+      <image:title>Headphones</image:title>
+      <image:caption>A face with a wide fringe wearing over-ear headphones, the ear cups filled with halftone.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://payforlayers.com/tags/people.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/hiker-line-illustration.png</image:loc>
+      <image:title>Hiker between pines</image:title>
+      <image:caption>A walker in a knitted hat striding between two halftone pine trees, leaning on a long pole.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/backpack-line-illustration.png</image:loc>
+      <image:title>Backpack</image:title>
+      <image:caption>A figure in a patterned cap seen in profile, carrying a large rounded backpack, a long line sweeping away behind.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/headphones-line-illustration.png</image:loc>
+      <image:title>Headphones</image:title>
+      <image:caption>A face with a wide fringe wearing over-ear headphones, the ear cups filled with halftone.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/confused-face-line-illustration.png</image:loc>
+      <image:title>Confused head</image:title>
+      <image:caption>A head in profile with loops and squiggles rising off the top and small spirals drifting away.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://payforlayers.com/tags/outdoors.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/hiker-line-illustration.png</image:loc>
+      <image:title>Hiker between pines</image:title>
+      <image:caption>A walker in a knitted hat striding between two halftone pine trees, leaning on a long pole.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/backpack-line-illustration.png</image:loc>
+      <image:title>Backpack</image:title>
+      <image:caption>A figure in a patterned cap seen in profile, carrying a large rounded backpack, a long line sweeping away behind.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://payforlayers.com/tags/objects.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/open-box-line-illustration.png</image:loc>
+      <image:title>Open box</image:title>
+      <image:caption>An open box tipped towards you, with stars and a halftone swoosh rising out of it.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://payforlayers.com/tags/scribbles.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-star.png</image:loc>
+      <image:title>Star burst</image:title>
+      <image:caption>A solid inked star burst with uneven points.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-circle.png</image:loc>
+      <image:title>Circle loop</image:title>
+      <image:caption>A hand-drawn loop circling back on itself, the kind used to ring something on a page.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-arrow.png</image:loc>
+      <image:title>Curved arrow</image:title>
+      <image:caption>A thick hand-drawn arrow curving in from the right and pointing left.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+  </url>
+  <url><loc>https://payforlayers.com/licence.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://payforlayers.com/terms.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+</urlset>

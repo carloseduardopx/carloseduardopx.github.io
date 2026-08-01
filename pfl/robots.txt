@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Paid vector and Figma files are not served from this host at all.
+# This is belt-and-braces: there is nothing behind these paths.
+Disallow: /*.svg$
+Disallow: /library
+
+Sitemap: https://payforlayers.com/sitemap.xml

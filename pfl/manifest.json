@@ -1,0 +1,271 @@
+{
+  "$comment": "Single source of truth for Pay For Layers. Edit this file, then run `node scripts/build.mjs` — it measures every PNG and rewrites width, height, bytes and thumb from the files themselves, then regenerates the grid, the tag pages, the sitemaps and llms.txt.",
+  "name": "Pay For Layers",
+  "description": "Hand-drawn black and white line illustrations. Free as PNG with credit; SVG, Figma and full-resolution PNG in the pack.",
+  "url": "https://payforlayers.com",
+  "version": "3.0.0",
+  "updated": "2026-08-01",
+  "author": {
+    "name": "Carlos Peixoto",
+    "url": "https://carlospx.com",
+    "email": "carlos@carlospx.com"
+  },
+  "library": {
+    "$comment": "The pack as sold. Stated on v.2 and unchanged: 156 files, 121 illustrations plus 35 scribbles. The 9 bonus illustrations carried over from v.1 are included in the download but not counted here, which is why the FAQ says 165.",
+    "files": 156,
+    "illustrations": 121,
+    "scribbles": 35,
+    "bonusFromV1": 9,
+    "formats": [
+      "SVG",
+      "PNG",
+      "FIG"
+    ],
+    "sampleFiles": 15
+  },
+  "licence": {
+    "$comment": "Not CC BY. CC BY permits redistribution and resale of the licensed files, which contradicts the terms of use and cannot be withdrawn once published. These two restate the v.2 terms and make the paid tier grant something real.",
+    "free": {
+      "id": "PFL-Free-1.0",
+      "name": "Pay For Layers Free Licence 1.0",
+      "url": "https://payforlayers.com/licence.html",
+      "attributionRequired": true,
+      "attributionText": "Illustration by Carlos Peixoto — payforlayers.com"
+    },
+    "paid": {
+      "id": "PFL-Commercial-1.0",
+      "name": "Pay For Layers Commercial Licence 1.0",
+      "url": "https://payforlayers.com/licence.html#commercial",
+      "attributionRequired": false
+    }
+  },
+  "tiers": {
+    "free": {
+      "label": "Sample",
+      "price": 0,
+      "currency": "USD",
+      "formats": [
+        "PNG"
+      ],
+      "resolution": "1000px on the long edge",
+      "attribution": "required",
+      "url": "https://carlospx.gumroad.com/l/pfl-free"
+    },
+    "paid": {
+      "label": "Every layer",
+      "price": 42,
+      "currency": "USD",
+      "formats": [
+        "SVG",
+        "Figma",
+        "PNG"
+      ],
+      "resolution": "Full resolution, up to 2746px",
+      "attribution": "not required",
+      "url": "https://carlospx.gumroad.com/l/pfl"
+    }
+  },
+  "tags": [
+    {
+      "slug": "technology",
+      "label": "Technology"
+    },
+    {
+      "slug": "people",
+      "label": "People"
+    },
+    {
+      "slug": "outdoors",
+      "label": "Outdoors"
+    },
+    {
+      "slug": "objects",
+      "label": "Objects"
+    },
+    {
+      "slug": "scribbles",
+      "label": "Scribbles"
+    }
+  ],
+  "illustrations": [
+    {
+      "slug": "open-box-line-illustration",
+      "name": "Open box",
+      "tags": [
+        "objects"
+      ],
+      "alt": "An open box tipped towards you, with stars and a halftone swoosh rising out of it.",
+      "width": 1000,
+      "height": 910,
+      "bytes": 177970,
+      "thumb": {
+        "width": 500,
+        "height": 455,
+        "bytes": 68909
+      }
+    },
+    {
+      "slug": "ai-robot-line-illustration",
+      "name": "Robot in a party hat",
+      "tags": [
+        "technology"
+      ],
+      "alt": "A robot's head wearing a cone hat, one antenna bent over, joined by a segmented cable to a plug on the left.",
+      "width": 1000,
+      "height": 494,
+      "bytes": 66614,
+      "thumb": {
+        "width": 500,
+        "height": 247,
+        "bytes": 26263
+      }
+    },
+    {
+      "slug": "api-cloud-line-illustration",
+      "name": "API cloud",
+      "tags": [
+        "technology"
+      ],
+      "alt": "A cloud lettered Api, with one arrow curving up into it and another curving down and away.",
+      "width": 1000,
+      "height": 704,
+      "bytes": 16516,
+      "thumb": {
+        "width": 500,
+        "height": 352,
+        "bytes": 9956
+      }
+    },
+    {
+      "slug": "dna-helix-line-illustration",
+      "name": "DNA helix",
+      "tags": [
+        "technology"
+      ],
+      "alt": "A DNA double helix drawn as two twisting ribbons, halftone shading behind the rungs.",
+      "width": 350,
+      "height": 1000,
+      "bytes": 63909,
+      "thumb": {
+        "width": 175,
+        "height": 500,
+        "bytes": 30324
+      }
+    },
+    {
+      "slug": "hiker-line-illustration",
+      "name": "Hiker between pines",
+      "tags": [
+        "outdoors",
+        "people"
+      ],
+      "alt": "A walker in a knitted hat striding between two halftone pine trees, leaning on a long pole.",
+      "width": 1000,
+      "height": 939,
+      "bytes": 143879,
+      "thumb": {
+        "width": 500,
+        "height": 469,
+        "bytes": 58148
+      }
+    },
+    {
+      "slug": "backpack-line-illustration",
+      "name": "Backpack",
+      "tags": [
+        "outdoors",
+        "people"
+      ],
+      "alt": "A figure in a patterned cap seen in profile, carrying a large rounded backpack, a long line sweeping away behind.",
+      "width": 936,
+      "height": 1000,
+      "bytes": 49692,
+      "thumb": {
+        "width": 468,
+        "height": 500,
+        "bytes": 25934
+      }
+    },
+    {
+      "slug": "headphones-line-illustration",
+      "name": "Headphones",
+      "tags": [
+        "technology",
+        "people"
+      ],
+      "alt": "A face with a wide fringe wearing over-ear headphones, the ear cups filled with halftone.",
+      "width": 662,
+      "height": 1000,
+      "bytes": 39851,
+      "thumb": {
+        "width": 331,
+        "height": 500,
+        "bytes": 21327
+      }
+    },
+    {
+      "slug": "confused-face-line-illustration",
+      "name": "Confused head",
+      "tags": [
+        "people"
+      ],
+      "alt": "A head in profile with loops and squiggles rising off the top and small spirals drifting away.",
+      "width": 984,
+      "height": 1000,
+      "bytes": 34644,
+      "thumb": {
+        "width": 492,
+        "height": 500,
+        "bytes": 19704
+      }
+    },
+    {
+      "slug": "scribble-star",
+      "name": "Star burst",
+      "tags": [
+        "scribbles"
+      ],
+      "alt": "A solid inked star burst with uneven points.",
+      "width": 360,
+      "height": 469,
+      "bytes": 7401,
+      "thumb": {
+        "width": 360,
+        "height": 469,
+        "bytes": 7401
+      }
+    },
+    {
+      "slug": "scribble-circle",
+      "name": "Circle loop",
+      "tags": [
+        "scribbles"
+      ],
+      "alt": "A hand-drawn loop circling back on itself, the kind used to ring something on a page.",
+      "width": 507,
+      "height": 424,
+      "bytes": 7436,
+      "thumb": {
+        "width": 500,
+        "height": 418,
+        "bytes": 5617
+      }
+    },
+    {
+      "slug": "scribble-arrow",
+      "name": "Curved arrow",
+      "tags": [
+        "scribbles"
+      ],
+      "alt": "A thick hand-drawn arrow curving in from the right and pointing left.",
+      "width": 540,
+      "height": 274,
+      "bytes": 4666,
+      "thumb": {
+        "width": 500,
+        "height": 254,
+        "bytes": 3686
+      }
+    }
+  ]
+}

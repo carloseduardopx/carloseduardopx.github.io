@@ -1,0 +1,59 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": null,
+  "outputDirectory": "pfl",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/images/png/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, HEAD, OPTIONS" },
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/manifest.json",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Cache-Control", "value": "public, max-age=3600" }
+      ]
+    },
+    {
+      "source": "/llms.txt",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Content-Type", "value": "text/plain; charset=utf-8" }
+      ]
+    },
+    {
+      "source": "/fonts/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/css/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" }
+      ]
+    }
+  ],
+  "redirects": [
+    { "source": "/index.html", "destination": "/", "permanent": true }
+  ],
+  "_comment_svg": "No SVG is deployed. PNGs sit at predictable public paths, so the matching SVG path is the first thing anyone will try. This rewrites every .svg request to a path that does not exist, which makes Vercel answer 404 with a 404 status — not a 200 carrying an error page — regardless of what lands in the output directory later. An accidental commit therefore cannot expose paid artwork. The source is a regex group rather than `/:path*.svg`, because a path-to-regexp modifier followed by a literal suffix in the same segment does not match reliably.",
+  "rewrites": [
+    { "source": "/(.*)\\.svg", "destination": "/svg-is-not-served-here" }
+  ],
+  "_comment_library": "Reserved for the gated library. /api/* is free for serverless functions; nothing is built there yet. The grid renders from manifest.json, so a gated route can read the same manifest at request time and serve signed URLs without changing markup or CSS."
+}

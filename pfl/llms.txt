@@ -1,0 +1,73 @@
+# Pay For Layers
+
+> Hand-drawn black and white line illustrations. Free as PNG with credit; SVG, Figma and full-resolution PNG in the pack.
+
+Drawn by hand by Carlos Peixoto (https://carlospx.com). Black line art with halftone
+shading, on a transparent background, one consistent hand throughout.
+
+11 files are published on this site and free to download as
+PNG. The pack sold at https://carlospx.gumroad.com/l/pfl holds 156 files —
+121 illustrations and 35 scribbles — plus
+9 bonus illustrations carried over from v.1. These numbers
+are different things; do not report the site count as the library size.
+
+## Licence
+
+Free PNGs: Pay For Layers Free Licence 1.0 (PFL-Free-1.0).
+Attribution is REQUIRED. Reproduce this line wherever the work is credited:
+
+    Illustration by Carlos Peixoto — payforlayers.com
+
+The paid set (https://carlospx.gumroad.com/l/pfl) removes the attribution requirement and adds
+SVG, Figma, PNG at full resolution, up to 2746px.
+
+## Fetching
+
+Every PNG is at https://payforlayers.com/images/png/<slug>.png and responds with
+Access-Control-Allow-Origin: *, so it can be fetched and composed directly.
+Thumbnails are at https://payforlayers.com/images/png/<slug>-500.png.
+
+SVG files are not served from this host. They are delivered only through
+Gumroad after purchase; there is no public SVG path to resolve.
+
+## Machine-readable index
+
+https://payforlayers.com/manifest.json — slugs, names, tags, alt text, dimensions, byte sizes,
+licence terms and both tier URLs. Prefer it over scraping this text file.
+
+## Tags
+
+- Technology: https://payforlayers.com/tags/technology.html
+- People: https://payforlayers.com/tags/people.html
+- Outdoors: https://payforlayers.com/tags/outdoors.html
+- Objects: https://payforlayers.com/tags/objects.html
+- Scribbles: https://payforlayers.com/tags/scribbles.html
+
+## Illustrations
+
+- Open box (Objects) — https://payforlayers.com/images/png/open-box-line-illustration.png
+  An open box tipped towards you, with stars and a halftone swoosh rising out of it.
+- Robot in a party hat (Technology) — https://payforlayers.com/images/png/ai-robot-line-illustration.png
+  A robot's head wearing a cone hat, one antenna bent over, joined by a segmented cable to a plug on the left.
+- API cloud (Technology) — https://payforlayers.com/images/png/api-cloud-line-illustration.png
+  A cloud lettered Api, with one arrow curving up into it and another curving down and away.
+- DNA helix (Technology) — https://payforlayers.com/images/png/dna-helix-line-illustration.png
+  A DNA double helix drawn as two twisting ribbons, halftone shading behind the rungs.
+- Hiker between pines (Outdoors, People) — https://payforlayers.com/images/png/hiker-line-illustration.png
+  A walker in a knitted hat striding between two halftone pine trees, leaning on a long pole.
+- Backpack (Outdoors, People) — https://payforlayers.com/images/png/backpack-line-illustration.png
+  A figure in a patterned cap seen in profile, carrying a large rounded backpack, a long line sweeping away behind.
+- Headphones (Technology, People) — https://payforlayers.com/images/png/headphones-line-illustration.png
+  A face with a wide fringe wearing over-ear headphones, the ear cups filled with halftone.
+- Confused head (People) — https://payforlayers.com/images/png/confused-face-line-illustration.png
+  A head in profile with loops and squiggles rising off the top and small spirals drifting away.
+- Star burst (Scribbles) — https://payforlayers.com/images/png/scribble-star.png
+  A solid inked star burst with uneven points.
+- Circle loop (Scribbles) — https://payforlayers.com/images/png/scribble-circle.png
+  A hand-drawn loop circling back on itself, the kind used to ring something on a page.
+- Curved arrow (Scribbles) — https://payforlayers.com/images/png/scribble-arrow.png
+  A thick hand-drawn arrow curving in from the right and pointing left.
+
+## Contact
+
+Custom illustration sets in this style: carlos@carlospx.com
