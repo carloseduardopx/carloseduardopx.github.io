@@ -42,41 +42,51 @@
 
 <div class="wrap wrap--wide">
 
-  <!-- 1 · Masthead. No heading element: the wordmark is not the page's subject. -->
+  <!-- 1 · Masthead. The wordmark is not the page's subject, so it is not the
+       h1 — that belongs to the hero, where the search terms are. -->
   <header class="masthead">
-    <span class="masthead__mark">Pay for layers</span>
-    <span class="masthead__v">v.3</span>
+    <span class="wordmark">Pay for layers</span>
+    <span class="chip">V.3</span>
   </header>
-  <hr>
 
   <main>
 
-    <!-- 2 · Hero. Text, one illustration, two actions. No eyebrow, no
-         supporting paragraph, and it does not fill the viewport. -->
+    <!-- 2 · Hero. v.2's order: the words, then the drawing, then the actions.
+         The art is capped so the first grid row still clears the fold. -->
     <section class="hero">
-      <div>
-        <h1>Hand-drawn line illustrations.<br>Black and white, minimal.<br>Free as PNG — pay for the layers.</h1>
-        <p class="hero__count"><!-- build:hero-count -->11 drawings free here as PNG, with credit. 156 files in the pack — 121 illustrations and 35 scribbles.<!-- /build:hero-count --></p>
-        <div class="hero__actions">
-          <span class="btn-group">
-            <a class="btn" href="https://carlospx.gumroad.com/l/pfl-free">Download the sample</a>
-            <span class="micro">15 files — free</span>
-          </span>
-          <span class="btn-group">
-            <a class="btn" href="https://carlospx.gumroad.com/l/pfl">Get the pack</a>
-            <span class="micro">156 files — $42</span>
-          </span>
-        </div>
-      </div>
+      <h1>
+        <span class="lede">Hand-drawn, black and white, minimal</span>
+        Line illustrations. Free as PNG — pay for the layers.
+      </h1>
+
       <img class="hero__art" src="images/png/open-box-line-illustration.png"
            width="1000" height="910" fetchpriority="high" decoding="async"
            alt="An open box tipped towards you, with stars and a halftone swoosh rising out of it.">
+
+      <p class="hero__count micro muted"><!-- build:hero-count -->11 drawings free here as PNG, with credit. 156 files in the pack — 121 illustrations and 35 scribbles.<!-- /build:hero-count --></p>
+
+      <div class="actions">
+        <span class="action">
+          <a class="btn" href="https://carlospx.gumroad.com/l/pfl-free">Download the sample</a>
+          <span class="micro">15 files — free</span>
+        </span>
+        <span class="action">
+          <a class="btn btn--fill" href="https://carlospx.gumroad.com/l/pfl">Get the pack</a>
+          <span class="micro">156 files — $42</span>
+        </span>
+      </div>
     </section>
 
     <!-- 3 · The library. No visible heading and no introduction — a grid of
-         drawings does not need to be announced. Tags, then the drawings. -->
+         drawings does not need to be announced. -->
     <section class="library" id="library">
       <h2 class="visually-hidden">The library</h2>
+
+      <form class="search-form" role="search" method="get" action="">
+        <label class="visually-hidden" for="q">Search the drawings</label>
+        <input class="search" type="search" id="q" name="q"
+               placeholder="Search — robot, hiking, arrow…" autocomplete="off">
+      </form>
 
       <nav class="tagnav" aria-label="Filter by tag">
         <ul><!-- build:tags -->
@@ -91,164 +101,194 @@
 
       <ul class="grid" id="grid"><!-- build:grid -->
         <li class="card" data-tags="objects" data-search="open box objects">
-          <a class="card__link" href="images/png/open-box-line-illustration.png" download>
-            <span class="card__tile">
-              <img class="card__img" src="images/png/open-box-line-illustration-500.png"
+          <a class="card__tile" href="images/png/open-box-line-illustration.png" download tabindex="-1">
+            <img class="card__img" src="images/png/open-box-line-illustration-500.png"
                    srcset="images/png/open-box-line-illustration-500.png 500w, images/png/open-box-line-illustration.png 1000w"
-                   sizes="(max-width: 479px) 42vw, (max-width: 767px) 22vw, 150px"
-                   width="500" height="455"
-                   loading="lazy" decoding="async" alt="An open box tipped towards you, with stars and a halftone swoosh rising out of it.">
-            </span>
-            <span class="card__name">Open box</span>
-            <span class="card__meta">1000 × 910 · 174 KB</span>
+                   sizes="(max-width: 479px) 40vw, (max-width: 767px) 25vw, 180px"
+                 width="500" height="455"
+                 loading="lazy" decoding="async" alt="An open box tipped towards you, with stars and a halftone swoosh rising out of it.">
           </a>
+          <p class="card__name">Open box</p>
+          <p class="card__meta">1000 × 910 · 174 KB</p>
+          <div class="card__actions">
+            <a href="images/png/open-box-line-illustration.png" download>PNG</a>
+            <a href="https://carlospx.gumroad.com/l/pfl">SVG</a>
+          </div>
         </li>
         <li class="card" data-tags="technology" data-search="robot in a party hat technology">
-          <a class="card__link" href="images/png/ai-robot-line-illustration.png" download>
-            <span class="card__tile">
-              <img class="card__img" src="images/png/ai-robot-line-illustration-500.png"
+          <a class="card__tile" href="images/png/ai-robot-line-illustration.png" download tabindex="-1">
+            <img class="card__img" src="images/png/ai-robot-line-illustration-500.png"
                    srcset="images/png/ai-robot-line-illustration-500.png 500w, images/png/ai-robot-line-illustration.png 1000w"
-                   sizes="(max-width: 479px) 42vw, (max-width: 767px) 22vw, 150px"
-                   width="500" height="247"
-                   loading="lazy" decoding="async" alt="A robot's head wearing a cone hat, one antenna bent over, joined by a segmented cable to a plug on the left.">
-            </span>
-            <span class="card__name">Robot in a party hat</span>
-            <span class="card__meta">1000 × 494 · 65 KB</span>
+                   sizes="(max-width: 479px) 40vw, (max-width: 767px) 25vw, 180px"
+                 width="500" height="247"
+                 loading="lazy" decoding="async" alt="A robot's head wearing a cone hat, one antenna bent over, joined by a segmented cable to a plug on the left.">
           </a>
+          <p class="card__name">Robot in a party hat</p>
+          <p class="card__meta">1000 × 494 · 65 KB</p>
+          <div class="card__actions">
+            <a href="images/png/ai-robot-line-illustration.png" download>PNG</a>
+            <a href="https://carlospx.gumroad.com/l/pfl">SVG</a>
+          </div>
         </li>
         <li class="card" data-tags="technology" data-search="api cloud technology">
-          <a class="card__link" href="images/png/api-cloud-line-illustration.png" download>
-            <span class="card__tile">
-              <img class="card__img" src="images/png/api-cloud-line-illustration-500.png"
+          <a class="card__tile" href="images/png/api-cloud-line-illustration.png" download tabindex="-1">
+            <img class="card__img" src="images/png/api-cloud-line-illustration-500.png"
                    srcset="images/png/api-cloud-line-illustration-500.png 500w, images/png/api-cloud-line-illustration.png 1000w"
-                   sizes="(max-width: 479px) 42vw, (max-width: 767px) 22vw, 150px"
-                   width="500" height="352"
-                   loading="lazy" decoding="async" alt="A cloud lettered Api, with one arrow curving up into it and another curving down and away.">
-            </span>
-            <span class="card__name">API cloud</span>
-            <span class="card__meta">1000 × 704 · 16 KB</span>
+                   sizes="(max-width: 479px) 40vw, (max-width: 767px) 25vw, 180px"
+                 width="500" height="352"
+                 loading="lazy" decoding="async" alt="A cloud lettered Api, with one arrow curving up into it and another curving down and away.">
           </a>
+          <p class="card__name">API cloud</p>
+          <p class="card__meta">1000 × 704 · 16 KB</p>
+          <div class="card__actions">
+            <a href="images/png/api-cloud-line-illustration.png" download>PNG</a>
+            <a href="https://carlospx.gumroad.com/l/pfl">SVG</a>
+          </div>
         </li>
         <li class="card" data-tags="technology" data-search="dna helix technology">
-          <a class="card__link" href="images/png/dna-helix-line-illustration.png" download>
-            <span class="card__tile">
-              <img class="card__img" src="images/png/dna-helix-line-illustration-500.png"
+          <a class="card__tile" href="images/png/dna-helix-line-illustration.png" download tabindex="-1">
+            <img class="card__img" src="images/png/dna-helix-line-illustration-500.png"
                    srcset="images/png/dna-helix-line-illustration-500.png 175w, images/png/dna-helix-line-illustration.png 350w"
-                   sizes="(max-width: 479px) 42vw, (max-width: 767px) 22vw, 150px"
-                   width="175" height="500"
-                   loading="lazy" decoding="async" alt="A DNA double helix drawn as two twisting ribbons, halftone shading behind the rungs.">
-            </span>
-            <span class="card__name">DNA helix</span>
-            <span class="card__meta">350 × 1000 · 62 KB</span>
+                   sizes="(max-width: 479px) 40vw, (max-width: 767px) 25vw, 180px"
+                 width="175" height="500"
+                 loading="lazy" decoding="async" alt="A DNA double helix drawn as two twisting ribbons, halftone shading behind the rungs.">
           </a>
+          <p class="card__name">DNA helix</p>
+          <p class="card__meta">350 × 1000 · 62 KB</p>
+          <div class="card__actions">
+            <a href="images/png/dna-helix-line-illustration.png" download>PNG</a>
+            <a href="https://carlospx.gumroad.com/l/pfl">SVG</a>
+          </div>
         </li>
         <li class="card" data-tags="outdoors people" data-search="hiker between pines outdoors people">
-          <a class="card__link" href="images/png/hiker-line-illustration.png" download>
-            <span class="card__tile">
-              <img class="card__img" src="images/png/hiker-line-illustration-500.png"
+          <a class="card__tile" href="images/png/hiker-line-illustration.png" download tabindex="-1">
+            <img class="card__img" src="images/png/hiker-line-illustration-500.png"
                    srcset="images/png/hiker-line-illustration-500.png 500w, images/png/hiker-line-illustration.png 1000w"
-                   sizes="(max-width: 479px) 42vw, (max-width: 767px) 22vw, 150px"
-                   width="500" height="469"
-                   loading="lazy" decoding="async" alt="A walker in a knitted hat striding between two halftone pine trees, leaning on a long pole.">
-            </span>
-            <span class="card__name">Hiker between pines</span>
-            <span class="card__meta">1000 × 939 · 141 KB</span>
+                   sizes="(max-width: 479px) 40vw, (max-width: 767px) 25vw, 180px"
+                 width="500" height="469"
+                 loading="lazy" decoding="async" alt="A walker in a knitted hat striding between two halftone pine trees, leaning on a long pole.">
           </a>
+          <p class="card__name">Hiker between pines</p>
+          <p class="card__meta">1000 × 939 · 141 KB</p>
+          <div class="card__actions">
+            <a href="images/png/hiker-line-illustration.png" download>PNG</a>
+            <a href="https://carlospx.gumroad.com/l/pfl">SVG</a>
+          </div>
         </li>
         <li class="card" data-tags="outdoors people" data-search="backpack outdoors people">
-          <a class="card__link" href="images/png/backpack-line-illustration.png" download>
-            <span class="card__tile">
-              <img class="card__img" src="images/png/backpack-line-illustration-500.png"
+          <a class="card__tile" href="images/png/backpack-line-illustration.png" download tabindex="-1">
+            <img class="card__img" src="images/png/backpack-line-illustration-500.png"
                    srcset="images/png/backpack-line-illustration-500.png 468w, images/png/backpack-line-illustration.png 936w"
-                   sizes="(max-width: 479px) 42vw, (max-width: 767px) 22vw, 150px"
-                   width="468" height="500"
-                   loading="lazy" decoding="async" alt="A figure in a patterned cap seen in profile, carrying a large rounded backpack, a long line sweeping away behind.">
-            </span>
-            <span class="card__name">Backpack</span>
-            <span class="card__meta">936 × 1000 · 49 KB</span>
+                   sizes="(max-width: 479px) 40vw, (max-width: 767px) 25vw, 180px"
+                 width="468" height="500"
+                 loading="lazy" decoding="async" alt="A figure in a patterned cap seen in profile, carrying a large rounded backpack, a long line sweeping away behind.">
           </a>
+          <p class="card__name">Backpack</p>
+          <p class="card__meta">936 × 1000 · 49 KB</p>
+          <div class="card__actions">
+            <a href="images/png/backpack-line-illustration.png" download>PNG</a>
+            <a href="https://carlospx.gumroad.com/l/pfl">SVG</a>
+          </div>
         </li>
         <li class="card" data-tags="technology people" data-search="headphones technology people">
-          <a class="card__link" href="images/png/headphones-line-illustration.png" download>
-            <span class="card__tile">
-              <img class="card__img" src="images/png/headphones-line-illustration-500.png"
+          <a class="card__tile" href="images/png/headphones-line-illustration.png" download tabindex="-1">
+            <img class="card__img" src="images/png/headphones-line-illustration-500.png"
                    srcset="images/png/headphones-line-illustration-500.png 331w, images/png/headphones-line-illustration.png 662w"
-                   sizes="(max-width: 479px) 42vw, (max-width: 767px) 22vw, 150px"
-                   width="331" height="500"
-                   loading="lazy" decoding="async" alt="A face with a wide fringe wearing over-ear headphones, the ear cups filled with halftone.">
-            </span>
-            <span class="card__name">Headphones</span>
-            <span class="card__meta">662 × 1000 · 39 KB</span>
+                   sizes="(max-width: 479px) 40vw, (max-width: 767px) 25vw, 180px"
+                 width="331" height="500"
+                 loading="lazy" decoding="async" alt="A face with a wide fringe wearing over-ear headphones, the ear cups filled with halftone.">
           </a>
+          <p class="card__name">Headphones</p>
+          <p class="card__meta">662 × 1000 · 39 KB</p>
+          <div class="card__actions">
+            <a href="images/png/headphones-line-illustration.png" download>PNG</a>
+            <a href="https://carlospx.gumroad.com/l/pfl">SVG</a>
+          </div>
         </li>
         <li class="card" data-tags="people" data-search="confused head people">
-          <a class="card__link" href="images/png/confused-face-line-illustration.png" download>
-            <span class="card__tile">
-              <img class="card__img" src="images/png/confused-face-line-illustration-500.png"
+          <a class="card__tile" href="images/png/confused-face-line-illustration.png" download tabindex="-1">
+            <img class="card__img" src="images/png/confused-face-line-illustration-500.png"
                    srcset="images/png/confused-face-line-illustration-500.png 492w, images/png/confused-face-line-illustration.png 984w"
-                   sizes="(max-width: 479px) 42vw, (max-width: 767px) 22vw, 150px"
-                   width="492" height="500"
-                   loading="lazy" decoding="async" alt="A head in profile with loops and squiggles rising off the top and small spirals drifting away.">
-            </span>
-            <span class="card__name">Confused head</span>
-            <span class="card__meta">984 × 1000 · 34 KB</span>
+                   sizes="(max-width: 479px) 40vw, (max-width: 767px) 25vw, 180px"
+                 width="492" height="500"
+                 loading="lazy" decoding="async" alt="A head in profile with loops and squiggles rising off the top and small spirals drifting away.">
           </a>
+          <p class="card__name">Confused head</p>
+          <p class="card__meta">984 × 1000 · 34 KB</p>
+          <div class="card__actions">
+            <a href="images/png/confused-face-line-illustration.png" download>PNG</a>
+            <a href="https://carlospx.gumroad.com/l/pfl">SVG</a>
+          </div>
         </li>
         <li class="card" data-tags="scribbles" data-search="star burst scribbles">
-          <a class="card__link" href="images/png/scribble-star.png" download>
-            <span class="card__tile">
-              <img class="card__img" src="images/png/scribble-star-500.png"
-                   width="360" height="469"
-                   loading="lazy" decoding="async" alt="A solid inked star burst with uneven points.">
-            </span>
-            <span class="card__name">Star burst</span>
-            <span class="card__meta">360 × 469 · 7 KB</span>
+          <a class="card__tile" href="images/png/scribble-star.png" download tabindex="-1">
+            <img class="card__img" src="images/png/scribble-star-500.png"
+                 width="360" height="469"
+                 loading="lazy" decoding="async" alt="A solid inked star burst with uneven points.">
           </a>
+          <p class="card__name">Star burst</p>
+          <p class="card__meta">360 × 469 · 7 KB</p>
+          <div class="card__actions">
+            <a href="images/png/scribble-star.png" download>PNG</a>
+            <a href="https://carlospx.gumroad.com/l/pfl">SVG</a>
+          </div>
         </li>
         <li class="card" data-tags="scribbles" data-search="circle loop scribbles">
-          <a class="card__link" href="images/png/scribble-circle.png" download>
-            <span class="card__tile">
-              <img class="card__img" src="images/png/scribble-circle-500.png"
+          <a class="card__tile" href="images/png/scribble-circle.png" download tabindex="-1">
+            <img class="card__img" src="images/png/scribble-circle-500.png"
                    srcset="images/png/scribble-circle-500.png 500w, images/png/scribble-circle.png 507w"
-                   sizes="(max-width: 479px) 42vw, (max-width: 767px) 22vw, 150px"
-                   width="500" height="418"
-                   loading="lazy" decoding="async" alt="A hand-drawn loop circling back on itself, the kind used to ring something on a page.">
-            </span>
-            <span class="card__name">Circle loop</span>
-            <span class="card__meta">507 × 424 · 7 KB</span>
+                   sizes="(max-width: 479px) 40vw, (max-width: 767px) 25vw, 180px"
+                 width="500" height="418"
+                 loading="lazy" decoding="async" alt="A hand-drawn loop circling back on itself, the kind used to ring something on a page.">
           </a>
+          <p class="card__name">Circle loop</p>
+          <p class="card__meta">507 × 424 · 7 KB</p>
+          <div class="card__actions">
+            <a href="images/png/scribble-circle.png" download>PNG</a>
+            <a href="https://carlospx.gumroad.com/l/pfl">SVG</a>
+          </div>
         </li>
         <li class="card" data-tags="scribbles" data-search="curved arrow scribbles">
-          <a class="card__link" href="images/png/scribble-arrow.png" download>
-            <span class="card__tile">
-              <img class="card__img" src="images/png/scribble-arrow-500.png"
+          <a class="card__tile" href="images/png/scribble-arrow.png" download tabindex="-1">
+            <img class="card__img" src="images/png/scribble-arrow-500.png"
                    srcset="images/png/scribble-arrow-500.png 500w, images/png/scribble-arrow.png 540w"
-                   sizes="(max-width: 479px) 42vw, (max-width: 767px) 22vw, 150px"
-                   width="500" height="254"
-                   loading="lazy" decoding="async" alt="A thick hand-drawn arrow curving in from the right and pointing left.">
-            </span>
-            <span class="card__name">Curved arrow</span>
-            <span class="card__meta">540 × 274 · 5 KB</span>
+                   sizes="(max-width: 479px) 40vw, (max-width: 767px) 25vw, 180px"
+                 width="500" height="254"
+                 loading="lazy" decoding="async" alt="A thick hand-drawn arrow curving in from the right and pointing left.">
           </a>
+          <p class="card__name">Curved arrow</p>
+          <p class="card__meta">540 × 274 · 5 KB</p>
+          <div class="card__actions">
+            <a href="images/png/scribble-arrow.png" download>PNG</a>
+            <a href="https://carlospx.gumroad.com/l/pfl">SVG</a>
+          </div>
         </li>
         <li class="counter">
           <span class="counter__n">+145</span>
           <span class="counter__label">more in the pack</span>
         </li>
+        <li class="grid__empty" id="empty" hidden>Nothing matches that. <button type="button" class="linkish" id="clear">Clear the search</button></li>
       <!-- /build:grid --></ul>
 
-      <p class="library__note micro muted">
-        <span id="count"><!-- build:count -->11 drawings<!-- /build:count --></span> here, free as PNG. Credit required —
-        see <a href="licence.html">the licence</a>. The full pack is
+      <p class="library__note micro muted" id="empty-note">
+        <span id="count"><!-- build:count -->11 drawings<!-- /build:count --></span> here, free as PNG.
+        Credit required — see <a href="licence.html">the licence</a>. The full pack is
         <a href="https://carlospx.gumroad.com/l/pfl">156 files</a> in SVG, Figma and
         full-resolution PNG.
       </p>
     </section>
 
-    <!-- 4 · What you get. A plain table: two options, one of them free. Not a
-         tier comparison, so not built as cards. -->
+    <!-- 4 · What you get. Two options, one of them free — a plain table, not
+         a tier comparison. -->
     <section class="formats">
       <h2>What you get</h2>
+
+      <p class="chiprow">Including:
+        <span class="chip">.SVG</span>
+        <span class="chip">.PNG</span>
+        <span class="chip">FIGMA</span>
+      </p>
+
       <table>
         <thead>
           <tr>
@@ -270,30 +310,32 @@
 
     <!-- 5 · Price. Three sentences. The shortest block on the page. -->
     <section class="price">
-      <p>Everything on this page downloads free as PNG, as long as you credit it. The
-      <a href="https://carlospx.gumroad.com/l/pfl-free">Gumroad sample</a> is a separate
-      15-file bundle, also free, also with credit. The
+      <p class="measure">Everything on this page downloads free as PNG, as long as you
+      credit it. The <a href="https://carlospx.gumroad.com/l/pfl-free">Gumroad sample</a>
+      is a separate 15-file bundle, also free, also with credit. The
       <a href="https://carlospx.gumroad.com/l/pfl">pack is $42</a>: all 156 files as SVG,
       Figma and full-resolution PNG, and no credit line to carry.</p>
     </section>
 
-    <!-- 6 · Formats explained. The only definition list on the page, and the
-         only block with no heading and no image. -->
-    <section class="edit-formats">
-      <dl class="formats-dl">
-        <dt>SVG</dt>
-        <dd>Vector. Open it in Illustrator, Figma or Inkscape and change the colour,
-        the weight, the crop — the halftone stays crisp at any size.</dd>
-        <dt>FIG</dt>
-        <dd>The same drawings as a Figma file. Copy and paste straight into your own
-        without an import step.</dd>
-        <dt>PNG</dt>
-        <dd>Transparent background, full resolution. For when you just need to drop
-        it in and move on.</dd>
-      </dl>
+    <!-- 6 · What the formats are for. The page's one feature panel, and the
+         only left-aligned block. -->
+    <section class="panel-wrap">
+      <div class="panel">
+        <dl>
+          <dt>SVG</dt>
+          <dd>Vector. Open it in Illustrator, Figma or Inkscape and change the colour,
+          the weight, the crop — the halftone stays crisp at any size.</dd>
+          <dt>FIG</dt>
+          <dd>The same drawings as a Figma file. Copy and paste straight into your own
+          without an import step.</dd>
+          <dt>PNG</dt>
+          <dd>Transparent background, full resolution. For when you just need to drop
+          it in and move on.</dd>
+        </dl>
+      </div>
     </section>
 
-    <!-- 7 · Newsletter. The most vertical space on the page. No box, no tint. -->
+    <!-- 7 · Newsletter. The most vertical space on the page. -->
     <section class="newsletter" id="newsletter">
       <h2>New illustrations by email</h2>
       <p>A few new drawings, a note on what they were drawn for, and the occasional
@@ -307,7 +349,7 @@
           <label for="signup-email">Email address</label>
           <input type="email" name="EMAIL" id="signup-email" autocomplete="email" required>
         </div>
-        <button type="submit" class="btn">Subscribe</button>
+        <button type="submit" class="btn btn--fill">Subscribe</button>
         <!-- Mailchimp's bot trap. Real people never see it; leaving it out invites
              form spam. -->
         <div aria-hidden="true" style="position:absolute;left:-5000px">
@@ -321,14 +363,12 @@
     <section class="author">
       <img src="images/carlos-peixoto.png" width="96" height="96" loading="lazy" decoding="async"
            alt="Carlos Peixoto, photographed in front of a bookshelf.">
-      <div>
-        <p>I am <a href="https://carlospx.com">Carlos Peixoto</a>, a designer in Rio de
-        Janeiro. I drew all of these by hand, one line at a time — no AI, no tracing, no
-        generated fills. The halftone is the only thing that is not a pen stroke.</p>
-        <p class="small">Need a set in this style for something specific? Write to me at
-        <a href="mailto:carlos@carlospx.com">carlos@carlospx.com</a> and tell me what it
-        is for.</p>
-      </div>
+      <p>I am <a href="https://carlospx.com">Carlos Peixoto</a>, a designer in Rio de
+      Janeiro. I drew all of these by hand, one line at a time — no AI, no tracing, no
+      generated fills. The halftone is the only thing that is not a pen stroke.</p>
+      <p class="small">Need a set in this style for something specific? Write to me at
+      <a href="mailto:carlos@carlospx.com">carlos@carlospx.com</a> and tell me what it
+      is for.</p>
     </section>
 
     <!-- 9 · For agents and scripts. Deliberately the smallest block here. -->
@@ -341,9 +381,9 @@
       machines too.</p>
     </section>
 
-    <!-- 10 · Questions. Disclosure widgets, hairline rules, no tiles. -->
+    <!-- 10 · Questions. -->
     <section class="faq">
-      <h2>Questions</h2>
+      <h2>F.A.Q.</h2>
       <div class="faq__list">
 
         <details>
@@ -446,10 +486,7 @@
 
   </main>
 
-  <hr>
-
-  <!-- 11 · Footer. Micro type throughout, and the second, quieter entry point
-       to the newsletter. -->
+  <!-- 11 · Footer. v.2's centred sign-off, with the link columns above it. -->
   <footer class="footer">
     <div class="footer__cols">
       <div>
@@ -478,14 +515,17 @@
       </div>
     </div>
 
-    <p class="footer__legal micro">
-      Free PNGs are released under the
-      <a href="licence.html">Pay For Layers Free Licence 1.0</a>: use them anywhere,
-      personal or commercial, and credit them as
-      <strong>Illustration by Carlos Peixoto — payforlayers.com</strong>. Do not resell
-      or redistribute the files. The $42 pack drops the credit requirement.
-      <br>© Pay for layers. Drawn by Carlos Peixoto.
-    </p>
+    <div class="footer__mark">
+      <img src="images/png/scribble-star.png" width="19" height="25" loading="lazy" decoding="async" alt="">
+      <p class="footer__legal micro">
+        Free PNGs are released under the
+        <a href="licence.html">Pay For Layers Free Licence 1.0</a>: use them anywhere,
+        personal or commercial, and credit them as
+        <strong>Illustration by Carlos Peixoto — payforlayers.com</strong>. Do not resell
+        or redistribute the files. The $42 pack drops the credit requirement.
+        <br>© Pay for layers. Drawn by Carlos Peixoto.
+      </p>
+    </div>
   </footer>
 
 </div>

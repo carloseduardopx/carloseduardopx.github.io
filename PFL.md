@@ -9,34 +9,60 @@ stays there until the DNS switch below is done. Nothing in `pfl/` touches it.
 
 ## Where the design came from
 
-Every colour, size and space in `pfl/css/pfl.css` is a value already in use in
-`css/pfl-418f99.webflow.css` — v.2's own stylesheet, at the repo root. Nothing
-is invented. Two deliberate departures, both flagged in the CSS:
+The visual language is **v.2's** — `css/pfl-418f99.webflow.css` at the repo
+root, the page live on payforlayers.com today. Centred, soft grey panels,
+Mint Grotesk headings over Inter body, and v.2's own radii.
 
-| | v.2 | v3 | why |
-|---|---|---|---|
-| secondary grey | `#999` | `#595959` | `#999` is 2.85:1 on white and fails AA. v.2 puts it on 12px labels. |
-| section headings | `h3` at 170% ≈ 41px | gone; scale tops at 26px | display sizes for copy that is not display copy |
-
-Typefaces are v.2's: **Mint Grotesk V131** self-hosted for headings and UI
-labels, **Inter** for body copy.
-
-The type scale, all five steps present in v.2:
-
-| role | v3 | from |
+| | v.2 | v3 |
 |---|---|---|
-| `h1` | Mint 26/34, 700 | `.heading` 24, `.heading-2` 24 |
-| `h2` | Mint 20/28, 700 | `.text-span` 20 |
-| `h3` | Inter 16/24, 700 | `.paragraph` 16 |
-| body | Inter 16/1.6, 500 | `.paragraph` 16/180% |
-| `.small` | Inter 14/1.5 | `.paragraph.ar` 14 |
-| `.micro` | Inter 12/1.7 | `.legenda` 12/170% |
+| illustration tile | `.img-bg`, grey, `padding: 24px` | `.card__tile`, **8px** radius |
+| feature panel | `.div-block-7` | `.panel`, **8px** radius |
+| FAQ item | `.accordion-item` | `details`, **10px** radius, 20px apart |
+| outline button | `.sample`, `1px #d6d6d6` | `.btn`, **15px** radius |
+| filled button | `.sample.download` | `.btn--fill` |
+| dark pill | `.text-block`, `#3b3b3b` | `.chip`, **20px** radius |
+
+Type, all of it v.2's:
+
+| role | v.2 | v3 |
+|---|---|---|
+| wordmark | `.heading` Mint 24 | `.wordmark` |
+| section heading | `.heading-2` Mint 24/170%, 40 beneath | `h2` |
+| heading sub-line | `.text-span` Inter 20/400 | `.lede` |
+| FAQ question | `.accordion-heading` Mint 18/30 | `summary` |
+| body | `.paragraph` Inter 16/180%/500 | `body` |
+| FAQ answer | `.paragraph.ar` Inter 14, left | `.small` |
+| caption | `.legenda` Inter 12/170% | `.micro` |
+| counter | `.big-number` Mint 32/900 | `.counter__n` |
+
+The card anatomy *inside* the tile — name in Mint 15 bold, real dimensions and
+weight, and the PNG / SVG actions — is the first draft's, not v.2's. So is the
+search field above the grid.
+
+**Two places this deliberately does not copy v.2:**
+
+1. `--muted` is `#595959`, not v.2's `#999`. v.2 puts `#999` on 12px labels
+   where it measures 2.85:1 and fails WCAG AA. `#595959` is the smallest
+   darkening that clears AAA at 12px, which is the smallest text here.
+   `scripts/contrast.mjs` fails the build below AA — this is an accessibility
+   floor, not a style preference.
+2. The FAQ chevron is drawn in CSS. v.2 pulls the whole Material Icons font
+   from Google to render one `keyboard_arrow_down` glyph; two borders and a
+   rotation is the same triangle with no third-party request.
+
+And one smaller one: v.2 underlines `.sample.download`, the *filled* button.
+An underline inside a filled button is a defect rather than a style, so
+`.btn--fill` drops it. The outline button keeps its underline — it reads as a
+link, which it is.
+
+The hero art is capped at 200px. v.2 runs its box illustration at 317px, but
+v.2 has no grid underneath competing for the first screen; at 200px the search
+field, the tag row and the first grid row all clear the fold on a 900px-tall
+viewport.
 
 The accent is `#0000ee` — v.2's own link colour, and the browser default.
 Everything blue is interactive; everything interactive is blue, wordmarks
-included. `node scripts/contrast.mjs` checks every pair and fails the build
-below AA. All of them currently clear AAA at 12px, which is the smallest text
-on the site.
+included. `node scripts/contrast.mjs` checks every pair and fails below AA.
 
 ## The counts, and not blurring them
 

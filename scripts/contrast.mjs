@@ -45,23 +45,28 @@ const body = token('body');
 const muted = token('muted');
 const rule = token('rule');
 const tile = token('tile');
+const chip = token('chip');
 const paper = token('paper');
 const link = token('link');
 const visited = token('visited');
 
-// `text: false` means the pair is decorative (hairlines) and is reported but
-// not required to pass.
+// `text: false` means the pair is decorative (hairlines, button borders) and is
+// reported but not required to pass.
 const pairs = [
-  { fg: link,    bg: paper,   text: true,  note: 'card names, tag nav, inline links (12px)' },
+  { fg: link,    bg: paper,   text: true,  note: 'tag nav, card actions, inline links (12px)' },
   { fg: visited, bg: paper,   text: true,  note: 'visited links (12px)' },
-  { fg: paper,   bg: link,    text: true,  note: 'Gumroad buttons (14px)' },
-  { fg: paper,   bg: visited, text: true,  note: 'Gumroad buttons, hover and visited' },
-  { fg: ink,     bg: paper,   text: true,  note: 'headings, FAQ questions, table cells' },
+  { fg: link,    bg: paper,   text: true,  note: 'outline button label (14px)' },
+  { fg: paper,   bg: link,    text: true,  note: 'filled Gumroad button (14px)' },
+  { fg: paper,   bg: visited, text: true,  note: 'filled button, hover and visited' },
+  { fg: paper,   bg: chip,    text: true,  note: 'the V.3 / format pills (12px)' },
+  { fg: ink,     bg: paper,   text: true,  note: 'headings, card names, FAQ questions' },
   { fg: body,    bg: paper,   text: true,  note: 'running text (16px)' },
   { fg: muted,   bg: paper,   text: true,  note: 'secondary text — replaces v.2 #999 (12px)' },
-  { fg: ink,     bg: tile,    text: true,  note: 'anything over the illustration tile' },
-  { fg: link,    bg: tile,    text: true,  note: 'links over the illustration tile' },
-  { fg: rule,    bg: paper,   text: false, note: '--rule: hairlines only, never text' },
+  { fg: ink,     bg: tile,    text: true,  note: 'FAQ questions and panel text on grey' },
+  { fg: body,    bg: tile,    text: true,  note: 'FAQ answers on grey (14px)' },
+  { fg: muted,   bg: tile,    text: true,  note: 'panel labels on grey (12px)' },
+  { fg: link,    bg: tile,    text: true,  note: 'links on grey' },
+  { fg: rule,    bg: paper,   text: false, note: '--rule: hairlines and button borders, never text' },
 ];
 
 let failures = 0;

@@ -87,20 +87,26 @@ function card(ill) {
   // browser two identical width descriptors to choose between; skip it.
   const responsive = ill.width > ill.thumb.width
     ? `\n                   srcset="${thumb} ${ill.thumb.width}w, ${file} ${ill.width}w"`
-      + `\n                   sizes="(max-width: 479px) 42vw, (max-width: 767px) 22vw, 150px"`
+      + `\n                   sizes="(max-width: 479px) 40vw, (max-width: 767px) 25vw, 180px"`
     : '';
 
+  // v.2's grey tile, with the first draft's card anatomy beneath it: name,
+  // real dimensions and weight, and the two things a card can actually do.
+  // The tile is the link so the whole drawing is the download target; the PNG
+  // and SVG actions repeat it in words for anyone tabbing through.
   return `
         <li class="card" data-tags="${esc(ill.tags.join(' '))}" data-search="${esc(searchable)}">
-          <a class="card__link" href="${file}" download>
-            <span class="card__tile">
-              <img class="card__img" src="${thumb}"${responsive}
-                   width="${ill.thumb.width}" height="${ill.thumb.height}"
-                   loading="lazy" decoding="async" alt="${esc(ill.alt)}">
-            </span>
-            <span class="card__name">${esc(ill.name)}</span>
-            <span class="card__meta">${ill.width} × ${ill.height} · ${kb(ill.bytes)}</span>
+          <a class="card__tile" href="${file}" download tabindex="-1">
+            <img class="card__img" src="${thumb}"${responsive}
+                 width="${ill.thumb.width}" height="${ill.thumb.height}"
+                 loading="lazy" decoding="async" alt="${esc(ill.alt)}">
           </a>
+          <p class="card__name">${esc(ill.name)}</p>
+          <p class="card__meta">${ill.width} × ${ill.height} · ${kb(ill.bytes)}</p>
+          <div class="card__actions">
+            <a href="${file}" download>PNG</a>
+            <a href="${tiers.paid.url}">SVG</a>
+          </div>
         </li>`;
 }
 
@@ -122,8 +128,15 @@ function counter(shown) {
         </li>`;
 }
 
+/** Shown when a search matches nothing. Hidden until the script needs it. */
+const emptyState = `
+        <li class="grid__empty" id="empty" hidden>Nothing matches that. <button type="button" class="linkish" id="clear">Clear the search</button></li>`;
+
 function grid(list, { withCounter = false } = {}) {
-  return list.map(card).join('') + (withCounter ? counter(list.length) : '') + '\n      ';
+  return list.map(card).join('')
+    + (withCounter ? counter(list.length) : '')
+    + emptyState
+    + '\n      ';
 }
 
 function tagNav(current) {

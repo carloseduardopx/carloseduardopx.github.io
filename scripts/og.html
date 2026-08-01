@@ -55,11 +55,21 @@
     color: #595959;
   }
 
-  /* The box, the same drawing the page leads with. */
+  /* The box, the same drawing the page leads with, in v.2's .img-bg well:
+     grey with an 8px radius, exactly as in the grid. */
   .art { display: flex; justify-content: flex-end; }
-  .art img { width: 380px; height: auto; }
+  .art span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 360px;
+    background: #f3f3f3;
+    border-radius: 8px;
+  }
+  .art img { max-width: 300px; max-height: 300px; }
 
-  /* Five thumbnails on the tile, square corners, as in the grid. */
+  /* Five more on the same grey tile, at the grid's own scale. */
   .strip {
     position: absolute;
     left: 72px;
@@ -71,6 +81,7 @@
     width: 76px;
     height: 76px;
     background: #f3f3f3;
+    border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -104,7 +115,7 @@
       <p class="sub">Black and white, minimal.<br>Free as PNG — pay for the layers.</p>
     </div>
     <div class="art">
-      <img src="../pfl/images/png/open-box-line-illustration.png" alt="">
+      <span><img src="../pfl/images/png/open-box-line-illustration.png" alt=""></span>
     </div>
   </div>
 

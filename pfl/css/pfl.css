@@ -1,32 +1,33 @@
 /* Pay For Layers v3
    ==================================================================
-   Every colour, size and space below is a value already in use on v.2
-   (css/pfl-418f99.webflow.css at the repo root). Nothing is invented.
-   Two deliberate departures, both noted where they occur:
+   The visual language is v.2's — css/pfl-418f99.webflow.css at the
+   repo root, the page live on payforlayers.com today. Centred, soft
+   grey panels, Mint Grotesk headings over Inter body, and v.2's own
+   radii rather than square edges.
 
-     - #999 becomes #595959.  v.2 puts #999 on 12px labels; it measures
-       2.85:1 on white and fails AA. #595959 is the smallest darkening
-       that clears AAA at 12px.
-     - h3-at-170% (~41px) is gone.  v.2 sets display-sized headings for
-       copy that is not display copy. The scale below tops out at 26px.
+   v.2                                   -> v3
+   .heading            Mint 24/44        -> .wordmark
+   .heading-2 (h3)     Mint 24/170%      -> h2, margin-bottom 40
+   .text-span          Inter 20/400      -> .lede
+   .accordion-heading  Mint 18/30        -> summary
+   .paragraph          Inter 16/180%/500 -> body
+   .paragraph.ar       Inter 14          -> .small
+   .legenda            Inter 12/170%/500 -> .micro
+   .big-number         Mint 32/900       -> .counter__n
+   .img-bg             grey, r8, pad 24  -> .card__tile
+   .div-block-7        grey, r8          -> .panel
+   .accordion-item     grey, r10         -> details
+   .sample             r15, #d6d6d6      -> .btn
+   .text-block         #3b3b3b, r20      -> .chip
 
-   v.2                                    -> v3
-   .heading            Mint 24/700        -> h1   Mint 26/34
-   .heading-2 (h3)     Mint 24 @170%      -> (deleted)
-   .text-span          Inter 20/400       -> h2   Mint 20/28
-   .paragraph          Inter 16/180%/500  -> body Inter 16/1.6/500
-   .paragraph.ar       Inter 14           -> .small
-   .legenda            Inter 12/170%/500  -> .micro
-   .big-number         Mint 32/900        -> .counter__n
+   The card anatomy inside the tile — name, dimensions, weight, two
+   download actions — is the first draft's, not v.2's.
+
+   One value is deliberately not v.2's: --muted. v.2 uses #999 on 12px
+   labels, where it measures 2.85:1 and fails WCAG AA. #595959 is the
+   smallest darkening that clears AAA at 12px, which is the smallest
+   text here. scripts/contrast.mjs fails the build below AA.
    ================================================================== */
-
-/* --- Faces --------------------------------------------------------
-   Mint Grotesk V131 is self-hosted, as on v.2. Inter is not: neither
-   fonts.gstatic.com nor rsms.me is reachable from the build
-   environment, so it is still linked from Google Fonts in the <head>
-   — but via the CSS API, not v.2's render-blocking webfont.js. The
-   stack below degrades to system-ui, so a blocked or slow Google
-   Fonts costs nothing but the exact face. See PFL.md, open items. */
 
 @font-face {
   font-family: 'Mint Grotesk';
@@ -64,18 +65,17 @@
 }
 
 :root {
-  /* Neutrals — v.2's, except --muted. */
-  --ink:     #131313;   /* 18.58:1  headings, card names, FAQ questions   */
-  --body:    #333333;   /* 12.63:1  running text                          */
-  --muted:   #595959;   /*  7.00:1  replaces v.2's #999 (2.85:1, fails)   */
-  --rule:    #dddddd;   /*  hairlines only — never carries text           */
-  --tile:    #f3f3f3;   /*  v.2's rgba(230,230,230,.5) flattened on white */
+  --ink:     #131313;   /* 18.58:1  headings, card names, questions      */
+  --body:    #333333;   /* 12.63:1  running text                         */
+  --muted:   #595959;   /*  7.00:1  replaces v.2's #999 (2.85:1, fails)  */
+  --rule:    #d6d6d6;   /*  v.2 .sample border — hairlines, never text   */
+  --tile:    #f3f3f3;   /*  v.2 rgba(230,230,230,.5) flattened on white  */
+  --chip:    #3b3b3b;   /*  v.2 .text-block                              */
   --paper:   #ffffff;
 
-  /* The single accent. v.2's own link colour, and the browser default.
-     Everything blue is interactive; everything interactive is blue. */
   --link:    #0000ee;   /*  9.40:1 on paper, 8.47:1 on tile              */
-  --visited: #551a8b;   /* 11.01:1                                        */
+  --visited: #551a8b;   /* 11.01:1                                       */
+  --visited-edge: #260247;  /* v.2 .sample:hover border                  */
 
   --display: 'Mint Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --text:    Inter, system-ui, -apple-system, 'Segoe UI', Roboto,
@@ -93,8 +93,14 @@
   --s9: 64px;
   --s10: 80px;
 
-  --page:  1140px;   /* v.2 .content-wrapper — the grid only */
-  --prose:  940px;   /* v.2 .content-wrapper.slim — everything else */
+  /* v.2's radii, one per role. */
+  --r-tile:  8px;
+  --r-panel: 10px;
+  --r-btn:   15px;
+  --r-chip:  20px;
+
+  --page:  1140px;   /* v.2 .content-wrapper — the grid */
+  --prose:  940px;   /* v.2 .content-wrapper.slim       */
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -116,8 +122,9 @@ body {
   font-family: var(--text);
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.6;
+  line-height: 1.8;          /* v.2 .paragraph 180% */
   letter-spacing: .3px;
+  text-align: center;        /* v.2 centres almost everything */
   -webkit-font-smoothing: antialiased;
 }
 
@@ -131,24 +138,34 @@ h1, h2 {
   margin: 0;
 }
 
-h1 { font-size: 26px; line-height: 34px; }
-h2 { font-size: 20px; line-height: 28px; margin-bottom: var(--s4); }
+h1 { font-size: 24px; line-height: 1.45; }
 
-h3 {
+/* v.2 .heading-2: 24px at 170%, with 40px beneath it. */
+h2 {
+  font-size: 24px;
+  line-height: 1.7;
+  margin-bottom: var(--s7);
+}
+
+/* v.2 .text-span — the quieter first line inside a heading. */
+.lede {
+  display: block;
   font-family: var(--text);
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 700;
-  color: var(--ink);
-  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--body);
 }
 
 p { margin: 0 0 var(--s4); }
 p:last-child { margin-bottom: 0; }
 
-.small { font-size: 14px; line-height: 1.5; }
-.micro { font-size: 12px; line-height: 1.7; }
+.small { font-size: 14px; line-height: 1.8; }
+.micro { font-size: 12px; line-height: 1.7; }   /* v.2 .legenda */
 .muted { color: var(--muted); }
+.left  { text-align: left; }
+
+.measure { max-width: 68ch; margin-inline: auto; }
 
 .visually-hidden {
   position: absolute;
@@ -161,9 +178,9 @@ p:last-child { margin-bottom: 0; }
 }
 
 /* --- Links ---------------------------------------------------------
-   No underline on navigational and standalone links — colour plus
-   position carries it. Links inside running prose keep the underline:
-   colour as the sole affordance is a WCAG 1.4.1 failure. */
+   Everything blue is interactive; everything interactive is blue.
+   Links in running prose keep an underline — colour as the sole
+   affordance is a WCAG 1.4.1 failure. */
 
 a { color: var(--link); text-decoration: none; }
 a:visited { color: var(--visited); }
@@ -182,103 +199,154 @@ a:hover, a:focus-visible { text-decoration: underline; text-underline-offset: 2p
 
 hr { border: 0; border-top: 1px solid var(--rule); margin: 0; }
 
-/* Section rhythm is set per section, not globally, and it is set as space
-   ABOVE each block only. Symmetric padding on every section makes the gaps
-   add up in pairs, which is how a page ends up with 130px of nothing between
-   two short paragraphs. Reading down, the gaps are:
+/* v.2 spaces its sections with 80px spacer divs (.div-block-3/-4/-6).
+   Same rhythm, set as space above each block so the gaps do not add in
+   pairs. Uneven by section, per the structure that was approved. */
 
-     hero 48 · library 64 · formats 80 · price 32 · formats-dl 48 ·
-     newsletter 80 · author 48 · agents 32 · faq 64 · footer 48
-
-   Deliberately uneven. The newsletter and the FAQ get the most room because
-   they are the two things a visitor is most likely to have come for after
-   the grid; the agents note and the price line get the least. */
-
-/* --- 1 · Masthead — no heading element at all ----------------------- */
+/* --- 1 · Masthead --------------------------------------------------- */
 
 .masthead {
   display: flex;
-  align-items: baseline;
-  gap: var(--s2);
-  padding: var(--s5) 0 var(--s4);
+  justify-content: center;
+  align-items: center;
+  gap: var(--s1);
+  padding: var(--s6) 0 var(--s5);
 }
 
-.masthead__mark {
+.wordmark {
   font-family: var(--display);
   font-size: 24px;
   font-weight: 700;
   color: var(--ink);
 }
 
-/* On sub-pages the wordmark is a link home, so it is blue. "Everything
-   interactive is blue" has no exceptions, wordmarks included. */
-a.masthead__mark { color: var(--link); }
-a.masthead__mark:visited { color: var(--visited); }
+a.wordmark { color: var(--link); }
+a.wordmark:visited { color: var(--visited); }
 
-.masthead__v { font-size: 12px; color: var(--muted); }
-
-/* --- 2 · Hero — text, art, two actions. No paragraph. --------------- */
-
-.hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 300px;
-  gap: var(--s9);
-  align-items: center;
-  padding-top: var(--s8);
+/* v.2 .text-block — a dark pill label. Not interactive, so not blue. */
+.chip {
+  display: inline-block;
+  background: var(--chip);
+  color: var(--paper);
+  border-radius: var(--r-chip);
+  padding: 0 var(--s2);
+  font-family: var(--display);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.7;
 }
 
-/* No max-width: the grid column already sets the measure, and capping it
-   here is what pushed the third line into a fourth. */
+/* --- 2 · Hero ------------------------------------------------------- */
 
-.hero__actions {
+.hero { padding-top: var(--s2); }
+.hero h1 { max-width: 24ch; margin-inline: auto; }
+.hero__count { margin-top: var(--s4); }
+
+/* v.2 .section-2 — the art sits below the words. Capped at 200px, which is
+   the size that still leaves the search field and the tag row above the fold
+   on a 900px-tall viewport. v.2 runs its box at 317px, but v.2 has no grid
+   underneath competing for the first screen. */
+.hero__art {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin: var(--s5) auto var(--s5);
+}
+
+/* v.2 .div-block: two button columns, 48px apart, captions beneath. */
+.actions {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--s5);
-  margin-top: var(--s6);
+  justify-content: center;
+  gap: var(--s8);
+  margin: var(--s4) 0 0;
 }
 
-.hero__count {
-  margin-top: var(--s4);
-  font-size: 12px;
-  line-height: 1.7;
-  color: var(--muted);
+.action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--s3);
 }
 
-.hero__art { width: 100%; height: auto; }
+.action .micro { color: var(--muted); }
 
-/* --- Buttons — the only filled elements on the page. Square, flat. -- */
+/* --- Buttons — v.2 .sample and .sample.download --------------------- */
 
 .btn {
   display: inline-block;
-  background: var(--link);
-  color: var(--paper);
+  background: transparent;
+  color: var(--link);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-btn);
+  padding: var(--s2) var(--s5);
   font-family: var(--display);
   font-size: 14px;
-  font-weight: 700;
-  line-height: 1;
-  padding: var(--s3) var(--s5);
-  border: 0;
-  border-radius: 0;
-  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.7;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 2px;
   cursor: pointer;
   -webkit-appearance: none;
   appearance: none;
 }
 
-.btn:visited { color: var(--paper); }
-.btn:hover, .btn:focus-visible { background: var(--visited); color: var(--paper); text-decoration: none; }
+.btn:visited { color: var(--visited); }
+.btn:hover, .btn:focus-visible {
+  color: var(--visited);
+  border-color: var(--visited-edge);
+}
+
+/* The filled variant. v.2 also underlines this one; an underline inside
+   a filled button is a defect rather than a style, so it is dropped
+   here and only here. */
+.btn--fill {
+  background: var(--link);
+  color: var(--paper);
+  border-color: var(--link);
+  text-decoration: none;
+}
+
+.btn--fill:visited { color: var(--paper); }
+.btn--fill:hover, .btn--fill:focus-visible {
+  background: var(--visited);
+  border-color: var(--visited);
+  color: var(--paper);
+  text-decoration: none;
+}
+
 .btn[disabled] { opacity: .55; cursor: default; }
 
-.btn-group { display: flex; flex-direction: column; gap: var(--s2); }
-.btn-group .micro { color: var(--muted); }
+/* --- 3 · Library ---------------------------------------------------- */
 
-/* --- 3 · Library — no heading, no intro. Tags, then cards. ---------- */
+.library { padding-top: var(--s8); }
 
-.library { padding-top: var(--s9); }
+.search-form { margin: 0 auto var(--s4); max-width: 420px; }
+
+.search {
+  width: 100%;
+  padding: var(--s2) 0;
+  border: 0;
+  border-bottom: 1px solid var(--rule);
+  border-radius: 0;
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--text);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.search::placeholder { color: var(--muted); opacity: 1; }
+.search:focus { outline: 0; border-bottom-color: var(--link); }
+.search:focus-visible { outline: 0; border-bottom-color: var(--link); }
 
 .tagnav ul {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: var(--s4);
   margin: 0 0 var(--s5);
   padding: 0;
@@ -290,68 +358,96 @@ a.masthead__mark:visited { color: var(--visited); }
   text-transform: uppercase;
 }
 
-.tagnav a { text-decoration: none; }
+.tagnav a {
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+}
 .tagnav a:visited { color: var(--link); }
+.tagnav a:hover, .tagnav a:focus-visible {
+  text-decoration: none;
+  border-bottom-color: var(--link);
+}
 .tagnav [aria-current="true"] {
   color: var(--ink);
-  border-bottom: 2px solid var(--ink);
-  padding-bottom: 2px;
+  border-bottom-color: var(--ink);
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: var(--s4);
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: var(--s5) var(--s3);
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.card__link { display: block; text-decoration: none; }
-.card__link:visited .card__name { color: var(--visited); }
+.card { min-width: 0; }
 
+/* v.2 .img-bg — the grey well behind every drawing. */
 .card__tile {
   display: flex;
   align-items: center;
   justify-content: center;
   background: var(--tile);
+  border-radius: var(--r-tile);
   aspect-ratio: 1;
-  padding: var(--s4);
-  /* Square. The ban on uniform corner radius is the point; the tile is
-     here so black line art reads as a discrete object, not as decoration. */
-  border-radius: 0;
+  padding: var(--s5);
 }
 
-.card__img { max-width: 100%; max-height: 100%; width: auto; height: auto; }
+.card__img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
 
 .card__name {
-  display: block;
-  margin-top: var(--s2);
-  font-size: 12px;
+  font-family: var(--display);
+  font-size: 15px;
+  font-weight: 700;
   line-height: 1.4;
-  color: var(--link);
+  color: var(--ink);
+  margin: var(--s2) 0 2px;
 }
 
 .card__meta {
-  display: block;
   font-size: 12px;
-  line-height: 1.4;
+  line-height: 1.6;
   color: var(--muted);
+  margin: 0;
 }
 
-.card__link:hover .card__name,
-.card__link:focus-visible .card__name { text-decoration: underline; text-underline-offset: 2px; }
+.card__actions {
+  display: flex;
+  justify-content: center;
+  gap: var(--s3);
+  margin-top: var(--s1);
+  font-family: var(--display);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  text-transform: uppercase;
+}
 
-/* The last cell. Not a stat band — it is what stops the grid from
-   overclaiming, in place, with no separate section and no invented
-   number: 121 illustrations and 35 scribbles, minus what is shown. */
+.card__actions a { text-decoration: none; }
+.card__actions a:visited { color: var(--visited); }
+.card__actions a:hover, .card__actions a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* The last cell. v.2's own .big-number / .text-block-4, and the thing
+   that stops the grid reading as the whole library: 156 files minus
+   what is on the page. Absent from tag pages, where the remainder for
+   that tag is not known. */
 .counter {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   aspect-ratio: 1;
-  text-align: center;
   padding: var(--s3);
 }
 
@@ -369,26 +465,64 @@ a.masthead__mark:visited { color: var(--visited); }
   font-size: 12px;
   font-weight: 700;
   letter-spacing: .8px;
+  line-height: 1.4;
   color: var(--muted);
   text-transform: uppercase;
 }
 
-.library__note { margin-top: var(--s5); }
+.library__note { margin-top: var(--s6); }
+.library__note[hidden] { display: none; }
 
-/* --- 4 · Formats — a plain table. No cards, no highlighted tier. ---- */
+/* Spans the whole grid so the message sits centred, not in a 180px column. */
+.grid__empty {
+  grid-column: 1 / -1;
+  padding: var(--s8) 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+.grid__empty[hidden] { display: none; }
+
+/* A button that has to read as a link, because it is interactive and
+   therefore blue, like everything else that is. */
+.linkish {
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  color: var(--link);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* --- 4 · What you get ----------------------------------------------- */
 
 .formats { padding-top: var(--s10); }
 
+/* v.2's "Including: .SVG .PNG FIGMA" row. */
+.chiprow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: var(--s2);
+  margin-bottom: var(--s6);
+  font-family: var(--text);
+  font-size: 14px;
+  color: var(--muted);
+}
+
 .formats table {
   width: 100%;
-  max-width: 640px;
+  max-width: 620px;
+  margin: 0 auto;
   border-collapse: collapse;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.6;
+  text-align: left;
 }
 
 .formats th, .formats td {
-  text-align: left;
   padding: var(--s3) var(--s4) var(--s3) 0;
   border-bottom: 1px solid var(--rule);
   vertical-align: top;
@@ -406,48 +540,55 @@ a.masthead__mark:visited { color: var(--visited); }
 .formats tbody th { font-weight: 500; color: var(--body); }
 .formats td { color: var(--ink); }
 
-/* --- 5 · Price — one running sentence. Shortest block on the page. -- */
+/* --- 5 · Price ------------------------------------------------------ */
 
-.price { padding-top: var(--s6); }
-.price p { max-width: 640px; }
+.price { padding-top: var(--s7); }
 
-/* --- 6 · Formats explained — the only definition list on the page,
-       and the only block with neither a heading nor an image. --------- */
+/* --- 6 · Formats explained — v.2 .div-block-7, the one feature panel - */
 
-.edit-formats { padding-top: var(--s8); }
+.panel-wrap { padding-top: var(--s8); }
 
-.formats-dl {
+.panel {
+  background: var(--tile);
+  border-radius: var(--r-tile);
+  padding: var(--s7) var(--s9);
+  max-width: 760px;
+  margin-inline: auto;
+  text-align: left;
+}
+
+.panel dl {
   display: grid;
   grid-template-columns: 5rem minmax(0, 1fr);
   gap: var(--s3) var(--s5);
   margin: 0;
-  max-width: 640px;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
-.formats-dl dt {
+.panel dt {
   font-family: var(--display);
   font-size: 12px;
   font-weight: 700;
   letter-spacing: .8px;
   color: var(--muted);
-  padding-top: 3px;
+  padding-top: 4px;
 }
 
-.formats-dl dd { margin: 0; color: var(--ink); }
+.panel dd { margin: 0; color: var(--ink); }
 
-/* --- 7 · Newsletter — the most vertical air on the page. ------------ */
+/* --- 7 · Newsletter — the most vertical air on the page ------------- */
 
 .newsletter { padding-top: var(--s10); }
-.newsletter p { max-width: 54ch; }
+.newsletter p { max-width: 52ch; margin-inline: auto; }
 
 .signup {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--s3);
+  justify-content: center;
   align-items: flex-end;
-  margin-top: var(--s5);
+  gap: var(--s3);
+  margin-top: var(--s6);
 }
 
 .signup label {
@@ -456,6 +597,7 @@ a.masthead__mark:visited { color: var(--visited); }
   line-height: 1.7;
   color: var(--muted);
   margin-bottom: var(--s1);
+  text-align: left;
 }
 
 .signup input[type="email"] {
@@ -465,108 +607,108 @@ a.masthead__mark:visited { color: var(--visited); }
   color: var(--ink);
   background: var(--paper);
   border: 1px solid var(--rule);
-  border-radius: 0;
-  padding: var(--s3);
-  width: 20rem;
+  border-radius: var(--r-btn);
+  padding: var(--s2) var(--s4);
+  width: 18rem;
   max-width: 100%;
 }
 
 .signup input[type="email"]:focus-visible { border-color: var(--link); }
 
-/* Both states are ink. Blue means interactive and nothing else, and there is
-   no second accent to spend on a red, so the sentence itself has to say what
+/* Both states are ink. Blue means interactive and nothing else, and there
+   is no second accent to spend on a red, so the sentence itself says what
    happened — which is the accessible behaviour anyway (WCAG 1.4.1). */
-.signup__msg { flex-basis: 100%; margin: 0; font-size: 14px; color: var(--ink); }
+.signup__msg {
+  flex-basis: 100%;
+  margin: var(--s2) 0 0;
+  font-size: 14px;
+  color: var(--ink);
+}
 .signup__msg[hidden] { display: none; }
-.signup__msg--err { padding-left: var(--s3); border-left: 2px solid var(--ink); }
 
-/* --- 8 · Author — headingless, portrait-led. ------------------------ */
+/* --- 8 · Author ----------------------------------------------------- */
 
-.author {
-  display: grid;
-  grid-template-columns: 96px minmax(0, 1fr);
-  gap: var(--s5);
-  align-items: start;
-  padding-top: var(--s8);
+.author { padding-top: var(--s10); }
+
+.author img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  margin-bottom: var(--s5);
 }
 
-.author img { width: 96px; height: 96px; border-radius: 50%; }
-.author p { max-width: 60ch; }
+.author p { max-width: 58ch; margin-inline: auto; }
 
-/* --- 9 · Agents — the smallest, quietest block. --------------------- */
+/* --- 9 · Agents — the quietest block -------------------------------- */
 
-.agents { padding-top: var(--s6); }
-.agents p { max-width: 66ch; }
+.agents { padding-top: var(--s7); }
+.agents p { max-width: 64ch; margin-inline: auto; }
 .agents code {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 13px;
   color: var(--ink);
 }
 
-/* --- 10 · FAQ — disclosure widgets, hairlines, no tiles. ------------ */
+/* --- 10 · FAQ — v.2 .accordion-item --------------------------------- */
 
-.faq { padding: var(--s9) 0 var(--s8); }
-.faq__list { max-width: 720px; }
+.faq { padding-top: var(--s10); }
+.faq__list { max-width: 760px; margin-inline: auto; }
 
-.faq details { border-top: 1px solid var(--rule); }
-.faq details:last-of-type { border-bottom: 1px solid var(--rule); }
+.faq details {
+  background: var(--tile);
+  border-radius: var(--r-panel);
+  margin-bottom: 20px;
+  padding: var(--s5) 30px 14px;
+  text-align: left;
+}
 
 .faq summary {
   cursor: pointer;
   list-style: none;
-  padding: var(--s4) var(--s7) var(--s4) 0;
   position: relative;
-  font-family: var(--text);
-  font-size: 16px;
+  padding-right: var(--s7);
+  font-family: var(--display);
+  font-size: 18px;
   font-weight: 700;
+  line-height: 30px;
   color: var(--ink);
 }
 
 .faq summary::-webkit-details-marker { display: none; }
 
+/* v.2 pulls the whole Material Icons font from Google to draw this one
+   chevron. Two borders and a rotation is the same triangle, no request. */
 .faq summary::after {
-  content: "+";
+  content: "";
   position: absolute;
-  right: 0;
-  top: var(--s4);
-  font-weight: 500;
-  color: var(--link);
+  right: 6px;
+  top: 9px;
+  width: 9px;
+  height: 9px;
+  border-right: 2px solid var(--link);
+  border-bottom: 2px solid var(--link);
+  transform: rotate(45deg);
+  transition: transform .15s ease;
 }
 
-.faq details[open] summary::after { content: "\2013"; }
-.faq details > *:not(summary) { padding-bottom: var(--s4); }
-.faq .small { max-width: 68ch; }
+.faq details[open] summary::after { transform: rotate(-135deg); top: 13px; }
 
-/* --- Long-form pages (licence, terms) ------------------------------- */
+/* v.2 .paragraph.ar — answers are left-aligned at 14px, set away from
+   the question by 24px. */
+.faq details > *:not(summary) { padding-top: var(--s5); }
+.faq details > *:not(summary) ~ * { padding-top: 0; }
+.faq .small { max-width: 66ch; }
 
-.doc { padding: var(--s8) 0 var(--s9); max-width: 68ch; }
-.doc h1 { margin-bottom: var(--s5); }
-.doc h2 { margin-top: var(--s8); }
-.doc h3 { margin-top: var(--s6); margin-bottom: var(--s2); }
-.doc p, .doc li { font-size: 16px; line-height: 1.6; }
-.doc ul { padding-left: 1.2em; margin: 0 0 var(--s4); }
-.doc li { margin-bottom: var(--s2); }
+/* --- 11 · Footer — v.2 .section-7 ----------------------------------- */
 
-.doc__quote {
-  margin: var(--s4) 0;
-  padding: var(--s4);
-  background: var(--tile);
-  font-family: var(--display);
-  font-weight: 700;
-  color: var(--ink);
-}
-
-.doc__updated { color: var(--muted); font-size: 12px; line-height: 1.7; }
-
-/* --- 11 · Footer — micro type throughout. --------------------------- */
-
-.footer { padding: var(--s8) 0 var(--s9); }
+.footer { padding: var(--s10) 0 var(--s9); }
 
 .footer__cols {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: var(--s5);
-  margin-bottom: var(--s6);
+  margin-bottom: var(--s10);
+  text-align: left;
 }
 
 .footer h2 {
@@ -580,48 +722,82 @@ a.masthead__mark:visited { color: var(--visited); }
   margin-bottom: var(--s2);
 }
 
-.footer ul { margin: 0; padding: 0; list-style: none; font-size: 12px; line-height: 1.9; }
+.footer ul { margin: 0; padding: 0; list-style: none; font-size: 12px; line-height: 2; }
 .footer li > a { text-decoration: none; }
-.footer__legal { color: var(--muted); }
+
+.footer__mark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--s5);
+}
+
+.footer__mark img { width: 19px; height: auto; }
+.footer__legal { color: var(--muted); max-width: 62ch; margin-inline: auto; }
 .footer__legal a { text-decoration: underline; text-underline-offset: 2px; }
 
-/* --- Responsive ----------------------------------------------------
-   v.2 breaks at 991 / 767 / 479. Same points. */
+/* --- Long-form pages (licence, terms) ------------------------------- */
+
+.doc { padding-top: var(--s8); padding-bottom: var(--s10); }
+.doc__body { max-width: 68ch; margin-inline: auto; text-align: left; }
+.doc h1 { margin-bottom: var(--s7); text-align: center; }
+.doc h2 { margin-top: var(--s9); text-align: center; }
+.doc h3 {
+  font-family: var(--text);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--ink);
+  margin: var(--s6) 0 var(--s2);
+}
+.doc ul { padding-left: 1.2em; margin: 0 0 var(--s4); }
+.doc li { margin-bottom: var(--s2); }
+
+.doc__quote {
+  background: var(--tile);
+  border-radius: var(--r-tile);
+  margin: var(--s5) 0;
+  padding: var(--s5);
+  font-family: var(--display);
+  font-weight: 700;
+  color: var(--ink);
+  text-align: center;
+}
+
+.doc__updated { color: var(--muted); font-size: 12px; line-height: 1.7; }
+
+/* --- Responsive — v.2 breaks at 991 / 767 / 479 --------------------- */
 
 @media (max-width: 991px) {
   .wrap { max-width: 728px; }
-  .hero { grid-template-columns: minmax(0, 1fr) 220px; gap: var(--s7); }
+  .panel { padding: var(--s7) var(--s8); }
 }
 
 @media (max-width: 767px) {
   .wrap { max-width: none; padding: 0 var(--s4); }
-
-  .hero {
-    grid-template-columns: 1fr;
-    gap: var(--s5);
-    padding: var(--s6) 0 var(--s7);
-  }
-  .hero__art { max-width: 260px; }
-
-  .edit { grid-template-columns: 1fr; gap: var(--s5); }
-  .edit img { max-width: 200px; }
-
-  .library { padding: var(--s7) 0; }
-  .newsletter { padding: var(--s9) 0; }
+  .masthead { padding-top: var(--s7); }
+  .hero__art { max-width: 240px; margin-top: var(--s7); }
+  .library, .formats, .newsletter, .author, .faq { padding-top: var(--s9); }
+  .panel { padding: var(--s6); }
+  .panel dl { grid-template-columns: 1fr; gap: var(--s1) 0; }
+  .panel dd { margin-bottom: var(--s4); }
 }
 
 @media (max-width: 479px) {
-  /* 26px runs to four lines on a 375px screen and pushes the grid down.
-     22px is still inside v.2's range (.heading was 24). */
-  h1 { font-size: 22px; line-height: 29px; }
+  h1 { font-size: 22px; }
+  h2 { font-size: 20px; margin-bottom: var(--s5); }
+  .lede { font-size: 17px; }
 
-  .grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: var(--s3); }
-  .hero__actions { gap: var(--s4); }
+  .grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: var(--s4) var(--s2); }
+  .card__tile { padding: var(--s4); }
+  .card__name { font-size: 14px; }
+
+  .actions { gap: var(--s5); }
   .signup input[type="email"] { width: 100%; }
-  .author { grid-template-columns: 1fr; }
+  .faq details { padding: var(--s4) var(--s4) var(--s3); }
+  .faq summary { font-size: 16px; line-height: 26px; }
 }
 
 @media print {
-  .tagnav, .hero__actions, .signup { display: none; }
+  .tagnav, .actions, .signup, .search-form { display: none; }
   a { color: var(--ink); }
 }
