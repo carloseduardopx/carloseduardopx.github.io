@@ -64,6 +64,27 @@ The accent is `#0000ee` — v.2's own link colour, and the browser default.
 Everything blue is interactive; everything interactive is blue, wordmarks
 included. `node scripts/contrast.mjs` checks every pair and fails below AA.
 
+### The tag row has three states, not two
+
+Rest is blue text; hover and keyboard focus put it on a `--tile` grey pill;
+the current tag is white on a `--link` blue pill. All three are built from
+v.2's pill (`.text-block`), all three are blue, and none of them uses an
+underline — a pill and an underline are two signals for one thing. Measured at
+9.40, 8.47 and 9.40:1.
+
+### "Drawn by a person" is block 4 on purpose
+
+Twelve blocks now. The human-made claim used to be one sentence inside the
+author paragraph, near the bottom. It sits immediately after the grid instead,
+because that is where the question actually occurs to someone — you have just
+looked at eleven drawings — and because it is the argument the price two
+screens later rests on. It is the only section set at `.lede` scale, which is
+what gives it weight without introducing another heading size.
+
+Both claims in it are load-bearing and true: the pen-stroke line is v.2's own
+wording, and single authorship is what the FAQ already says. **If that ever
+stops being true, that block is the first thing to change.**
+
 ## The counts, and not blurring them
 
 Three different numbers, never used interchangeably:

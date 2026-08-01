@@ -184,7 +184,7 @@ p:last-child { margin-bottom: 0; }
 
 a { color: var(--link); text-decoration: none; }
 a:visited { color: var(--visited); }
-p > a, dd > a, li > a, td > a, summary > a {
+p > a, dd > a, dt > a, li > a, td > a, summary > a {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
@@ -343,11 +343,13 @@ a.wordmark:visited { color: var(--visited); }
 .search:focus { outline: 0; border-bottom-color: var(--link); }
 .search:focus-visible { outline: 0; border-bottom-color: var(--link); }
 
+/* Gap is 8, not 16: the pills carry their own horizontal padding, so the row
+   keeps roughly the width it had when these were bare words. */
 .tagnav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: var(--s4);
+  gap: var(--s2);
   margin: 0 0 var(--s5);
   padding: 0;
   list-style: none;
@@ -358,20 +360,48 @@ a.wordmark:visited { color: var(--visited); }
   text-transform: uppercase;
 }
 
+/* Three states, all built on v.2's pill so the mechanism is already in the
+   design language, and all of them blue — no state borrows a second hue.
+   The underline is gone: a pill and an underline are two signals for one
+   thing.
+
+     rest           blue on paper          9.40:1
+     hover / focus  blue on a grey pill    8.47:1
+     current        white on a blue pill   9.40:1
+*/
 .tagnav a {
+  display: inline-block;
+  padding: 3px var(--s3);
+  border-radius: var(--r-chip);
+  background: transparent;
   text-decoration: none;
-  padding-bottom: 2px;
-  border-bottom: 1px solid transparent;
 }
+
+/* These are filters, not destinations — a visited tag is not a different
+   thing from an unvisited one. */
 .tagnav a:visited { color: var(--link); }
-.tagnav a:hover, .tagnav a:focus-visible {
+
+.tagnav a:hover,
+.tagnav a:focus-visible {
+  background: var(--tile);
   text-decoration: none;
-  border-bottom-color: var(--link);
 }
-.tagnav [aria-current="true"] {
-  color: var(--ink);
-  border-bottom-color: var(--ink);
+
+.tagnav [aria-current="true"],
+.tagnav [aria-current="true"]:visited {
+  background: var(--link);
+  color: var(--paper);
 }
+
+.tagnav [aria-current="true"]:hover,
+.tagnav [aria-current="true"]:focus-visible {
+  background: var(--visited);
+  color: var(--paper);
+}
+
+/* Offset outward so the ring reads against the filled pill, not inside it. */
+.tagnav a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+.tagnav [aria-current="true"]:focus-visible { outline-color: var(--ink); }
 
 .grid {
   display: grid;
@@ -495,7 +525,18 @@ a.wordmark:visited { color: var(--visited); }
   text-underline-offset: 2px;
 }
 
-/* --- 4 · What you get ----------------------------------------------- */
+/* --- 4 · Drawn by a person -----------------------------------------
+   The one thing that separates these from generated illustration, so it
+   gets a block of its own rather than a sentence near the bottom. It is
+   the only section set at .lede scale — that is what gives it weight
+   without introducing another heading size. */
+
+.handmade { padding-top: var(--s10); }
+
+.handmade p { max-width: 30ch; margin-inline: auto; }
+.handmade .lede { max-width: 34ch; margin: 0 auto var(--s5); color: var(--ink); }
+
+/* --- 5 · What you get ----------------------------------------------- */
 
 .formats { padding-top: var(--s10); }
 
@@ -641,13 +682,32 @@ a.wordmark:visited { color: var(--visited); }
 
 /* --- 9 · Agents — the quietest block -------------------------------- */
 
-.agents { padding-top: var(--s7); }
+.agents { padding-top: var(--s10); }
 .agents p { max-width: 64ch; margin-inline: auto; }
-.agents code {
+.agents .micro { margin-top: var(--s5); }
+
+code {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 13px;
   color: var(--ink);
 }
+
+/* Same panel as the formats block, but the terms are paths rather than
+   prose, which is what keeps the two from reading as the same block twice. */
+.panel--code dl { grid-template-columns: 11rem minmax(0, 1fr); }
+
+.panel--code dt {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+  padding-top: 2px;
+}
+
+.panel--code dt code { font-size: inherit; }
+.panel--code dd { color: var(--body); }
 
 /* --- 10 · FAQ — v.2 .accordion-item --------------------------------- */
 

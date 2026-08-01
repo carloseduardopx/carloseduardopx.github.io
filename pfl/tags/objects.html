@@ -126,7 +126,19 @@
       </p>
     </section>
 
-    <!-- 4 · What you get. Two options, one of them free — a plain table, not
+    <!-- 4 · Drawn by a person. Sits here, immediately after the grid, because
+         this is the moment the question actually occurs to someone — and
+         because it is the argument the price on the next screen rests on. -->
+    <section class="handmade">
+      <h2>Drawn by a person</h2>
+      <p class="lede">Every line here is a pen stroke. No AI, no tracing, no
+      generated fills — the halftone is the only thing on this page that was not
+      drawn by hand.</p>
+      <p class="micro muted">One hand made all 156 files, which is why they sit
+      together as a set instead of looking like a search result.</p>
+    </section>
+
+    <!-- 5 · What you get. Two options, one of them free — a plain table, not
          a tier comparison. -->
     <section class="formats">
       <h2>What you get</h2>
@@ -156,7 +168,7 @@
       </table>
     </section>
 
-    <!-- 5 · Price. Three sentences. The shortest block on the page. -->
+    <!-- 6 · Price. Three sentences. The shortest block on the page. -->
     <section class="price">
       <p class="measure">Everything on this page downloads free as PNG, as long as you
       credit it. The <a href="https://carlospx.gumroad.com/l/pfl-free">Gumroad sample</a>
@@ -165,7 +177,7 @@
       Figma and full-resolution PNG, and no credit line to carry.</p>
     </section>
 
-    <!-- 6 · What the formats are for. The page's one feature panel, and the
+    <!-- 7 · What the formats are for. The page's one feature panel, and the
          only left-aligned block. -->
     <section class="panel-wrap">
       <div class="panel">
@@ -183,7 +195,7 @@
       </div>
     </section>
 
-    <!-- 7 · Newsletter. The most vertical space on the page. -->
+    <!-- 8 · Newsletter. The most vertical space on the page. -->
     <section class="newsletter" id="newsletter">
       <h2>New illustrations by email</h2>
       <p>A few new drawings, a note on what they were drawn for, and the occasional
@@ -207,29 +219,47 @@
       </form>
     </section>
 
-    <!-- 8 · Who drew them. No heading — the photograph is the heading. -->
+    <!-- 9 · Who drew them. No heading — the photograph is the heading. -->
     <section class="author">
       <img src="../images/carlos-peixoto.png" width="96" height="96" loading="lazy" decoding="async"
            alt="Carlos Peixoto, photographed in front of a bookshelf.">
+      <!-- The pen-stroke claim used to live here. It has moved up to its own
+           block, two screens earlier, where it does more work. -->
       <p>I am <a href="https://carlospx.com">Carlos Peixoto</a>, a designer in Rio de
-      Janeiro. I drew all of these by hand, one line at a time — no AI, no tracing, no
-      generated fills. The halftone is the only thing that is not a pen stroke.</p>
+      Janeiro. I drew all of these, one line at a time, over rather more evenings
+      than I expected.</p>
       <p class="small">Need a set in this style for something specific? Write to me at
       <a href="mailto:carlos@carlospx.com">carlos@carlospx.com</a> and tell me what it
       is for.</p>
     </section>
 
-    <!-- 9 · For agents and scripts. Deliberately the smallest block here. -->
+    <!-- 10 · For agents and scripts. Three endpoints, stated plainly. The
+         panel is the formats block's, but the terms are paths rather than
+         prose so the two do not read as the same block twice. -->
     <section class="agents">
-      <p class="small muted">Machine-readable index at
-      <a href="../manifest.json">/manifest.json</a> — slugs, tags, alt text, dimensions,
-      byte sizes and licence terms. Every PNG answers with
-      <code>Access-Control-Allow-Origin: *</code>, so it can be fetched directly. There
-      is a plain-text summary at <a href="../llms.txt">/llms.txt</a>. Attribution applies to
-      machines too.</p>
+      <h2>For agents and scripts</h2>
+      <div class="panel panel--code">
+        <dl>
+          <dt><a href="../manifest.json"><code>/manifest.json</code></a></dt>
+          <dd>Every slug, tag, alt text, dimension, byte size and licence term.
+          Prefer it to scraping this page — it is the source the page is built
+          from, so it cannot fall out of step.</dd>
+
+          <dt><a href="../llms.txt"><code>/llms.txt</code></a></dt>
+          <dd>The same index as plain prose, including the attribution line to
+          reproduce and the three counts kept apart from one another.</dd>
+
+          <dt><code>CORS</code></dt>
+          <dd><code>Access-Control-Allow-Origin: *</code> on every PNG and on the
+          manifest, so a script can fetch and compose them directly, with no
+          proxy in the way.</dd>
+        </dl>
+      </div>
+      <p class="micro muted">No SVG is served from this host, at any path.
+      Attribution applies to machines too.</p>
     </section>
 
-    <!-- 10 · Questions. -->
+    <!-- 11 · Questions. -->
     <section class="faq">
       <h2>F.A.Q.</h2>
       <div class="faq__list">
@@ -334,7 +364,7 @@
 
   </main>
 
-  <!-- 11 · Footer. v.2's centred sign-off, with the link columns above it. -->
+  <!-- 12 · Footer. v.2's centred sign-off, with the link columns above it. -->
   <footer class="footer">
     <div class="footer__cols">
       <div>
