@@ -46,22 +46,25 @@
        h1 — that belongs to the hero, where the search terms are. -->
   <header class="masthead">
     <span class="wordmark">Pay for layers</span>
-    <span class="chip">V.3</span>
+    <!-- Figma replaces the V.3 pill with a drawn mark. Export Scribble-19 to
+         images/png/scribble-mark.png and swap this div for an <img>. -->
+    <span class="slot" style="width:64px;height:40px" aria-hidden="true"></span>
   </header>
 
   <main>
 
-    <!-- 2 · Hero. v.2's order: the words, then the drawing, then the actions.
-         The art is capped so the first grid row still clears the fold. -->
+    <!-- 2 · Hero. The Figma leads with the drawing, then the words, then the
+         actions — 40 under the art, 32 under the headline, 48 above the
+         buttons. -->
     <section class="hero">
+      <img class="hero__art" src="../images/png/open-box-line-illustration.png"
+           width="1000" height="910" fetchpriority="high" decoding="async"
+           alt="An open box tipped towards you, with stars and a halftone swoosh rising out of it.">
+
       <h1>
         <span class="lede">Hand-drawn, black and white, minimal</span>
         Line illustrations. Free as PNG — pay for the layers.
       </h1>
-
-      <img class="hero__art" src="../images/png/open-box-line-illustration.png"
-           width="1000" height="910" fetchpriority="high" decoding="async"
-           alt="An open box tipped towards you, with stars and a halftone swoosh rising out of it.">
 
       <p class="hero__count micro muted"><!-- build:hero-count -->3 drawings tagged scribbles, free here as PNG with credit. <a href="../">Show all 11</a>.<!-- /build:hero-count --></p>
 
@@ -84,6 +87,8 @@
 
       <form class="search-form" role="search" method="get" action="">
         <label class="visually-hidden" for="q">Search the drawings</label>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
         <input class="search" type="search" id="q" name="q"
                placeholder="Search — robot, hiking, arrow…" autocomplete="off">
       </form>
@@ -145,6 +150,12 @@
         </li>
         <li class="grid__empty" id="empty" hidden>Nothing matches that. <button type="button" class="linkish" id="clear">Clear the search</button></li>
       <!-- /build:grid --></ul>
+      <p class="seemore">
+        <a class="btn" href="https://carlospx.gumroad.com/l/pfl">
+          <!-- Figma: the star-3 mark. Export to images/png/star-mark.png. -->
+          <span class="slot" aria-hidden="true"></span>See more
+        </a>
+      </p>
 
       <p class="library__note micro muted" id="empty-note">
         <span id="count"><!-- build:count -->3 drawings<!-- /build:count --></span> here, free as PNG.
@@ -158,12 +169,17 @@
          this is the moment the question actually occurs to someone — and
          because it is the argument the price on the next screen rests on. -->
     <section class="handmade">
-      <h2>Drawn by a person</h2>
-      <p class="lede">Every line here is a pen stroke. No AI, no tracing, no
-      generated fills — the halftone is the only thing on this page that was not
-      drawn by hand.</p>
-      <p class="micro muted">One hand made all 156 files, which is why they sit
-      together as a set instead of looking like a search result.</p>
+      <div class="handmade__inner">
+        <!-- Figma: the Pencil drawing. Export to images/png/pencil.png. -->
+        <div class="slot handmade__art" aria-hidden="true"></div>
+        <div>
+          <h2>Drawn by a person</h2>
+          <p class="lede">Every line here is a pen stroke. No AI, no tracing, no
+          generated fills.</p>
+          <p class="micro muted">One hand made all 156 files, which is why they sit
+          together as a set instead of looking like a search result.</p>
+        </div>
+      </div>
     </section>
 
     <!-- 5 · What you get. Two options, one of them free — a plain table, not
@@ -223,6 +239,26 @@
       </div>
     </section>
 
+    <!-- 7b · Repeat call to action — added in the Figma. Same anatomy as the
+         hero: a drawing, the lede, the counts, and both buttons again. -->
+    <section class="cta">
+      <!-- Figma: the Notebook drawing. Export to images/png/notebook.png. -->
+      <div class="slot cta__art" aria-hidden="true"></div>
+      <p class="lede">Hand-drawn, black and white, minimal</p>
+      <p class="cta__count micro muted">11 drawings free here as PNG, with credit.
+      156 files in the pack — 121 illustrations and 35 scribbles.</p>
+      <div class="actions">
+        <span class="action">
+          <a class="btn" href="https://carlospx.gumroad.com/l/pfl-free">Download the sample</a>
+          <span class="micro">15 files — free</span>
+        </span>
+        <span class="action">
+          <a class="btn btn--fill" href="https://carlospx.gumroad.com/l/pfl">Get the pack</a>
+          <span class="micro">156 files — $42</span>
+        </span>
+      </div>
+    </section>
+
     <!-- 8 · Newsletter. The most vertical space on the page. -->
     <section class="newsletter" id="newsletter">
       <h2>New illustrations by email</h2>
@@ -249,8 +285,9 @@
 
     <!-- 9 · Who drew them. No heading — the photograph is the heading. -->
     <section class="author">
-      <img src="../images/carlos-peixoto.png" width="96" height="96" loading="lazy" decoding="async"
-           alt="Carlos Peixoto, photographed in front of a bookshelf.">
+      <!-- Figma swapped the portrait for a drawing. Export to
+           images/png/author-mark.png and swap this div for an <img>. -->
+      <div class="slot author__art" aria-hidden="true"></div>
       <!-- The pen-stroke claim used to live here. It has moved up to its own
            block, two screens earlier, where it does more work. -->
       <p>I am <a href="https://carlospx.com">Carlos Peixoto</a>, a designer in Rio de
@@ -404,7 +441,7 @@
         </ul>
       </div>
       <div>
-        <h2>Small print</h2>
+        <h2>Print</h2>
         <ul>
           <li><a href="../licence.html">Licence</a></li>
           <li><a href="../terms.html">Terms of use</a></li>
@@ -412,7 +449,7 @@
         </ul>
       </div>
       <div>
-        <h2>Carlos</h2>
+        <h2>Custom illustration</h2>
         <ul>
           <li><a href="https://carlospx.com">carlospx.com</a></li>
           <li><a href="mailto:carlos@carlospx.com">carlos@carlospx.com</a></li>

@@ -111,6 +111,9 @@ function card(ill) {
 }
 
 /**
+ * UNUSED since the Figma pass: the design replaced this cell with a "See more"
+ * button under the grid. Kept because the argument still holds if it comes back.
+ *
  * The last cell of the index grid. Not a stat band and not an invented metric:
  * it is the pack's own count (156 files) minus what is on the page, and it is
  * the thing that stops the grid reading as the whole library.
@@ -132,11 +135,8 @@ function counter(shown) {
 const emptyState = `
         <li class="grid__empty" id="empty" hidden>Nothing matches that. <button type="button" class="linkish" id="clear">Clear the search</button></li>`;
 
-function grid(list, { withCounter = false } = {}) {
-  return list.map(card).join('')
-    + (withCounter ? counter(list.length) : '')
-    + emptyState
-    + '\n      ';
+function grid(list) {
+  return list.map(card).join('') + emptyState + '\n      ';
 }
 
 function tagNav(current) {
@@ -267,7 +267,7 @@ let template = readFileSync(indexPath, 'utf8');
 // --- index.html
 const indexCanonical = `${origin}/`;
 let index = template;
-index = fill(index, 'grid', grid(illustrations, { withCounter: true }));
+index = fill(index, 'grid', grid(illustrations));
 index = fill(index, 'tags', tagNav(null));
 index = fill(index, 'count', plural(illustrations.length));
 // No "all free" and no "every illustration". The page shows what it shows and
