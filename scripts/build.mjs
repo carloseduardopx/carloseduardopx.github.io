@@ -287,7 +287,7 @@ index = fill(index, 'count', plural(illustrations.length));
 // No "all free" and no "every illustration". The page shows what it shows and
 // says what the pack holds; the two numbers are never blurred together.
 index = fill(index, 'hero-count',
-  `${plural(illustrations.length)} free here as PNG, with credit. `
+  `${plural(illustrations.length)} free here as layered SVG and PNG, with credit. `
   + `${library.files} files in the pack — ${library.illustrations} illustrations `
   + `and ${library.scribbles} scribbles.`);
 // The markers sit outside <script>, not inside it: an HTML comment within a

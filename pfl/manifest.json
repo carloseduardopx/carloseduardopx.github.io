@@ -1,7 +1,7 @@
 {
   "$comment": "Single source of truth for Pay For Layers. Edit this file, then run `node scripts/build.mjs` — it measures every PNG and rewrites width, height, bytes and thumb from the files themselves, then regenerates the grid, the tag pages, the sitemaps and llms.txt.",
   "name": "Pay For Layers",
-  "description": "Hand-drawn black and white line illustrations. Free as PNG with credit; SVG, Figma and full-resolution PNG in the pack.",
+  "description": "Hand-drawn black and white line illustrations. The free sample is layered SVG and PNG with credit; 156 files in the pack.",
   "url": "https://payforlayers.com",
   "version": "3.0.0",
   "updated": "2026-08-01",
@@ -11,7 +11,7 @@
     "email": "carlos@carlospx.com"
   },
   "library": {
-    "$comment": "The pack as sold. Stated on v.2 and unchanged: 156 files, 121 illustrations plus 35 scribbles. The 9 bonus illustrations carried over from v.1 are included in the download but not counted here, which is why the FAQ says 165.",
+    "$comment": "The pack as sold. Stated on v.2 and unchanged: 156 files, 121 illustrations plus 35 scribbles. The 9 bonus illustrations carried over from v.1 are included in the download but not counted here, which is why the FAQ says 165. The site currently shows 11 of the 15 sample drawings; the remaining 4 are a manifest entry plus two PNGs and an SVG each.",
     "files": 156,
     "illustrations": 121,
     "scribbles": 35,
@@ -45,13 +45,14 @@
       "price": 0,
       "currency": "USD",
       "formats": [
-        "PNG",
-        "SVG (selected)"
+        "SVG",
+        "PNG"
       ],
       "resolution": "1000px on the long edge",
       "attribution": "required",
       "url": "https://carlospx.gumroad.com/l/pfl-free",
-      "$comment": "Every drawing on the site is a free PNG. A subset — flagged freeSvg in illustrations below — also gives the vector away. Those are the only SVGs that exist on the server at all."
+      "$comment": "The sample is 15 files and has always been vector — it is given away as SVG through Figma today. Publishing the same vectors here just removes Figma as the only route. Every drawing on the site belongs to that set, so every one is flagged freeSvg. The ladder is sample-vs-library (15 against 156), never pixels-vs-vectors.",
+      "files": 15
     },
     "paid": {
       "label": "Every layer",
@@ -110,7 +111,7 @@
         "height": 455,
         "bytes": 68909
       },
-      "freeSvg": false,
+      "freeSvg": true,
       "svgFree": false
     },
     {
@@ -128,7 +129,7 @@
         "height": 247,
         "bytes": 26263
       },
-      "freeSvg": false,
+      "freeSvg": true,
       "svgFree": false
     },
     {
@@ -146,7 +147,7 @@
         "height": 352,
         "bytes": 9956
       },
-      "freeSvg": false,
+      "freeSvg": true,
       "svgFree": false
     },
     {
@@ -164,7 +165,7 @@
         "height": 500,
         "bytes": 30324
       },
-      "freeSvg": false,
+      "freeSvg": true,
       "svgFree": false
     },
     {
@@ -183,7 +184,7 @@
         "height": 469,
         "bytes": 58148
       },
-      "freeSvg": false,
+      "freeSvg": true,
       "svgFree": false
     },
     {
@@ -202,7 +203,7 @@
         "height": 500,
         "bytes": 25934
       },
-      "freeSvg": false,
+      "freeSvg": true,
       "svgFree": false
     },
     {
@@ -221,7 +222,7 @@
         "height": 500,
         "bytes": 21327
       },
-      "freeSvg": false,
+      "freeSvg": true,
       "svgFree": false
     },
     {
@@ -239,7 +240,7 @@
         "height": 500,
         "bytes": 19704
       },
-      "freeSvg": false,
+      "freeSvg": true,
       "svgFree": false
     },
     {

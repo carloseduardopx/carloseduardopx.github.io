@@ -91,10 +91,9 @@ stops being true, that block is the first thing to change.**
 
 Three different numbers, never used interchangeably:
 
-- **11** — drawings published on this site, free as PNG with credit. A subset
-  of those, tagged **Free**, give the SVG away too.
-- **3** — how many currently carry `"freeSvg": true`. Change that set in
-  `manifest.json`, drop the matching files into `pfl/images/svg/`, rebuild.
+- **11** — drawings published on this site, free as **layered SVG and PNG**
+  with credit. They are 11 of the 15 sample files; the other 4 are a manifest
+  entry plus two PNGs and an SVG each.
 - **15** — files in the free Gumroad sample.
 - **156** — files in the $42 pack: 121 illustrations + 35 scribbles. The FAQ
   says 165 because 9 bonus illustrations from v1 ride along uncounted.
@@ -181,6 +180,18 @@ rewrites it to a path that does not exist, so Vercel answers a real 404 status
 rather than a 200 carrying an error page — whatever is on disk. `robots.txt`
 allows the one directory and disallows the pattern, and Vercel static hosting
 has no directory listing.
+
+### The sample has always been vector
+
+Worth being precise, because it is easy to get backwards: **the ladder is
+sample-vs-library, not pixels-vs-vectors.** The 15 sample files have always been
+given away as SVG through Figma. Publishing the same vectors here removes Figma
+as the only route; it concedes nothing, because $42 was never buying the file
+format. It buys the other 141 drawings.
+
+That is why the page says "the sample is free, layers and all" rather than
+"free as PNG", and why the formats table lists the sample as editable. Any copy
+that implies the free tier is flat pixels is simply wrong.
 
 Which drawings get a free vector is driven by `"freeSvg": true` in
 `manifest.json`. The build checks each flagged slug for a matching file: if it
