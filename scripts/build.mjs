@@ -17,7 +17,7 @@
  * next run — do not edit pfl/tags/*.html directly, they are overwritten.
  */
 
-import { readFileSync, writeFileSync, mkdirSync, readdirSync, unlinkSync, statSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, unlinkSync, statSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -46,6 +46,18 @@ for (const ill of illustrations) {
   const thumb = png(join(site, 'images', 'png', `${ill.slug}-500.png`));
   Object.assign(ill, { width: full.width, height: full.height, bytes: full.bytes });
   ill.thumb = { width: thumb.width, height: thumb.height, bytes: thumb.bytes };
+}
+/* The `free` tag is derived, never hand-written: it marks the subset whose
+   vector is given away too, which is the only thing that distinguishes it from
+   "All". A flagged slug with no file under images/svg/ would ship a dead
+   download, so it falls back to Gumroad and says so. */
+const svgWarnings = [];
+for (const ill of illustrations) {
+  const has = ill.freeSvg && existsSync(join(site, 'images', 'svg', `${ill.slug}.svg`));
+  if (ill.freeSvg && !has) svgWarnings.push(ill.slug);
+  ill.svgFree = !!has;
+  ill.tags = ill.tags.filter((t) => t !== 'free');
+  if (has) ill.tags.unshift('free');
 }
 writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + '\n');
 
@@ -105,7 +117,9 @@ function card(ill) {
           <p class="card__meta">${ill.width} × ${ill.height} · ${kb(ill.bytes)}</p>
           <div class="card__actions">
             <a href="${file}" download>PNG</a>
-            <a href="${tiers.paid.url}">SVG</a>
+            ${ill.svgFree
+              ? `<a href="images/svg/${ill.slug}.svg" download>SVG</a>`
+              : `<a href="${tiers.paid.url}">SVG</a>`}
           </div>
         </li>`;
 }
@@ -343,6 +357,9 @@ Allow: /
 
 # Paid vector and Figma files are not served from this host at all.
 # This is belt-and-braces: there is nothing behind these paths.
+# Free vectors live in one directory and nowhere else. Every other .svg path
+# on this host returns 404 whatever is on disk — see vercel.json.
+Allow: /images/svg/
 Disallow: /*.svg$
 Disallow: /library
 
@@ -379,8 +396,11 @@ Every PNG is at ${origin}/images/png/<slug>.png and responds with
 Access-Control-Allow-Origin: *, so it can be fetched and composed directly.
 Thumbnails are at ${origin}/images/png/<slug>-500.png.
 
-SVG files are not served from this host. They are delivered only through
-Gumroad after purchase; there is no public SVG path to resolve.
+Most SVG files are not served from this host at all — they are delivered only
+through Gumroad after purchase. The exception is ${origin}/images/svg/<slug>.svg,
+which holds the vectors given away free. Those slugs carry the "free" tag in
+manifest.json. Every other .svg path on this host returns 404 whatever is on
+disk, so do not infer a vector URL from a PNG URL.
 
 ## Machine-readable index
 
@@ -406,4 +426,9 @@ console.log(`index.html      ${plural(illustrations.length)}`);
 console.log(`tags/           ${built.length} pages: ${built.map((b) => b.tag.slug).join(', ')}`);
 console.log(`sitemap.xml     ${1 + built.length + 2} urls, ${illustrations.length} images`);
 console.log('robots.txt      ok');
+console.log(`svg             ${illustrations.filter((i) => i.svgFree).length} free vectors linked`);
+if (svgWarnings.length) {
+  console.warn(`\nWARNING  freeSvg is set but no file exists under pfl/images/svg/ for:`);
+  for (const s of svgWarnings) console.warn(`  ${s}.svg  — card falls back to the Gumroad link`);
+}
 console.log('llms.txt        ok');

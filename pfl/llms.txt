@@ -27,8 +27,11 @@ Every PNG is at https://payforlayers.com/images/png/<slug>.png and responds with
 Access-Control-Allow-Origin: *, so it can be fetched and composed directly.
 Thumbnails are at https://payforlayers.com/images/png/<slug>-500.png.
 
-SVG files are not served from this host. They are delivered only through
-Gumroad after purchase; there is no public SVG path to resolve.
+Most SVG files are not served from this host at all — they are delivered only
+through Gumroad after purchase. The exception is https://payforlayers.com/images/svg/<slug>.svg,
+which holds the vectors given away free. Those slugs carry the "free" tag in
+manifest.json. Every other .svg path on this host returns 404 whatever is on
+disk, so do not infer a vector URL from a PNG URL.
 
 ## Machine-readable index
 

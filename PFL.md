@@ -55,10 +55,12 @@ An underline inside a filled button is a defect rather than a style, so
 `.btn--fill` drops it. The outline button keeps its underline — it reads as a
 link, which it is.
 
-The hero art is capped at 200px. v.2 runs its box illustration at 317px, but
-v.2 has no grid underneath competing for the first screen; at 200px the search
-field, the tag row and the first grid row all clear the fold on a 900px-tall
-viewport.
+The hero leads with the drawing at 302px, then 40 before the headline, 32
+before the counts and 48 above the buttons — read off the Figma frame rather
+than chosen here. The grid is six columns of 208.8 at a 12px gutter, which is
+1312.8 wide: wider than the 1140 wrap the rest of the page sits in, so it
+breaks out with `left: 50%` / `translateX(-50%)`. `max-width` cannot do that,
+because a child never exceeds its container.
 
 The accent is `#0000ee` — v.2's own link colour, and the browser default.
 Everything blue is interactive; everything interactive is blue, wordmarks
@@ -89,16 +91,19 @@ stops being true, that block is the first thing to change.**
 
 Three different numbers, never used interchangeably:
 
-- **11** — drawings published on this site, free as PNG with credit.
+- **11** — drawings published on this site, free as PNG with credit. A subset
+  of those, tagged **Free**, give the SVG away too.
+- **3** — how many currently carry `"freeSvg": true`. Change that set in
+  `manifest.json`, drop the matching files into `pfl/images/svg/`, rebuild.
 - **15** — files in the free Gumroad sample.
 - **156** — files in the $42 pack: 121 illustrations + 35 scribbles. The FAQ
   says 165 because 9 bonus illustrations from v1 ride along uncounted.
 
-The `+145` cell at the end of the grid is `156 − 11`. It is not a stat band —
-it is what stops the grid reading as the whole library, and it is why there is
-no separate stats section. It does not appear on tag pages, because the per-tag
-split of the other 145 files is not known and guessing it would be inventing a
-metric.
+A **See more** button sits 56 below the last grid row, where the `+145` counter
+cell used to be — the Figma replaced it. The counter helper is still in
+`build.mjs`, marked unused, with its reasoning intact: it was the thing that
+stopped the grid reading as the whole library, so if the See more button ever
+goes, something has to say "this is a sample of 156" in its place.
 
 ## Adding an illustration
 
@@ -165,14 +170,23 @@ all four, plus `manifest.json` and `llms.txt`.
 
 ## Paid files
 
-**No SVG is in `pfl/`, and none should ever be.** PNGs sit at predictable public
-paths, so `/images/png/<slug>.svg` is the first thing anyone will try. Paid
-delivery is the Gumroad zip; the vectors do not need to be on the server at all.
+**Exactly one directory may hold vectors: `pfl/images/svg/`.** Everything else
+is paid and is never committed to this repo — Gumroad delivers it. PNGs sit at
+predictable public paths, so `/images/png/<slug>.svg` is the first thing anyone
+will try, and that has to keep returning nothing.
 
-Three things enforce it: `vercel.json` rewrites every `*.svg` request to a
-non-existent path (a real 404 status, not a 200 with an error page) regardless
-of what is on disk, `robots.txt` disallows the pattern, and Vercel static
-hosting has no directory listing.
+`vercel.json` has two rewrites, evaluated in order. The first passes
+`/images/svg/*` straight through. The second catches every other `*.svg` and
+rewrites it to a path that does not exist, so Vercel answers a real 404 status
+rather than a 200 carrying an error page — whatever is on disk. `robots.txt`
+allows the one directory and disallows the pattern, and Vercel static hosting
+has no directory listing.
+
+Which drawings get a free vector is driven by `"freeSvg": true` in
+`manifest.json`. The build checks each flagged slug for a matching file: if it
+is missing, that card falls back to the Gumroad link and the build prints a
+warning, so a flag without a file can never ship a dead download. The `free`
+tag in the grid is derived from that check — never hand-written.
 
 Two leaks were closed while building this, both on the **GitHub Pages** side:
 

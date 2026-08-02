@@ -45,11 +45,13 @@
       "price": 0,
       "currency": "USD",
       "formats": [
-        "PNG"
+        "PNG",
+        "SVG (selected)"
       ],
       "resolution": "1000px on the long edge",
       "attribution": "required",
-      "url": "https://carlospx.gumroad.com/l/pfl-free"
+      "url": "https://carlospx.gumroad.com/l/pfl-free",
+      "$comment": "Every drawing on the site is a free PNG. A subset — flagged freeSvg in illustrations below — also gives the vector away. Those are the only SVGs that exist on the server at all."
     },
     "paid": {
       "label": "Every layer",
@@ -66,6 +68,11 @@
     }
   },
   "tags": [
+    {
+      "slug": "free",
+      "label": "Free",
+      "$comment": "Generated from the freeSvg flag — do not tag illustrations with it by hand."
+    },
     {
       "slug": "technology",
       "label": "Technology"
@@ -102,7 +109,9 @@
         "width": 500,
         "height": 455,
         "bytes": 68909
-      }
+      },
+      "freeSvg": false,
+      "svgFree": false
     },
     {
       "slug": "ai-robot-line-illustration",
@@ -118,7 +127,9 @@
         "width": 500,
         "height": 247,
         "bytes": 26263
-      }
+      },
+      "freeSvg": false,
+      "svgFree": false
     },
     {
       "slug": "api-cloud-line-illustration",
@@ -134,7 +145,9 @@
         "width": 500,
         "height": 352,
         "bytes": 9956
-      }
+      },
+      "freeSvg": false,
+      "svgFree": false
     },
     {
       "slug": "dna-helix-line-illustration",
@@ -150,7 +163,9 @@
         "width": 175,
         "height": 500,
         "bytes": 30324
-      }
+      },
+      "freeSvg": false,
+      "svgFree": false
     },
     {
       "slug": "hiker-line-illustration",
@@ -167,7 +182,9 @@
         "width": 500,
         "height": 469,
         "bytes": 58148
-      }
+      },
+      "freeSvg": false,
+      "svgFree": false
     },
     {
       "slug": "backpack-line-illustration",
@@ -184,7 +201,9 @@
         "width": 468,
         "height": 500,
         "bytes": 25934
-      }
+      },
+      "freeSvg": false,
+      "svgFree": false
     },
     {
       "slug": "headphones-line-illustration",
@@ -201,7 +220,9 @@
         "width": 331,
         "height": 500,
         "bytes": 21327
-      }
+      },
+      "freeSvg": false,
+      "svgFree": false
     },
     {
       "slug": "confused-face-line-illustration",
@@ -217,7 +238,9 @@
         "width": 492,
         "height": 500,
         "bytes": 19704
-      }
+      },
+      "freeSvg": false,
+      "svgFree": false
     },
     {
       "slug": "scribble-star",
@@ -233,7 +256,9 @@
         "width": 360,
         "height": 469,
         "bytes": 7401
-      }
+      },
+      "freeSvg": true,
+      "svgFree": false
     },
     {
       "slug": "scribble-circle",
@@ -249,7 +274,9 @@
         "width": 500,
         "height": 418,
         "bytes": 5617
-      }
+      },
+      "freeSvg": true,
+      "svgFree": false
     },
     {
       "slug": "scribble-arrow",
@@ -265,7 +292,10 @@
         "width": 500,
         "height": 254,
         "bytes": 3686
-      }
+      },
+      "freeSvg": true,
+      "svgFree": false
     }
-  ]
+  ],
+  "$svgPolicy": "Only files flagged freeSvg may exist under pfl/images/svg/. Paid vectors are never written to this repo and are delivered through Gumroad. vercel.json serves that one directory and 404s every other .svg path, so an accidental commit outside it cannot be reached."
 }

@@ -3,6 +3,9 @@ Allow: /
 
 # Paid vector and Figma files are not served from this host at all.
 # This is belt-and-braces: there is nothing behind these paths.
+# Free vectors live in one directory and nowhere else. Every other .svg path
+# on this host returns 404 whatever is on disk — see vercel.json.
+Allow: /images/svg/
 Disallow: /*.svg$
 Disallow: /library
 
