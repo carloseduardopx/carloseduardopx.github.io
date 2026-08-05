@@ -71,6 +71,960 @@
       <image:caption>A thick hand-drawn arrow curving in from the right and pointing left.</image:caption>
       <image:license>https://payforlayers.com/licence.html</image:license>
     </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/ai-network-line-illustration.png</image:loc>
+      <image:title>AI network</image:title>
+      <image:caption>The word Ai in a burst at the centre of a web of connected dots, with a star, a tag and a small document scattered around it.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/voice-assistant-line-illustration.png</image:loc>
+      <image:title>Voice assistant</image:title>
+      <image:caption>A halftone speaker beside a face in profile, two speech bubbles reading Sure! and Thanks hovering above.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/balance-scale-line-illustration.png</image:loc>
+      <image:title>Balance scale</image:title>
+      <image:caption>A balance scale on a triangular stand, a halftone ball weighing against an empty square on the other side.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/bidirectional-link-line-illustration.png</image:loc>
+      <image:title>Bidirectional link</image:title>
+      <image:caption>Two interlocking chain links with arrows looping between them, pointing in opposite directions.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/bluetooth-symbol-line-illustration.png</image:loc>
+      <image:title>Bluetooth symbol</image:title>
+      <image:caption>The angular Bluetooth rune drawn as a single bold line.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/book-line-illustration.png</image:loc>
+      <image:title>Book</image:title>
+      <image:caption>A closed hardcover book labelled Book, halftone shading along the page edges.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/browsing-tablet-line-illustration.png</image:loc>
+      <image:title>Browsing on a tablet</image:title>
+      <image:caption>A person with wavy pigtails holding a small starred screen, stars scattered around her head.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/office-building-line-illustration.png</image:loc>
+      <image:title>Office building</image:title>
+      <image:caption>A multi-storey building with a grid of square windows, a small pine tree standing beside it.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/camera-line-illustration.png</image:loc>
+      <image:title>Camera</image:title>
+      <image:caption>A compact camera with a halftone lens and a small flash and shutter button.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/credit-card-line-illustration.png</image:loc>
+      <image:title>Credit card</image:title>
+      <image:caption>A credit card with a chip, a halftone stripe near the corner and a row of blank lines for the number.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/shopping-cart-line-illustration.png</image:loc>
+      <image:title>Shopping cart</image:title>
+      <image:caption>A shopping cart seen from the side, its basket drawn as an open grid.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/cat-line-illustration.png</image:loc>
+      <image:title>Cat</image:title>
+      <image:caption>A cat mid-stride, tail curling up, ears perked.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/linked-chain-line-illustration.png</image:loc>
+      <image:title>Linked chain</image:title>
+      <image:caption>Two chain links joined by a curved double arrow, looping back on itself.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/rising-chart-line-illustration.png</image:loc>
+      <image:title>Rising chart</image:title>
+      <image:caption>Two people looking at an upward-trending bar chart on a wall-mounted screen, one raising a hand in surprise.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/chat-bubbles-line-illustration.png</image:loc>
+      <image:title>Chat bubbles</image:title>
+      <image:caption>Two people in profile with speech bubbles floating between them, one holding a small starred card.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/checkmark-line-illustration.png</image:loc>
+      <image:title>Checkmark</image:title>
+      <image:caption>A single bold checkmark.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/alarm-clock-line-illustration.png</image:loc>
+      <image:title>Alarm clock</image:title>
+      <image:caption>A round alarm clock with halftone motion lines and a speech bubble above showing it's ringing.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/solid-cloud-line-illustration.png</image:loc>
+      <image:title>Solid cloud</image:title>
+      <image:caption>A solid halftone cloud shape.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/cloud-sync-line-illustration.png</image:loc>
+      <image:title>Cloud sync</image:title>
+      <image:caption>A cloud with three arrows branching down to a laptop, a phone and a monitor.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/code-editor-line-illustration.png</image:loc>
+      <image:title>Code editor</image:title>
+      <image:caption>A code editor window with rows of code brackets and comparison symbols.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/bitcoin-coin-line-illustration.png</image:loc>
+      <image:title>Bitcoin coin</image:title>
+      <image:caption>A round coin with a halftone rim and a bold Bitcoin symbol at its centre.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/ethereum-coin-line-illustration.png</image:loc>
+      <image:title>Ethereum coin</image:title>
+      <image:caption>A round coin with a halftone rim and the diamond-faceted Ethereum symbol at its centre.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/coin-mark-line-illustration.png</image:loc>
+      <image:title>Coin with mark</image:title>
+      <image:caption>A round coin outline with a dense halftone blob filling its centre.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/party-popper-line-illustration.png</image:loc>
+      <image:title>Party popper</image:title>
+      <image:caption>A party popper mid-burst, confetti stars and streamers flying out.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/sketching-desk-line-illustration.png</image:loc>
+      <image:title>Sketching at a desk</image:title>
+      <image:caption>A person bent over a desk sketching, small shapes scattered around their pencil.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/database-stack-line-illustration.png</image:loc>
+      <image:title>Database stack</image:title>
+      <image:caption>A cylindrical database stack drawn as three stacked discs.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/blank-document-line-illustration.png</image:loc>
+      <image:title>Blank document</image:title>
+      <image:caption>A single blank page with a folded corner.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/written-document-line-illustration.png</image:loc>
+      <image:title>Written document</image:title>
+      <image:caption>A page with a folded corner, filled with lines of handwritten-style text.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/document-pencil-line-illustration.png</image:loc>
+      <image:title>Document with pencil</image:title>
+      <image:caption>A page with a folded corner and a pencil laid diagonally across it.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/report-pages-line-illustration.png</image:loc>
+      <image:title>Report pages</image:title>
+      <image:caption>Three overlapping report pages showing a pie chart, a line of text and a bar chart.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/stacked-reports-line-illustration.png</image:loc>
+      <image:title>Stacked reports</image:title>
+      <image:caption>Three overlapping pages showing a pie chart, lines of text and a bar chart, fanned out.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/dog-line-illustration.png</image:loc>
+      <image:title>Dog</image:title>
+      <image:caption>A dog trotting sideways, tail curled and one ear up.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/dollar-sign-line-illustration.png</image:loc>
+      <image:title>Dollar sign</image:title>
+      <image:caption>A bold dollar sign drawn as one continuous line.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/double-diamond-line-illustration.png</image:loc>
+      <image:title>Double diamond process</image:title>
+      <image:caption>Two halftone diamonds joined at a point, a dashed line and an X marking stages of a process.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/dove-letter-line-illustration.png</image:loc>
+      <image:title>Dove with letter</image:title>
+      <image:caption>A dove in flight, a halftone patch on its wing, carrying an envelope in its beak.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/envelope-line-illustration.png</image:loc>
+      <image:title>Envelope</image:title>
+      <image:caption>A sealed envelope with a stamp in the corner and three lines beside it standing in for a subject line.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/euro-sign-line-illustration.png</image:loc>
+      <image:title>Euro sign</image:title>
+      <image:caption>A bold Euro sign drawn as one continuous line.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/export-document-line-illustration.png</image:loc>
+      <image:title>Export document</image:title>
+      <image:caption>A stack of pages with an arrow rising out of the top one, curving up and to the right.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/curly-face-line-illustration.png</image:loc>
+      <image:title>Curly-haired face</image:title>
+      <image:caption>A face in profile with loosely curled hair looping around the forehead.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/wavy-hair-face-line-illustration.png</image:loc>
+      <image:title>Face with wavy hair</image:title>
+      <image:caption>A face in profile with short wavy hair and a raised eyebrow.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/glasses-face-line-illustration.png</image:loc>
+      <image:title>Face with glasses</image:title>
+      <image:caption>A round, smiling face wearing glasses with halftone-shaded lenses.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/bearded-face-line-illustration.png</image:loc>
+      <image:title>Bearded face</image:title>
+      <image:caption>A gaunt face in profile with a pointed beard and combed-back hair.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/halftone-hair-face-line-illustration.png</image:loc>
+      <image:title>Face with halftone hair</image:title>
+      <image:caption>A face in profile, one hand raised to a pair of glasses, hair shaded in halftone.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/favourites-collage-line-illustration.png</image:loc>
+      <image:title>Favourites collage</image:title>
+      <image:caption>A person surrounded by floating folders, tags, a speech bubble and a heart.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/funnel-filter-line-illustration.png</image:loc>
+      <image:title>Funnel filter</image:title>
+      <image:caption>A wide funnel narrowing to a thin spout.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/five-star-rating-line-illustration.png</image:loc>
+      <image:title>Five-star rating</image:title>
+      <image:caption>Five stars in a row above a hand giving a thumbs up, a small heart floating nearby.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/sharing-photo-line-illustration.png</image:loc>
+      <image:title>Sharing a photo</image:title>
+      <image:caption>Two faces in profile passing a photo between them, with hands and a curved arrow showing the exchange.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/watering-flower-line-illustration.png</image:loc>
+      <image:title>Watering a flower</image:title>
+      <image:caption>A person with windswept hair standing over a potted flower, halftone shading on the pot.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/flowers-vase-line-illustration.png</image:loc>
+      <image:title>Flowers in a vase</image:title>
+      <image:caption>A vase holding several flowers with halftone-shaded petals.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/folder-line-illustration.png</image:loc>
+      <image:title>Folder</image:title>
+      <image:caption>An open folder with a halftone-shaded tab.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/person-folders-line-illustration.png</image:loc>
+      <image:title>Person with folders</image:title>
+      <image:caption>A seated person at a desk holding open folders, a halftone shadow above.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/plate-food-line-illustration.png</image:loc>
+      <image:title>Plate of food</image:title>
+      <image:caption>A dollop of halftone-shaded food on a plate, with a couple of highlighted spots.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/noodle-bowl-line-illustration.png</image:loc>
+      <image:title>Bowl of noodles</image:title>
+      <image:caption>A patterned bowl of noodles with steam lines and chopsticks resting inside.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/gear-line-illustration.png</image:loc>
+      <image:title>Gear</image:title>
+      <image:caption>A cog with a halftone-shaded face and a hollow centre.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/gift-box-line-illustration.png</image:loc>
+      <image:title>Gift box</image:title>
+      <image:caption>A wrapped gift box with a large bow, stars and halftone shading scattered around it.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/git-logo-line-illustration.png</image:loc>
+      <image:title>Git logo</image:title>
+      <image:caption>The branching Git logo on a halftone-shaded diamond.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/globe-line-illustration.png</image:loc>
+      <image:title>Globe</image:title>
+      <image:caption>A globe drawn with crossing latitude and longitude lines.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/summit-flag-line-illustration.png</image:loc>
+      <image:title>Flag on a summit</image:title>
+      <image:caption>A figure planting a flag at the top of a rounded hill.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/candlestick-chart-line-illustration.png</image:loc>
+      <image:title>Candlestick chart</image:title>
+      <image:caption>A person studying a candlestick chart on the wall, chin in hand.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/downward-chart-line-illustration.png</image:loc>
+      <image:title>Downward chart</image:title>
+      <image:caption>Two people looking at a chart with a line dropping sharply, one wiping their brow.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/funnel-chart-line-illustration.png</image:loc>
+      <image:title>Funnel chart</image:title>
+      <image:caption>A person gesturing at a funnel-shaped chart narrowing from top to bottom.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/connected-nodes-line-illustration.png</image:loc>
+      <image:title>Connected nodes</image:title>
+      <image:caption>A scatter of small circles linked by straight lines into an irregular network.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/reaching-hands-line-illustration.png</image:loc>
+      <image:title>Reaching hands</image:title>
+      <image:caption>Two faces in profile with hands reaching toward each other between them.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/house-line-illustration.png</image:loc>
+      <image:title>House</image:title>
+      <image:caption>A simple house with a round window, a chimney and an arched door.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/halftone-roof-house-line-illustration.png</image:loc>
+      <image:title>House with halftone roof</image:title>
+      <image:caption>A house with a halftone-shaded roof, a round window and an arched door.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/robot-spark-line-illustration.png</image:loc>
+      <image:title>Robot handshake</image:title>
+      <image:caption>A small wand tapping a boxy robot head, sparkles flying off on contact.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/import-document-line-illustration.png</image:loc>
+      <image:title>Import document</image:title>
+      <image:caption>Folded pages falling toward a curved arrow pointing down and to the right.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/lifting-weights-line-illustration.png</image:loc>
+      <image:title>Lifting weights</image:title>
+      <image:caption>A person crouched under a barbell, mid-lift.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/padlock-line-illustration.png</image:loc>
+      <image:title>Padlock</image:title>
+      <image:caption>A padlock with a halftone-shaded shackle.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/heart-eyes-face-line-illustration.png</image:loc>
+      <image:title>Face with heart eyes</image:title>
+      <image:caption>A smiling face with heart-shaped eyes and curly hair.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/laptop-line-illustration.png</image:loc>
+      <image:title>Laptop</image:title>
+      <image:caption>An open laptop seen from the front, screen blank.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/map-pin-route-line-illustration.png</image:loc>
+      <image:title>Map pin route</image:title>
+      <image:caption>A phone showing a location pin, with a faint halftone route sketched behind it.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/sitting-crosslegged-line-illustration.png</image:loc>
+      <image:title>Sitting cross-legged</image:title>
+      <image:caption>A person sitting cross-legged with eyes closed, halftone shading across the chest and legs.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/balancing-figure-line-illustration.png</image:loc>
+      <image:title>Balancing figure</image:title>
+      <image:caption>A person sitting cross-legged, one hand raised in a circle gesture.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/desktop-monitor-line-illustration.png</image:loc>
+      <image:title>Desktop monitor</image:title>
+      <image:caption>A desktop monitor on a small stand, screen left blank.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/carrying-box-line-illustration.png</image:loc>
+      <image:title>Carrying a box</image:title>
+      <image:caption>A person walking while carrying a large box, leaning forward under the weight.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/working-laptop-line-illustration.png</image:loc>
+      <image:title>Working on a laptop</image:title>
+      <image:caption>A person typing on a laptop with a halftone-shaded screen.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/paint-palette-line-illustration.png</image:loc>
+      <image:title>Paint palette</image:title>
+      <image:caption>A paint palette with two solid dabs of paint and a brush resting in the thumb hole.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/running-pencil-line-illustration.png</image:loc>
+      <image:title>Running with a pencil</image:title>
+      <image:caption>A figure running while holding an oversized pencil like a javelin.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/checking-phone-line-illustration.png</image:loc>
+      <image:title>Checking a phone</image:title>
+      <image:caption>A face in profile looking down at a phone held in one hand.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/taking-photo-line-illustration.png</image:loc>
+      <image:title>Taking a photo</image:title>
+      <image:caption>Two faces looking at a phone between them, motion lines rising from the screen.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/piggy-bank-line-illustration.png</image:loc>
+      <image:title>Piggy bank</image:title>
+      <image:caption>A piggy bank seen from the side, ears perked and a coin slot on its back.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/airplane-line-illustration.png</image:loc>
+      <image:title>Airplane</image:title>
+      <image:caption>A commercial airplane in profile with a row of small windows along the fuselage.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/sticky-notes-line-illustration.png</image:loc>
+      <image:title>Sticky notes collage</image:title>
+      <image:caption>A person surrounded by small sticky notes, folders and speech bubbles.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/video-camera-line-illustration.png</image:loc>
+      <image:title>Video camera</image:title>
+      <image:caption>A boxy video camera with a round lens and a triangular viewfinder.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/stretching-figure-line-illustration.png</image:loc>
+      <image:title>Stretching figure</image:title>
+      <image:caption>A figure stretching with arms raised, two small dots marking the feet.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/refresh-arrows-line-illustration.png</image:loc>
+      <image:title>Refresh arrows</image:title>
+      <image:caption>Two curved arrows chasing each other in a loop.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/robot-idea-line-illustration.png</image:loc>
+      <image:title>Robot with idea</image:title>
+      <image:caption>A boxy robot face with a lightbulb speech bubble above it and a jagged signal line beside its antenna.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scanning-phone-line-illustration.png</image:loc>
+      <image:title>Scanning a phone</image:title>
+      <image:caption>A person holding a phone up beside their face, a scan pattern glowing on the screen.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/magnifying-glass-line-illustration.png</image:loc>
+      <image:title>Magnifying glass</image:title>
+      <image:caption>A magnifying glass with a few halftone marks inside the lens.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/second-brain-line-illustration.png</image:loc>
+      <image:title>Second brain</image:title>
+      <image:caption>A person looking at a laptop screen showing a brain, one hand resting thoughtfully on their chin.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/waving-goodbye-line-illustration.png</image:loc>
+      <image:title>Waving goodbye</image:title>
+      <image:caption>A person waving, one hand raised beside a friendly face.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/share-arrow-line-illustration.png</image:loc>
+      <image:title>Share arrow</image:title>
+      <image:caption>A bold arrow curving upward and to the right.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/shield-line-illustration.png</image:loc>
+      <image:title>Shield</image:title>
+      <image:caption>A halftone-shaded shield with a scalloped top edge.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/cargo-ship-line-illustration.png</image:loc>
+      <image:title>Cargo ship</image:title>
+      <image:caption>A cargo ship loaded with halftone-patterned containers.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/shopping-bags-line-illustration.png</image:loc>
+      <image:title>Carrying shopping bags</image:title>
+      <image:caption>A person walking while carrying a halftone-shaded shopping bag.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/sitemap-tree-line-illustration.png</image:loc>
+      <image:title>Sitemap tree</image:title>
+      <image:caption>A person reaching up to a branching sitemap diagram of connected boxes.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/skateboarding-line-illustration.png</image:loc>
+      <image:title>Skateboarding</image:title>
+      <image:caption>A figure crouched low, riding a skateboard.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/sliding-switch-line-illustration.png</image:loc>
+      <image:title>Sliding a switch</image:title>
+      <image:caption>A hand sliding a lever along a track, with small marks showing motion.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/talking-gesture-line-illustration.png</image:loc>
+      <image:title>Talking gesture</image:title>
+      <image:caption>A face in profile with one hand raised near the mouth, small marks showing speech.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/smartphone-line-illustration.png</image:loc>
+      <image:title>Smartphone</image:title>
+      <image:caption>A smartphone held upright, screen left blank, a finger pointing at it.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/smartwatch-alert-line-illustration.png</image:loc>
+      <image:title>Smartwatch alert</image:title>
+      <image:caption>A wrist with a halftone-shaded smartwatch buzzing, small lines showing the vibration.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/smartwatch-line-illustration.png</image:loc>
+      <image:title>Smartwatch</image:title>
+      <image:caption>A smartwatch with a halftone-shaded strap and a round crown button.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/layout-blocks-line-illustration.png</image:loc>
+      <image:title>Layout blocks</image:title>
+      <image:caption>Four rectangular blocks of different sizes arranged like a page layout, two filled with halftone.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/layout-blocks-alt-line-illustration.png</image:loc>
+      <image:title>Layout blocks, alt</image:title>
+      <image:caption>Five rectangular blocks arranged like a page layout, two filled with halftone.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/suit-line-illustration.png</image:loc>
+      <image:title>Person in a suit</image:title>
+      <image:caption>A person in a buttoned jacket, hands clasped in front.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/support-call-line-illustration.png</image:loc>
+      <image:title>Support call</image:title>
+      <image:caption>A face in profile wearing over-ear headphones with a small speech mark beside the mouth.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/data-table-line-illustration.png</image:loc>
+      <image:title>Data table</image:title>
+      <image:caption>A three-column table of halftone-shaded rows and numbers.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/todo-tag-line-illustration.png</image:loc>
+      <image:title>To-do tag</image:title>
+      <image:caption>A rounded pill tag reading hashtag To Do.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/tags-label-line-illustration.png</image:loc>
+      <image:title>Tags label</image:title>
+      <image:caption>A rounded pill tag reading hashtag tags.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/archive-tag-line-illustration.png</image:loc>
+      <image:title>Archive tag</image:title>
+      <image:caption>A rounded pill tag reading hashtag archive.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/text-editor-line-illustration.png</image:loc>
+      <image:title>Text editor window</image:title>
+      <image:caption>A browser-style window with halftone-shaded paragraphs of text and a cursor icon in the corner.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/checklist-line-illustration.png</image:loc>
+      <image:title>Checklist</image:title>
+      <image:caption>A torn page with a short checklist, two items ticked.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/trash-can-line-illustration.png</image:loc>
+      <image:title>Trash can</image:title>
+      <image:caption>A trash can with a lid and halftone-shaded vertical stripes.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/test-tube-line-illustration.png</image:loc>
+      <image:title>Test tube</image:title>
+      <image:caption>A test tube half filled with halftone-shaded liquid and small bubbles.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/upload-cloud-line-illustration.png</image:loc>
+      <image:title>Uploading to a cloud</image:title>
+      <image:caption>A halftone-shaded cloud with an arrow curling up into it from below.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/user-icon-line-illustration.png</image:loc>
+      <image:title>User icon</image:title>
+      <image:caption>A simple user icon: a circle head above a rounded body.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/video-editor-line-illustration.png</image:loc>
+      <image:title>Video editor</image:title>
+      <image:caption>A video editing window showing a face on the timeline, with a set of small tool icons along the side.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/game-controller-line-illustration.png</image:loc>
+      <image:title>Game controller</image:title>
+      <image:caption>A game controller with a cross pad, round buttons and two joysticks, halftone-shaded on the grips.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/vr-headset-space-line-illustration.png</image:loc>
+      <image:title>VR headset in space</image:title>
+      <image:caption>A VR headset drifting past a ringed planet, with small stars scattered around it.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/wallet-line-illustration.png</image:loc>
+      <image:title>Wallet</image:title>
+      <image:caption>A bifold wallet with a snap closure and a halftone-shaded card peeking out.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/drink-cup-line-illustration.png</image:loc>
+      <image:title>Drink cup</image:title>
+      <image:caption>A tall cup with a straw and a halftone-shaded panel on the side.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/wifi-signal-line-illustration.png</image:loc>
+      <image:title>Wi-Fi signal</image:title>
+      <image:caption>Three curved Wi-Fi signal arcs above a solid dot.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/wireframe-layout-line-illustration.png</image:loc>
+      <image:title>Wireframe layout</image:title>
+      <image:caption>A browser window wireframe with a halftone image placeholder, lines of text and a small button.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-wavy-arrow.png</image:loc>
+      <image:title>Wavy arrow</image:title>
+      <image:caption>A wavy line curving side to side before ending in an arrowhead pointing right.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-thin-star.png</image:loc>
+      <image:title>Thin star burst</image:title>
+      <image:caption>A thin-lined star burst radiating unevenly from the centre.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-diagonal-scribble.png</image:loc>
+      <image:title>Diagonal scribble</image:title>
+      <image:caption>A loose patch of diagonal scribbled lines.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-thumbs-up.png</image:loc>
+      <image:title>Thumbs up</image:title>
+      <image:caption>A hand-drawn thumbs up.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-bold-star.png</image:loc>
+      <image:title>Bold star burst</image:title>
+      <image:caption>A bold spiky star burst with six uneven points.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-burst-blob.png</image:loc>
+      <image:title>Explosion burst</image:title>
+      <image:caption>An irregular spiky burst shape, like a small explosion.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-halftone-stripe.png</image:loc>
+      <image:title>Halftone stripe</image:title>
+      <image:caption>A diagonal stripe filled with halftone dots.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-halftone-check.png</image:loc>
+      <image:title>Halftone checkmark</image:title>
+      <image:caption>A checkmark filled with halftone dots.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-oval-loop.png</image:loc>
+      <image:title>Oval loop</image:title>
+      <image:caption>A hand-drawn oval loop circling back on itself.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-straight-arrow.png</image:loc>
+      <image:title>Straight arrow</image:title>
+      <image:caption>A straight arrow pointing up and to the right.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-flower-burst.png</image:loc>
+      <image:title>Flower burst</image:title>
+      <image:caption>A rounded, petal-like star burst.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-spiky-star.png</image:loc>
+      <image:title>Spiky star</image:title>
+      <image:caption>A thin-lined star burst with seven uneven spiky points.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-thick-oval-loop.png</image:loc>
+      <image:title>Thick oval loop</image:title>
+      <image:caption>A bold, thick oval loop circling back on itself.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-cursive-arrow.png</image:loc>
+      <image:title>Cursive loop arrow</image:title>
+      <image:caption>A looping cursive line ending in an arrow pointing up and to the right.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-check-thin.png</image:loc>
+      <image:title>Thin checkmark</image:title>
+      <image:caption>A single thin checkmark.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-x-mark.png</image:loc>
+      <image:title>X mark</image:title>
+      <image:caption>A bold hand-drawn X.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-check-round.png</image:loc>
+      <image:title>Rounded checkmark</image:title>
+      <image:caption>A bold, rounded checkmark.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-squiggle-bracket.png</image:loc>
+      <image:title>Squiggle bracket</image:title>
+      <image:caption>A wavy, bracket-like squiggle.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-diagonal-line.png</image:loc>
+      <image:title>Diagonal line</image:title>
+      <image:caption>A single bold diagonal line.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-hook-arrow.png</image:loc>
+      <image:title>Hook arrow</image:title>
+      <image:caption>A curved arrow hooking back to point left.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-double-exclamation.png</image:loc>
+      <image:title>Double exclamation</image:title>
+      <image:caption>Two bold exclamation marks side by side.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-check-bold.png</image:loc>
+      <image:title>Bold checkmark</image:title>
+      <image:caption>A bold, wide checkmark.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-open-star.png</image:loc>
+      <image:title>Open star</image:title>
+      <image:caption>An open, uneven star outline with a hollow centre.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-zigzag-arrow.png</image:loc>
+      <image:title>Zigzag arrow</image:title>
+      <image:caption>A zigzagging line ending in an arrow pointing down and to the left.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-arrow-down.png</image:loc>
+      <image:title>Arrow down</image:title>
+      <image:caption>A straight arrow pointing down.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-arrow-up.png</image:loc>
+      <image:title>Arrow up</image:title>
+      <image:caption>A slightly curved arrow pointing up.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-swoosh-loop-arrow.png</image:loc>
+      <image:title>Swoosh loop arrow</image:title>
+      <image:caption>A curved swooshing line with a small loop, ending in an arrow pointing right.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-bold-hatching.png</image:loc>
+      <image:title>Bold hatching</image:title>
+      <image:caption>A dense patch of bold diagonal scribbled lines.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-star-outline.png</image:loc>
+      <image:title>Star outline</image:title>
+      <image:caption>An open five-point star outline.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-star-outline-wavy.png</image:loc>
+      <image:title>Wavy star outline</image:title>
+      <image:caption>An open five-point star outline with slightly wavy edges.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-solid-star.png</image:loc>
+      <image:title>Solid star</image:title>
+      <image:caption>A solid filled five-point star.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-x-thin.png</image:loc>
+      <image:title>Thin X</image:title>
+      <image:caption>A thin, wide hand-drawn X.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-x-bold.png</image:loc>
+      <image:title>Bold X</image:title>
+      <image:caption>A bold, large hand-drawn X.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-question-mark.png</image:loc>
+      <image:title>Question mark</image:title>
+      <image:caption>A bold hand-drawn question mark.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-exclamation-mark.png</image:loc>
+      <image:title>Exclamation mark</image:title>
+      <image:caption>A single bold exclamation mark.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
   </url>
   <url>
     <loc>https://payforlayers.com/tags/technology.html</loc>
@@ -98,6 +1052,354 @@
       <image:loc>https://payforlayers.com/images/png/headphones-line-illustration.png</image:loc>
       <image:title>Headphones</image:title>
       <image:caption>A face with a wide fringe wearing over-ear headphones, the ear cups filled with halftone.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/ai-network-line-illustration.png</image:loc>
+      <image:title>AI network</image:title>
+      <image:caption>The word Ai in a burst at the centre of a web of connected dots, with a star, a tag and a small document scattered around it.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/voice-assistant-line-illustration.png</image:loc>
+      <image:title>Voice assistant</image:title>
+      <image:caption>A halftone speaker beside a face in profile, two speech bubbles reading Sure! and Thanks hovering above.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/bidirectional-link-line-illustration.png</image:loc>
+      <image:title>Bidirectional link</image:title>
+      <image:caption>Two interlocking chain links with arrows looping between them, pointing in opposite directions.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/bluetooth-symbol-line-illustration.png</image:loc>
+      <image:title>Bluetooth symbol</image:title>
+      <image:caption>The angular Bluetooth rune drawn as a single bold line.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/browsing-tablet-line-illustration.png</image:loc>
+      <image:title>Browsing on a tablet</image:title>
+      <image:caption>A person with wavy pigtails holding a small starred screen, stars scattered around her head.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/camera-line-illustration.png</image:loc>
+      <image:title>Camera</image:title>
+      <image:caption>A compact camera with a halftone lens and a small flash and shutter button.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/credit-card-line-illustration.png</image:loc>
+      <image:title>Credit card</image:title>
+      <image:caption>A credit card with a chip, a halftone stripe near the corner and a row of blank lines for the number.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/linked-chain-line-illustration.png</image:loc>
+      <image:title>Linked chain</image:title>
+      <image:caption>Two chain links joined by a curved double arrow, looping back on itself.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/rising-chart-line-illustration.png</image:loc>
+      <image:title>Rising chart</image:title>
+      <image:caption>Two people looking at an upward-trending bar chart on a wall-mounted screen, one raising a hand in surprise.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/chat-bubbles-line-illustration.png</image:loc>
+      <image:title>Chat bubbles</image:title>
+      <image:caption>Two people in profile with speech bubbles floating between them, one holding a small starred card.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/solid-cloud-line-illustration.png</image:loc>
+      <image:title>Solid cloud</image:title>
+      <image:caption>A solid halftone cloud shape.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/cloud-sync-line-illustration.png</image:loc>
+      <image:title>Cloud sync</image:title>
+      <image:caption>A cloud with three arrows branching down to a laptop, a phone and a monitor.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/code-editor-line-illustration.png</image:loc>
+      <image:title>Code editor</image:title>
+      <image:caption>A code editor window with rows of code brackets and comparison symbols.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/bitcoin-coin-line-illustration.png</image:loc>
+      <image:title>Bitcoin coin</image:title>
+      <image:caption>A round coin with a halftone rim and a bold Bitcoin symbol at its centre.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/ethereum-coin-line-illustration.png</image:loc>
+      <image:title>Ethereum coin</image:title>
+      <image:caption>A round coin with a halftone rim and the diamond-faceted Ethereum symbol at its centre.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/database-stack-line-illustration.png</image:loc>
+      <image:title>Database stack</image:title>
+      <image:caption>A cylindrical database stack drawn as three stacked discs.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/double-diamond-line-illustration.png</image:loc>
+      <image:title>Double diamond process</image:title>
+      <image:caption>Two halftone diamonds joined at a point, a dashed line and an X marking stages of a process.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/envelope-line-illustration.png</image:loc>
+      <image:title>Envelope</image:title>
+      <image:caption>A sealed envelope with a stamp in the corner and three lines beside it standing in for a subject line.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/export-document-line-illustration.png</image:loc>
+      <image:title>Export document</image:title>
+      <image:caption>A stack of pages with an arrow rising out of the top one, curving up and to the right.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/sharing-photo-line-illustration.png</image:loc>
+      <image:title>Sharing a photo</image:title>
+      <image:caption>Two faces in profile passing a photo between them, with hands and a curved arrow showing the exchange.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/folder-line-illustration.png</image:loc>
+      <image:title>Folder</image:title>
+      <image:caption>An open folder with a halftone-shaded tab.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/gear-line-illustration.png</image:loc>
+      <image:title>Gear</image:title>
+      <image:caption>A cog with a halftone-shaded face and a hollow centre.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/git-logo-line-illustration.png</image:loc>
+      <image:title>Git logo</image:title>
+      <image:caption>The branching Git logo on a halftone-shaded diamond.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/globe-line-illustration.png</image:loc>
+      <image:title>Globe</image:title>
+      <image:caption>A globe drawn with crossing latitude and longitude lines.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/candlestick-chart-line-illustration.png</image:loc>
+      <image:title>Candlestick chart</image:title>
+      <image:caption>A person studying a candlestick chart on the wall, chin in hand.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/downward-chart-line-illustration.png</image:loc>
+      <image:title>Downward chart</image:title>
+      <image:caption>Two people looking at a chart with a line dropping sharply, one wiping their brow.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/funnel-chart-line-illustration.png</image:loc>
+      <image:title>Funnel chart</image:title>
+      <image:caption>A person gesturing at a funnel-shaped chart narrowing from top to bottom.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/connected-nodes-line-illustration.png</image:loc>
+      <image:title>Connected nodes</image:title>
+      <image:caption>A scatter of small circles linked by straight lines into an irregular network.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/robot-spark-line-illustration.png</image:loc>
+      <image:title>Robot handshake</image:title>
+      <image:caption>A small wand tapping a boxy robot head, sparkles flying off on contact.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/import-document-line-illustration.png</image:loc>
+      <image:title>Import document</image:title>
+      <image:caption>Folded pages falling toward a curved arrow pointing down and to the right.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/padlock-line-illustration.png</image:loc>
+      <image:title>Padlock</image:title>
+      <image:caption>A padlock with a halftone-shaded shackle.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/laptop-line-illustration.png</image:loc>
+      <image:title>Laptop</image:title>
+      <image:caption>An open laptop seen from the front, screen blank.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/map-pin-route-line-illustration.png</image:loc>
+      <image:title>Map pin route</image:title>
+      <image:caption>A phone showing a location pin, with a faint halftone route sketched behind it.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/desktop-monitor-line-illustration.png</image:loc>
+      <image:title>Desktop monitor</image:title>
+      <image:caption>A desktop monitor on a small stand, screen left blank.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/working-laptop-line-illustration.png</image:loc>
+      <image:title>Working on a laptop</image:title>
+      <image:caption>A person typing on a laptop with a halftone-shaded screen.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/checking-phone-line-illustration.png</image:loc>
+      <image:title>Checking a phone</image:title>
+      <image:caption>A face in profile looking down at a phone held in one hand.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/taking-photo-line-illustration.png</image:loc>
+      <image:title>Taking a photo</image:title>
+      <image:caption>Two faces looking at a phone between them, motion lines rising from the screen.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/video-camera-line-illustration.png</image:loc>
+      <image:title>Video camera</image:title>
+      <image:caption>A boxy video camera with a round lens and a triangular viewfinder.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/robot-idea-line-illustration.png</image:loc>
+      <image:title>Robot with idea</image:title>
+      <image:caption>A boxy robot face with a lightbulb speech bubble above it and a jagged signal line beside its antenna.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scanning-phone-line-illustration.png</image:loc>
+      <image:title>Scanning a phone</image:title>
+      <image:caption>A person holding a phone up beside their face, a scan pattern glowing on the screen.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/second-brain-line-illustration.png</image:loc>
+      <image:title>Second brain</image:title>
+      <image:caption>A person looking at a laptop screen showing a brain, one hand resting thoughtfully on their chin.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/share-arrow-line-illustration.png</image:loc>
+      <image:title>Share arrow</image:title>
+      <image:caption>A bold arrow curving upward and to the right.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/shield-line-illustration.png</image:loc>
+      <image:title>Shield</image:title>
+      <image:caption>A halftone-shaded shield with a scalloped top edge.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/sitemap-tree-line-illustration.png</image:loc>
+      <image:title>Sitemap tree</image:title>
+      <image:caption>A person reaching up to a branching sitemap diagram of connected boxes.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/sliding-switch-line-illustration.png</image:loc>
+      <image:title>Sliding a switch</image:title>
+      <image:caption>A hand sliding a lever along a track, with small marks showing motion.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/talking-gesture-line-illustration.png</image:loc>
+      <image:title>Talking gesture</image:title>
+      <image:caption>A face in profile with one hand raised near the mouth, small marks showing speech.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/smartphone-line-illustration.png</image:loc>
+      <image:title>Smartphone</image:title>
+      <image:caption>A smartphone held upright, screen left blank, a finger pointing at it.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/smartwatch-alert-line-illustration.png</image:loc>
+      <image:title>Smartwatch alert</image:title>
+      <image:caption>A wrist with a halftone-shaded smartwatch buzzing, small lines showing the vibration.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/smartwatch-line-illustration.png</image:loc>
+      <image:title>Smartwatch</image:title>
+      <image:caption>A smartwatch with a halftone-shaded strap and a round crown button.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/layout-blocks-line-illustration.png</image:loc>
+      <image:title>Layout blocks</image:title>
+      <image:caption>Four rectangular blocks of different sizes arranged like a page layout, two filled with halftone.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/layout-blocks-alt-line-illustration.png</image:loc>
+      <image:title>Layout blocks, alt</image:title>
+      <image:caption>Five rectangular blocks arranged like a page layout, two filled with halftone.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/text-editor-line-illustration.png</image:loc>
+      <image:title>Text editor window</image:title>
+      <image:caption>A browser-style window with halftone-shaded paragraphs of text and a cursor icon in the corner.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/upload-cloud-line-illustration.png</image:loc>
+      <image:title>Uploading to a cloud</image:title>
+      <image:caption>A halftone-shaded cloud with an arrow curling up into it from below.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/video-editor-line-illustration.png</image:loc>
+      <image:title>Video editor</image:title>
+      <image:caption>A video editing window showing a face on the timeline, with a set of small tool icons along the side.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/game-controller-line-illustration.png</image:loc>
+      <image:title>Game controller</image:title>
+      <image:caption>A game controller with a cross pad, round buttons and two joysticks, halftone-shaded on the grips.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/vr-headset-space-line-illustration.png</image:loc>
+      <image:title>VR headset in space</image:title>
+      <image:caption>A VR headset drifting past a ringed planet, with small stars scattered around it.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/wifi-signal-line-illustration.png</image:loc>
+      <image:title>Wi-Fi signal</image:title>
+      <image:caption>Three curved Wi-Fi signal arcs above a solid dot.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/wireframe-layout-line-illustration.png</image:loc>
+      <image:title>Wireframe layout</image:title>
+      <image:caption>A browser window wireframe with a halftone image placeholder, lines of text and a small button.</image:caption>
       <image:license>https://payforlayers.com/licence.html</image:license>
     </image:image>
   </url>
@@ -129,6 +1431,264 @@
       <image:caption>A head in profile with loops and squiggles rising off the top and small spirals drifting away.</image:caption>
       <image:license>https://payforlayers.com/licence.html</image:license>
     </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/voice-assistant-line-illustration.png</image:loc>
+      <image:title>Voice assistant</image:title>
+      <image:caption>A halftone speaker beside a face in profile, two speech bubbles reading Sure! and Thanks hovering above.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/browsing-tablet-line-illustration.png</image:loc>
+      <image:title>Browsing on a tablet</image:title>
+      <image:caption>A person with wavy pigtails holding a small starred screen, stars scattered around her head.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/rising-chart-line-illustration.png</image:loc>
+      <image:title>Rising chart</image:title>
+      <image:caption>Two people looking at an upward-trending bar chart on a wall-mounted screen, one raising a hand in surprise.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/chat-bubbles-line-illustration.png</image:loc>
+      <image:title>Chat bubbles</image:title>
+      <image:caption>Two people in profile with speech bubbles floating between them, one holding a small starred card.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/sketching-desk-line-illustration.png</image:loc>
+      <image:title>Sketching at a desk</image:title>
+      <image:caption>A person bent over a desk sketching, small shapes scattered around their pencil.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/curly-face-line-illustration.png</image:loc>
+      <image:title>Curly-haired face</image:title>
+      <image:caption>A face in profile with loosely curled hair looping around the forehead.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/wavy-hair-face-line-illustration.png</image:loc>
+      <image:title>Face with wavy hair</image:title>
+      <image:caption>A face in profile with short wavy hair and a raised eyebrow.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/glasses-face-line-illustration.png</image:loc>
+      <image:title>Face with glasses</image:title>
+      <image:caption>A round, smiling face wearing glasses with halftone-shaded lenses.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/bearded-face-line-illustration.png</image:loc>
+      <image:title>Bearded face</image:title>
+      <image:caption>A gaunt face in profile with a pointed beard and combed-back hair.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/halftone-hair-face-line-illustration.png</image:loc>
+      <image:title>Face with halftone hair</image:title>
+      <image:caption>A face in profile, one hand raised to a pair of glasses, hair shaded in halftone.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/favourites-collage-line-illustration.png</image:loc>
+      <image:title>Favourites collage</image:title>
+      <image:caption>A person surrounded by floating folders, tags, a speech bubble and a heart.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/five-star-rating-line-illustration.png</image:loc>
+      <image:title>Five-star rating</image:title>
+      <image:caption>Five stars in a row above a hand giving a thumbs up, a small heart floating nearby.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/sharing-photo-line-illustration.png</image:loc>
+      <image:title>Sharing a photo</image:title>
+      <image:caption>Two faces in profile passing a photo between them, with hands and a curved arrow showing the exchange.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/watering-flower-line-illustration.png</image:loc>
+      <image:title>Watering a flower</image:title>
+      <image:caption>A person with windswept hair standing over a potted flower, halftone shading on the pot.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/person-folders-line-illustration.png</image:loc>
+      <image:title>Person with folders</image:title>
+      <image:caption>A seated person at a desk holding open folders, a halftone shadow above.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/summit-flag-line-illustration.png</image:loc>
+      <image:title>Flag on a summit</image:title>
+      <image:caption>A figure planting a flag at the top of a rounded hill.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/candlestick-chart-line-illustration.png</image:loc>
+      <image:title>Candlestick chart</image:title>
+      <image:caption>A person studying a candlestick chart on the wall, chin in hand.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/downward-chart-line-illustration.png</image:loc>
+      <image:title>Downward chart</image:title>
+      <image:caption>Two people looking at a chart with a line dropping sharply, one wiping their brow.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/funnel-chart-line-illustration.png</image:loc>
+      <image:title>Funnel chart</image:title>
+      <image:caption>A person gesturing at a funnel-shaped chart narrowing from top to bottom.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/reaching-hands-line-illustration.png</image:loc>
+      <image:title>Reaching hands</image:title>
+      <image:caption>Two faces in profile with hands reaching toward each other between them.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/lifting-weights-line-illustration.png</image:loc>
+      <image:title>Lifting weights</image:title>
+      <image:caption>A person crouched under a barbell, mid-lift.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/heart-eyes-face-line-illustration.png</image:loc>
+      <image:title>Face with heart eyes</image:title>
+      <image:caption>A smiling face with heart-shaped eyes and curly hair.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/sitting-crosslegged-line-illustration.png</image:loc>
+      <image:title>Sitting cross-legged</image:title>
+      <image:caption>A person sitting cross-legged with eyes closed, halftone shading across the chest and legs.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/balancing-figure-line-illustration.png</image:loc>
+      <image:title>Balancing figure</image:title>
+      <image:caption>A person sitting cross-legged, one hand raised in a circle gesture.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/carrying-box-line-illustration.png</image:loc>
+      <image:title>Carrying a box</image:title>
+      <image:caption>A person walking while carrying a large box, leaning forward under the weight.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/working-laptop-line-illustration.png</image:loc>
+      <image:title>Working on a laptop</image:title>
+      <image:caption>A person typing on a laptop with a halftone-shaded screen.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/running-pencil-line-illustration.png</image:loc>
+      <image:title>Running with a pencil</image:title>
+      <image:caption>A figure running while holding an oversized pencil like a javelin.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/checking-phone-line-illustration.png</image:loc>
+      <image:title>Checking a phone</image:title>
+      <image:caption>A face in profile looking down at a phone held in one hand.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/taking-photo-line-illustration.png</image:loc>
+      <image:title>Taking a photo</image:title>
+      <image:caption>Two faces looking at a phone between them, motion lines rising from the screen.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/sticky-notes-line-illustration.png</image:loc>
+      <image:title>Sticky notes collage</image:title>
+      <image:caption>A person surrounded by small sticky notes, folders and speech bubbles.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/stretching-figure-line-illustration.png</image:loc>
+      <image:title>Stretching figure</image:title>
+      <image:caption>A figure stretching with arms raised, two small dots marking the feet.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scanning-phone-line-illustration.png</image:loc>
+      <image:title>Scanning a phone</image:title>
+      <image:caption>A person holding a phone up beside their face, a scan pattern glowing on the screen.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/second-brain-line-illustration.png</image:loc>
+      <image:title>Second brain</image:title>
+      <image:caption>A person looking at a laptop screen showing a brain, one hand resting thoughtfully on their chin.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/waving-goodbye-line-illustration.png</image:loc>
+      <image:title>Waving goodbye</image:title>
+      <image:caption>A person waving, one hand raised beside a friendly face.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/shopping-bags-line-illustration.png</image:loc>
+      <image:title>Carrying shopping bags</image:title>
+      <image:caption>A person walking while carrying a halftone-shaded shopping bag.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/sitemap-tree-line-illustration.png</image:loc>
+      <image:title>Sitemap tree</image:title>
+      <image:caption>A person reaching up to a branching sitemap diagram of connected boxes.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/skateboarding-line-illustration.png</image:loc>
+      <image:title>Skateboarding</image:title>
+      <image:caption>A figure crouched low, riding a skateboard.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/talking-gesture-line-illustration.png</image:loc>
+      <image:title>Talking gesture</image:title>
+      <image:caption>A face in profile with one hand raised near the mouth, small marks showing speech.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/smartwatch-alert-line-illustration.png</image:loc>
+      <image:title>Smartwatch alert</image:title>
+      <image:caption>A wrist with a halftone-shaded smartwatch buzzing, small lines showing the vibration.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/suit-line-illustration.png</image:loc>
+      <image:title>Person in a suit</image:title>
+      <image:caption>A person in a buttoned jacket, hands clasped in front.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/support-call-line-illustration.png</image:loc>
+      <image:title>Support call</image:title>
+      <image:caption>A face in profile wearing over-ear headphones with a small speech mark beside the mouth.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/user-icon-line-illustration.png</image:loc>
+      <image:title>User icon</image:title>
+      <image:caption>A simple user icon: a circle head above a rounded body.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/video-editor-line-illustration.png</image:loc>
+      <image:title>Video editor</image:title>
+      <image:caption>A video editing window showing a face on the timeline, with a set of small tool icons along the side.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
   </url>
   <url>
     <loc>https://payforlayers.com/tags/outdoors.html</loc>
@@ -146,6 +1706,78 @@
       <image:caption>A figure in a patterned cap seen in profile, carrying a large rounded backpack, a long line sweeping away behind.</image:caption>
       <image:license>https://payforlayers.com/licence.html</image:license>
     </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/office-building-line-illustration.png</image:loc>
+      <image:title>Office building</image:title>
+      <image:caption>A multi-storey building with a grid of square windows, a small pine tree standing beside it.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/dove-letter-line-illustration.png</image:loc>
+      <image:title>Dove with letter</image:title>
+      <image:caption>A dove in flight, a halftone patch on its wing, carrying an envelope in its beak.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/watering-flower-line-illustration.png</image:loc>
+      <image:title>Watering a flower</image:title>
+      <image:caption>A person with windswept hair standing over a potted flower, halftone shading on the pot.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/flowers-vase-line-illustration.png</image:loc>
+      <image:title>Flowers in a vase</image:title>
+      <image:caption>A vase holding several flowers with halftone-shaded petals.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/globe-line-illustration.png</image:loc>
+      <image:title>Globe</image:title>
+      <image:caption>A globe drawn with crossing latitude and longitude lines.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/summit-flag-line-illustration.png</image:loc>
+      <image:title>Flag on a summit</image:title>
+      <image:caption>A figure planting a flag at the top of a rounded hill.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/house-line-illustration.png</image:loc>
+      <image:title>House</image:title>
+      <image:caption>A simple house with a round window, a chimney and an arched door.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/halftone-roof-house-line-illustration.png</image:loc>
+      <image:title>House with halftone roof</image:title>
+      <image:caption>A house with a halftone-shaded roof, a round window and an arched door.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/map-pin-route-line-illustration.png</image:loc>
+      <image:title>Map pin route</image:title>
+      <image:caption>A phone showing a location pin, with a faint halftone route sketched behind it.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/airplane-line-illustration.png</image:loc>
+      <image:title>Airplane</image:title>
+      <image:caption>A commercial airplane in profile with a row of small windows along the fuselage.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/cargo-ship-line-illustration.png</image:loc>
+      <image:title>Cargo ship</image:title>
+      <image:caption>A cargo ship loaded with halftone-patterned containers.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/skateboarding-line-illustration.png</image:loc>
+      <image:title>Skateboarding</image:title>
+      <image:caption>A figure crouched low, riding a skateboard.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
   </url>
   <url>
     <loc>https://payforlayers.com/tags/objects.html</loc>
@@ -155,6 +1787,462 @@
       <image:loc>https://payforlayers.com/images/png/open-box-line-illustration.png</image:loc>
       <image:title>Open box</image:title>
       <image:caption>An open box tipped towards you, with stars and a halftone swoosh rising out of it.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/balance-scale-line-illustration.png</image:loc>
+      <image:title>Balance scale</image:title>
+      <image:caption>A balance scale on a triangular stand, a halftone ball weighing against an empty square on the other side.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/bidirectional-link-line-illustration.png</image:loc>
+      <image:title>Bidirectional link</image:title>
+      <image:caption>Two interlocking chain links with arrows looping between them, pointing in opposite directions.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/book-line-illustration.png</image:loc>
+      <image:title>Book</image:title>
+      <image:caption>A closed hardcover book labelled Book, halftone shading along the page edges.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/office-building-line-illustration.png</image:loc>
+      <image:title>Office building</image:title>
+      <image:caption>A multi-storey building with a grid of square windows, a small pine tree standing beside it.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/camera-line-illustration.png</image:loc>
+      <image:title>Camera</image:title>
+      <image:caption>A compact camera with a halftone lens and a small flash and shutter button.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/credit-card-line-illustration.png</image:loc>
+      <image:title>Credit card</image:title>
+      <image:caption>A credit card with a chip, a halftone stripe near the corner and a row of blank lines for the number.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/shopping-cart-line-illustration.png</image:loc>
+      <image:title>Shopping cart</image:title>
+      <image:caption>A shopping cart seen from the side, its basket drawn as an open grid.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/cat-line-illustration.png</image:loc>
+      <image:title>Cat</image:title>
+      <image:caption>A cat mid-stride, tail curling up, ears perked.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/linked-chain-line-illustration.png</image:loc>
+      <image:title>Linked chain</image:title>
+      <image:caption>Two chain links joined by a curved double arrow, looping back on itself.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/alarm-clock-line-illustration.png</image:loc>
+      <image:title>Alarm clock</image:title>
+      <image:caption>A round alarm clock with halftone motion lines and a speech bubble above showing it's ringing.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/bitcoin-coin-line-illustration.png</image:loc>
+      <image:title>Bitcoin coin</image:title>
+      <image:caption>A round coin with a halftone rim and a bold Bitcoin symbol at its centre.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/ethereum-coin-line-illustration.png</image:loc>
+      <image:title>Ethereum coin</image:title>
+      <image:caption>A round coin with a halftone rim and the diamond-faceted Ethereum symbol at its centre.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/coin-mark-line-illustration.png</image:loc>
+      <image:title>Coin with mark</image:title>
+      <image:caption>A round coin outline with a dense halftone blob filling its centre.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/party-popper-line-illustration.png</image:loc>
+      <image:title>Party popper</image:title>
+      <image:caption>A party popper mid-burst, confetti stars and streamers flying out.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/sketching-desk-line-illustration.png</image:loc>
+      <image:title>Sketching at a desk</image:title>
+      <image:caption>A person bent over a desk sketching, small shapes scattered around their pencil.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/database-stack-line-illustration.png</image:loc>
+      <image:title>Database stack</image:title>
+      <image:caption>A cylindrical database stack drawn as three stacked discs.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/blank-document-line-illustration.png</image:loc>
+      <image:title>Blank document</image:title>
+      <image:caption>A single blank page with a folded corner.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/written-document-line-illustration.png</image:loc>
+      <image:title>Written document</image:title>
+      <image:caption>A page with a folded corner, filled with lines of handwritten-style text.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/document-pencil-line-illustration.png</image:loc>
+      <image:title>Document with pencil</image:title>
+      <image:caption>A page with a folded corner and a pencil laid diagonally across it.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/report-pages-line-illustration.png</image:loc>
+      <image:title>Report pages</image:title>
+      <image:caption>Three overlapping report pages showing a pie chart, a line of text and a bar chart.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/stacked-reports-line-illustration.png</image:loc>
+      <image:title>Stacked reports</image:title>
+      <image:caption>Three overlapping pages showing a pie chart, lines of text and a bar chart, fanned out.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/dog-line-illustration.png</image:loc>
+      <image:title>Dog</image:title>
+      <image:caption>A dog trotting sideways, tail curled and one ear up.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/dollar-sign-line-illustration.png</image:loc>
+      <image:title>Dollar sign</image:title>
+      <image:caption>A bold dollar sign drawn as one continuous line.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/double-diamond-line-illustration.png</image:loc>
+      <image:title>Double diamond process</image:title>
+      <image:caption>Two halftone diamonds joined at a point, a dashed line and an X marking stages of a process.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/dove-letter-line-illustration.png</image:loc>
+      <image:title>Dove with letter</image:title>
+      <image:caption>A dove in flight, a halftone patch on its wing, carrying an envelope in its beak.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/envelope-line-illustration.png</image:loc>
+      <image:title>Envelope</image:title>
+      <image:caption>A sealed envelope with a stamp in the corner and three lines beside it standing in for a subject line.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/euro-sign-line-illustration.png</image:loc>
+      <image:title>Euro sign</image:title>
+      <image:caption>A bold Euro sign drawn as one continuous line.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/export-document-line-illustration.png</image:loc>
+      <image:title>Export document</image:title>
+      <image:caption>A stack of pages with an arrow rising out of the top one, curving up and to the right.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/favourites-collage-line-illustration.png</image:loc>
+      <image:title>Favourites collage</image:title>
+      <image:caption>A person surrounded by floating folders, tags, a speech bubble and a heart.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/funnel-filter-line-illustration.png</image:loc>
+      <image:title>Funnel filter</image:title>
+      <image:caption>A wide funnel narrowing to a thin spout.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/five-star-rating-line-illustration.png</image:loc>
+      <image:title>Five-star rating</image:title>
+      <image:caption>Five stars in a row above a hand giving a thumbs up, a small heart floating nearby.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/flowers-vase-line-illustration.png</image:loc>
+      <image:title>Flowers in a vase</image:title>
+      <image:caption>A vase holding several flowers with halftone-shaded petals.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/folder-line-illustration.png</image:loc>
+      <image:title>Folder</image:title>
+      <image:caption>An open folder with a halftone-shaded tab.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/person-folders-line-illustration.png</image:loc>
+      <image:title>Person with folders</image:title>
+      <image:caption>A seated person at a desk holding open folders, a halftone shadow above.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/plate-food-line-illustration.png</image:loc>
+      <image:title>Plate of food</image:title>
+      <image:caption>A dollop of halftone-shaded food on a plate, with a couple of highlighted spots.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/noodle-bowl-line-illustration.png</image:loc>
+      <image:title>Bowl of noodles</image:title>
+      <image:caption>A patterned bowl of noodles with steam lines and chopsticks resting inside.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/gear-line-illustration.png</image:loc>
+      <image:title>Gear</image:title>
+      <image:caption>A cog with a halftone-shaded face and a hollow centre.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/gift-box-line-illustration.png</image:loc>
+      <image:title>Gift box</image:title>
+      <image:caption>A wrapped gift box with a large bow, stars and halftone shading scattered around it.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/house-line-illustration.png</image:loc>
+      <image:title>House</image:title>
+      <image:caption>A simple house with a round window, a chimney and an arched door.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/halftone-roof-house-line-illustration.png</image:loc>
+      <image:title>House with halftone roof</image:title>
+      <image:caption>A house with a halftone-shaded roof, a round window and an arched door.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/import-document-line-illustration.png</image:loc>
+      <image:title>Import document</image:title>
+      <image:caption>Folded pages falling toward a curved arrow pointing down and to the right.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/padlock-line-illustration.png</image:loc>
+      <image:title>Padlock</image:title>
+      <image:caption>A padlock with a halftone-shaded shackle.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/laptop-line-illustration.png</image:loc>
+      <image:title>Laptop</image:title>
+      <image:caption>An open laptop seen from the front, screen blank.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/desktop-monitor-line-illustration.png</image:loc>
+      <image:title>Desktop monitor</image:title>
+      <image:caption>A desktop monitor on a small stand, screen left blank.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/carrying-box-line-illustration.png</image:loc>
+      <image:title>Carrying a box</image:title>
+      <image:caption>A person walking while carrying a large box, leaning forward under the weight.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/paint-palette-line-illustration.png</image:loc>
+      <image:title>Paint palette</image:title>
+      <image:caption>A paint palette with two solid dabs of paint and a brush resting in the thumb hole.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/running-pencil-line-illustration.png</image:loc>
+      <image:title>Running with a pencil</image:title>
+      <image:caption>A figure running while holding an oversized pencil like a javelin.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/piggy-bank-line-illustration.png</image:loc>
+      <image:title>Piggy bank</image:title>
+      <image:caption>A piggy bank seen from the side, ears perked and a coin slot on its back.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/airplane-line-illustration.png</image:loc>
+      <image:title>Airplane</image:title>
+      <image:caption>A commercial airplane in profile with a row of small windows along the fuselage.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/sticky-notes-line-illustration.png</image:loc>
+      <image:title>Sticky notes collage</image:title>
+      <image:caption>A person surrounded by small sticky notes, folders and speech bubbles.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/video-camera-line-illustration.png</image:loc>
+      <image:title>Video camera</image:title>
+      <image:caption>A boxy video camera with a round lens and a triangular viewfinder.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/refresh-arrows-line-illustration.png</image:loc>
+      <image:title>Refresh arrows</image:title>
+      <image:caption>Two curved arrows chasing each other in a loop.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/magnifying-glass-line-illustration.png</image:loc>
+      <image:title>Magnifying glass</image:title>
+      <image:caption>A magnifying glass with a few halftone marks inside the lens.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/share-arrow-line-illustration.png</image:loc>
+      <image:title>Share arrow</image:title>
+      <image:caption>A bold arrow curving upward and to the right.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/shield-line-illustration.png</image:loc>
+      <image:title>Shield</image:title>
+      <image:caption>A halftone-shaded shield with a scalloped top edge.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/cargo-ship-line-illustration.png</image:loc>
+      <image:title>Cargo ship</image:title>
+      <image:caption>A cargo ship loaded with halftone-patterned containers.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/shopping-bags-line-illustration.png</image:loc>
+      <image:title>Carrying shopping bags</image:title>
+      <image:caption>A person walking while carrying a halftone-shaded shopping bag.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/sliding-switch-line-illustration.png</image:loc>
+      <image:title>Sliding a switch</image:title>
+      <image:caption>A hand sliding a lever along a track, with small marks showing motion.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/smartphone-line-illustration.png</image:loc>
+      <image:title>Smartphone</image:title>
+      <image:caption>A smartphone held upright, screen left blank, a finger pointing at it.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/smartwatch-line-illustration.png</image:loc>
+      <image:title>Smartwatch</image:title>
+      <image:caption>A smartwatch with a halftone-shaded strap and a round crown button.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/layout-blocks-line-illustration.png</image:loc>
+      <image:title>Layout blocks</image:title>
+      <image:caption>Four rectangular blocks of different sizes arranged like a page layout, two filled with halftone.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/layout-blocks-alt-line-illustration.png</image:loc>
+      <image:title>Layout blocks, alt</image:title>
+      <image:caption>Five rectangular blocks arranged like a page layout, two filled with halftone.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/data-table-line-illustration.png</image:loc>
+      <image:title>Data table</image:title>
+      <image:caption>A three-column table of halftone-shaded rows and numbers.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/todo-tag-line-illustration.png</image:loc>
+      <image:title>To-do tag</image:title>
+      <image:caption>A rounded pill tag reading hashtag To Do.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/tags-label-line-illustration.png</image:loc>
+      <image:title>Tags label</image:title>
+      <image:caption>A rounded pill tag reading hashtag tags.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/archive-tag-line-illustration.png</image:loc>
+      <image:title>Archive tag</image:title>
+      <image:caption>A rounded pill tag reading hashtag archive.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/text-editor-line-illustration.png</image:loc>
+      <image:title>Text editor window</image:title>
+      <image:caption>A browser-style window with halftone-shaded paragraphs of text and a cursor icon in the corner.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/checklist-line-illustration.png</image:loc>
+      <image:title>Checklist</image:title>
+      <image:caption>A torn page with a short checklist, two items ticked.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/trash-can-line-illustration.png</image:loc>
+      <image:title>Trash can</image:title>
+      <image:caption>A trash can with a lid and halftone-shaded vertical stripes.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/test-tube-line-illustration.png</image:loc>
+      <image:title>Test tube</image:title>
+      <image:caption>A test tube half filled with halftone-shaded liquid and small bubbles.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/user-icon-line-illustration.png</image:loc>
+      <image:title>User icon</image:title>
+      <image:caption>A simple user icon: a circle head above a rounded body.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/game-controller-line-illustration.png</image:loc>
+      <image:title>Game controller</image:title>
+      <image:caption>A game controller with a cross pad, round buttons and two joysticks, halftone-shaded on the grips.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/wallet-line-illustration.png</image:loc>
+      <image:title>Wallet</image:title>
+      <image:caption>A bifold wallet with a snap closure and a halftone-shaded card peeking out.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/drink-cup-line-illustration.png</image:loc>
+      <image:title>Drink cup</image:title>
+      <image:caption>A tall cup with a straw and a halftone-shaded panel on the side.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/wifi-signal-line-illustration.png</image:loc>
+      <image:title>Wi-Fi signal</image:title>
+      <image:caption>Three curved Wi-Fi signal arcs above a solid dot.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/wireframe-layout-line-illustration.png</image:loc>
+      <image:title>Wireframe layout</image:title>
+      <image:caption>A browser window wireframe with a halftone image placeholder, lines of text and a small button.</image:caption>
       <image:license>https://payforlayers.com/licence.html</image:license>
     </image:image>
   </url>
@@ -178,6 +2266,222 @@
       <image:loc>https://payforlayers.com/images/png/scribble-arrow.png</image:loc>
       <image:title>Curved arrow</image:title>
       <image:caption>A thick hand-drawn arrow curving in from the right and pointing left.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/checkmark-line-illustration.png</image:loc>
+      <image:title>Checkmark</image:title>
+      <image:caption>A single bold checkmark.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-wavy-arrow.png</image:loc>
+      <image:title>Wavy arrow</image:title>
+      <image:caption>A wavy line curving side to side before ending in an arrowhead pointing right.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-thin-star.png</image:loc>
+      <image:title>Thin star burst</image:title>
+      <image:caption>A thin-lined star burst radiating unevenly from the centre.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-diagonal-scribble.png</image:loc>
+      <image:title>Diagonal scribble</image:title>
+      <image:caption>A loose patch of diagonal scribbled lines.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-thumbs-up.png</image:loc>
+      <image:title>Thumbs up</image:title>
+      <image:caption>A hand-drawn thumbs up.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-bold-star.png</image:loc>
+      <image:title>Bold star burst</image:title>
+      <image:caption>A bold spiky star burst with six uneven points.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-burst-blob.png</image:loc>
+      <image:title>Explosion burst</image:title>
+      <image:caption>An irregular spiky burst shape, like a small explosion.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-halftone-stripe.png</image:loc>
+      <image:title>Halftone stripe</image:title>
+      <image:caption>A diagonal stripe filled with halftone dots.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-halftone-check.png</image:loc>
+      <image:title>Halftone checkmark</image:title>
+      <image:caption>A checkmark filled with halftone dots.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-oval-loop.png</image:loc>
+      <image:title>Oval loop</image:title>
+      <image:caption>A hand-drawn oval loop circling back on itself.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-straight-arrow.png</image:loc>
+      <image:title>Straight arrow</image:title>
+      <image:caption>A straight arrow pointing up and to the right.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-flower-burst.png</image:loc>
+      <image:title>Flower burst</image:title>
+      <image:caption>A rounded, petal-like star burst.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-spiky-star.png</image:loc>
+      <image:title>Spiky star</image:title>
+      <image:caption>A thin-lined star burst with seven uneven spiky points.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-thick-oval-loop.png</image:loc>
+      <image:title>Thick oval loop</image:title>
+      <image:caption>A bold, thick oval loop circling back on itself.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-cursive-arrow.png</image:loc>
+      <image:title>Cursive loop arrow</image:title>
+      <image:caption>A looping cursive line ending in an arrow pointing up and to the right.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-check-thin.png</image:loc>
+      <image:title>Thin checkmark</image:title>
+      <image:caption>A single thin checkmark.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-x-mark.png</image:loc>
+      <image:title>X mark</image:title>
+      <image:caption>A bold hand-drawn X.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-check-round.png</image:loc>
+      <image:title>Rounded checkmark</image:title>
+      <image:caption>A bold, rounded checkmark.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-squiggle-bracket.png</image:loc>
+      <image:title>Squiggle bracket</image:title>
+      <image:caption>A wavy, bracket-like squiggle.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-diagonal-line.png</image:loc>
+      <image:title>Diagonal line</image:title>
+      <image:caption>A single bold diagonal line.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-hook-arrow.png</image:loc>
+      <image:title>Hook arrow</image:title>
+      <image:caption>A curved arrow hooking back to point left.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-double-exclamation.png</image:loc>
+      <image:title>Double exclamation</image:title>
+      <image:caption>Two bold exclamation marks side by side.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-check-bold.png</image:loc>
+      <image:title>Bold checkmark</image:title>
+      <image:caption>A bold, wide checkmark.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-open-star.png</image:loc>
+      <image:title>Open star</image:title>
+      <image:caption>An open, uneven star outline with a hollow centre.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-zigzag-arrow.png</image:loc>
+      <image:title>Zigzag arrow</image:title>
+      <image:caption>A zigzagging line ending in an arrow pointing down and to the left.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-arrow-down.png</image:loc>
+      <image:title>Arrow down</image:title>
+      <image:caption>A straight arrow pointing down.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-arrow-up.png</image:loc>
+      <image:title>Arrow up</image:title>
+      <image:caption>A slightly curved arrow pointing up.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-swoosh-loop-arrow.png</image:loc>
+      <image:title>Swoosh loop arrow</image:title>
+      <image:caption>A curved swooshing line with a small loop, ending in an arrow pointing right.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-bold-hatching.png</image:loc>
+      <image:title>Bold hatching</image:title>
+      <image:caption>A dense patch of bold diagonal scribbled lines.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-star-outline.png</image:loc>
+      <image:title>Star outline</image:title>
+      <image:caption>An open five-point star outline.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-star-outline-wavy.png</image:loc>
+      <image:title>Wavy star outline</image:title>
+      <image:caption>An open five-point star outline with slightly wavy edges.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-solid-star.png</image:loc>
+      <image:title>Solid star</image:title>
+      <image:caption>A solid filled five-point star.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-x-thin.png</image:loc>
+      <image:title>Thin X</image:title>
+      <image:caption>A thin, wide hand-drawn X.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-x-bold.png</image:loc>
+      <image:title>Bold X</image:title>
+      <image:caption>A bold, large hand-drawn X.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-question-mark.png</image:loc>
+      <image:title>Question mark</image:title>
+      <image:caption>A bold hand-drawn question mark.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-exclamation-mark.png</image:loc>
+      <image:title>Exclamation mark</image:title>
+      <image:caption>A single bold exclamation mark.</image:caption>
       <image:license>https://payforlayers.com/licence.html</image:license>
     </image:image>
   </url>

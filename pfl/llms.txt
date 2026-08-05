@@ -5,7 +5,7 @@
 Drawn by hand by Carlos Peixoto (https://carlospx.com). Black line art with halftone
 shading, on a transparent background, one consistent hand throughout.
 
-11 files are published on this site and free to download as
+170 files are published on this site and free to download as
 PNG. The pack sold at https://carlospx.gumroad.com/l/pfl holds 156 files —
 121 illustrations and 35 scribbles — plus
 9 bonus illustrations carried over from v.1. These numbers
@@ -70,6 +70,324 @@ licence terms and both tier URLs. Prefer it over scraping this text file.
   A hand-drawn loop circling back on itself, the kind used to ring something on a page.
 - Curved arrow (Scribbles) — https://payforlayers.com/images/png/scribble-arrow.png
   A thick hand-drawn arrow curving in from the right and pointing left.
+- AI network (Technology) — https://payforlayers.com/images/png/ai-network-line-illustration.png
+  The word Ai in a burst at the centre of a web of connected dots, with a star, a tag and a small document scattered around it.
+- Voice assistant (Technology, People) — https://payforlayers.com/images/png/voice-assistant-line-illustration.png
+  A halftone speaker beside a face in profile, two speech bubbles reading Sure! and Thanks hovering above.
+- Balance scale (Objects) — https://payforlayers.com/images/png/balance-scale-line-illustration.png
+  A balance scale on a triangular stand, a halftone ball weighing against an empty square on the other side.
+- Bidirectional link (Objects, Technology) — https://payforlayers.com/images/png/bidirectional-link-line-illustration.png
+  Two interlocking chain links with arrows looping between them, pointing in opposite directions.
+- Bluetooth symbol (Technology) — https://payforlayers.com/images/png/bluetooth-symbol-line-illustration.png
+  The angular Bluetooth rune drawn as a single bold line.
+- Book (Objects) — https://payforlayers.com/images/png/book-line-illustration.png
+  A closed hardcover book labelled Book, halftone shading along the page edges.
+- Browsing on a tablet (People, Technology) — https://payforlayers.com/images/png/browsing-tablet-line-illustration.png
+  A person with wavy pigtails holding a small starred screen, stars scattered around her head.
+- Office building (Objects, Outdoors) — https://payforlayers.com/images/png/office-building-line-illustration.png
+  A multi-storey building with a grid of square windows, a small pine tree standing beside it.
+- Camera (Objects, Technology) — https://payforlayers.com/images/png/camera-line-illustration.png
+  A compact camera with a halftone lens and a small flash and shutter button.
+- Credit card (Objects, Technology) — https://payforlayers.com/images/png/credit-card-line-illustration.png
+  A credit card with a chip, a halftone stripe near the corner and a row of blank lines for the number.
+- Shopping cart (Objects) — https://payforlayers.com/images/png/shopping-cart-line-illustration.png
+  A shopping cart seen from the side, its basket drawn as an open grid.
+- Cat (Objects) — https://payforlayers.com/images/png/cat-line-illustration.png
+  A cat mid-stride, tail curling up, ears perked.
+- Linked chain (Objects, Technology) — https://payforlayers.com/images/png/linked-chain-line-illustration.png
+  Two chain links joined by a curved double arrow, looping back on itself.
+- Rising chart (People, Technology) — https://payforlayers.com/images/png/rising-chart-line-illustration.png
+  Two people looking at an upward-trending bar chart on a wall-mounted screen, one raising a hand in surprise.
+- Chat bubbles (People, Technology) — https://payforlayers.com/images/png/chat-bubbles-line-illustration.png
+  Two people in profile with speech bubbles floating between them, one holding a small starred card.
+- Checkmark (Scribbles) — https://payforlayers.com/images/png/checkmark-line-illustration.png
+  A single bold checkmark.
+- Alarm clock (Objects) — https://payforlayers.com/images/png/alarm-clock-line-illustration.png
+  A round alarm clock with halftone motion lines and a speech bubble above showing it's ringing.
+- Solid cloud (Technology) — https://payforlayers.com/images/png/solid-cloud-line-illustration.png
+  A solid halftone cloud shape.
+- Cloud sync (Technology) — https://payforlayers.com/images/png/cloud-sync-line-illustration.png
+  A cloud with three arrows branching down to a laptop, a phone and a monitor.
+- Code editor (Technology) — https://payforlayers.com/images/png/code-editor-line-illustration.png
+  A code editor window with rows of code brackets and comparison symbols.
+- Bitcoin coin (Objects, Technology) — https://payforlayers.com/images/png/bitcoin-coin-line-illustration.png
+  A round coin with a halftone rim and a bold Bitcoin symbol at its centre.
+- Ethereum coin (Objects, Technology) — https://payforlayers.com/images/png/ethereum-coin-line-illustration.png
+  A round coin with a halftone rim and the diamond-faceted Ethereum symbol at its centre.
+- Coin with mark (Objects) — https://payforlayers.com/images/png/coin-mark-line-illustration.png
+  A round coin outline with a dense halftone blob filling its centre.
+- Party popper (Objects) — https://payforlayers.com/images/png/party-popper-line-illustration.png
+  A party popper mid-burst, confetti stars and streamers flying out.
+- Sketching at a desk (People, Objects) — https://payforlayers.com/images/png/sketching-desk-line-illustration.png
+  A person bent over a desk sketching, small shapes scattered around their pencil.
+- Database stack (Technology, Objects) — https://payforlayers.com/images/png/database-stack-line-illustration.png
+  A cylindrical database stack drawn as three stacked discs.
+- Blank document (Objects) — https://payforlayers.com/images/png/blank-document-line-illustration.png
+  A single blank page with a folded corner.
+- Written document (Objects) — https://payforlayers.com/images/png/written-document-line-illustration.png
+  A page with a folded corner, filled with lines of handwritten-style text.
+- Document with pencil (Objects) — https://payforlayers.com/images/png/document-pencil-line-illustration.png
+  A page with a folded corner and a pencil laid diagonally across it.
+- Report pages (Objects) — https://payforlayers.com/images/png/report-pages-line-illustration.png
+  Three overlapping report pages showing a pie chart, a line of text and a bar chart.
+- Stacked reports (Objects) — https://payforlayers.com/images/png/stacked-reports-line-illustration.png
+  Three overlapping pages showing a pie chart, lines of text and a bar chart, fanned out.
+- Dog (Objects) — https://payforlayers.com/images/png/dog-line-illustration.png
+  A dog trotting sideways, tail curled and one ear up.
+- Dollar sign (Objects) — https://payforlayers.com/images/png/dollar-sign-line-illustration.png
+  A bold dollar sign drawn as one continuous line.
+- Double diamond process (Objects, Technology) — https://payforlayers.com/images/png/double-diamond-line-illustration.png
+  Two halftone diamonds joined at a point, a dashed line and an X marking stages of a process.
+- Dove with letter (Outdoors, Objects) — https://payforlayers.com/images/png/dove-letter-line-illustration.png
+  A dove in flight, a halftone patch on its wing, carrying an envelope in its beak.
+- Envelope (Objects, Technology) — https://payforlayers.com/images/png/envelope-line-illustration.png
+  A sealed envelope with a stamp in the corner and three lines beside it standing in for a subject line.
+- Euro sign (Objects) — https://payforlayers.com/images/png/euro-sign-line-illustration.png
+  A bold Euro sign drawn as one continuous line.
+- Export document (Objects, Technology) — https://payforlayers.com/images/png/export-document-line-illustration.png
+  A stack of pages with an arrow rising out of the top one, curving up and to the right.
+- Curly-haired face (People) — https://payforlayers.com/images/png/curly-face-line-illustration.png
+  A face in profile with loosely curled hair looping around the forehead.
+- Face with wavy hair (People) — https://payforlayers.com/images/png/wavy-hair-face-line-illustration.png
+  A face in profile with short wavy hair and a raised eyebrow.
+- Face with glasses (People) — https://payforlayers.com/images/png/glasses-face-line-illustration.png
+  A round, smiling face wearing glasses with halftone-shaded lenses.
+- Bearded face (People) — https://payforlayers.com/images/png/bearded-face-line-illustration.png
+  A gaunt face in profile with a pointed beard and combed-back hair.
+- Face with halftone hair (People) — https://payforlayers.com/images/png/halftone-hair-face-line-illustration.png
+  A face in profile, one hand raised to a pair of glasses, hair shaded in halftone.
+- Favourites collage (People, Objects) — https://payforlayers.com/images/png/favourites-collage-line-illustration.png
+  A person surrounded by floating folders, tags, a speech bubble and a heart.
+- Funnel filter (Objects) — https://payforlayers.com/images/png/funnel-filter-line-illustration.png
+  A wide funnel narrowing to a thin spout.
+- Five-star rating (People, Objects) — https://payforlayers.com/images/png/five-star-rating-line-illustration.png
+  Five stars in a row above a hand giving a thumbs up, a small heart floating nearby.
+- Sharing a photo (People, Technology) — https://payforlayers.com/images/png/sharing-photo-line-illustration.png
+  Two faces in profile passing a photo between them, with hands and a curved arrow showing the exchange.
+- Watering a flower (Outdoors, People) — https://payforlayers.com/images/png/watering-flower-line-illustration.png
+  A person with windswept hair standing over a potted flower, halftone shading on the pot.
+- Flowers in a vase (Outdoors, Objects) — https://payforlayers.com/images/png/flowers-vase-line-illustration.png
+  A vase holding several flowers with halftone-shaded petals.
+- Folder (Objects, Technology) — https://payforlayers.com/images/png/folder-line-illustration.png
+  An open folder with a halftone-shaded tab.
+- Person with folders (People, Objects) — https://payforlayers.com/images/png/person-folders-line-illustration.png
+  A seated person at a desk holding open folders, a halftone shadow above.
+- Plate of food (Objects) — https://payforlayers.com/images/png/plate-food-line-illustration.png
+  A dollop of halftone-shaded food on a plate, with a couple of highlighted spots.
+- Bowl of noodles (Objects) — https://payforlayers.com/images/png/noodle-bowl-line-illustration.png
+  A patterned bowl of noodles with steam lines and chopsticks resting inside.
+- Gear (Technology, Objects) — https://payforlayers.com/images/png/gear-line-illustration.png
+  A cog with a halftone-shaded face and a hollow centre.
+- Gift box (Objects) — https://payforlayers.com/images/png/gift-box-line-illustration.png
+  A wrapped gift box with a large bow, stars and halftone shading scattered around it.
+- Git logo (Technology) — https://payforlayers.com/images/png/git-logo-line-illustration.png
+  The branching Git logo on a halftone-shaded diamond.
+- Globe (Outdoors, Technology) — https://payforlayers.com/images/png/globe-line-illustration.png
+  A globe drawn with crossing latitude and longitude lines.
+- Flag on a summit (People, Outdoors) — https://payforlayers.com/images/png/summit-flag-line-illustration.png
+  A figure planting a flag at the top of a rounded hill.
+- Candlestick chart (People, Technology) — https://payforlayers.com/images/png/candlestick-chart-line-illustration.png
+  A person studying a candlestick chart on the wall, chin in hand.
+- Downward chart (People, Technology) — https://payforlayers.com/images/png/downward-chart-line-illustration.png
+  Two people looking at a chart with a line dropping sharply, one wiping their brow.
+- Funnel chart (People, Technology) — https://payforlayers.com/images/png/funnel-chart-line-illustration.png
+  A person gesturing at a funnel-shaped chart narrowing from top to bottom.
+- Connected nodes (Technology) — https://payforlayers.com/images/png/connected-nodes-line-illustration.png
+  A scatter of small circles linked by straight lines into an irregular network.
+- Reaching hands (People) — https://payforlayers.com/images/png/reaching-hands-line-illustration.png
+  Two faces in profile with hands reaching toward each other between them.
+- House (Outdoors, Objects) — https://payforlayers.com/images/png/house-line-illustration.png
+  A simple house with a round window, a chimney and an arched door.
+- House with halftone roof (Outdoors, Objects) — https://payforlayers.com/images/png/halftone-roof-house-line-illustration.png
+  A house with a halftone-shaded roof, a round window and an arched door.
+- Robot handshake (Technology) — https://payforlayers.com/images/png/robot-spark-line-illustration.png
+  A small wand tapping a boxy robot head, sparkles flying off on contact.
+- Import document (Objects, Technology) — https://payforlayers.com/images/png/import-document-line-illustration.png
+  Folded pages falling toward a curved arrow pointing down and to the right.
+- Lifting weights (People) — https://payforlayers.com/images/png/lifting-weights-line-illustration.png
+  A person crouched under a barbell, mid-lift.
+- Padlock (Objects, Technology) — https://payforlayers.com/images/png/padlock-line-illustration.png
+  A padlock with a halftone-shaded shackle.
+- Face with heart eyes (People) — https://payforlayers.com/images/png/heart-eyes-face-line-illustration.png
+  A smiling face with heart-shaped eyes and curly hair.
+- Laptop (Technology, Objects) — https://payforlayers.com/images/png/laptop-line-illustration.png
+  An open laptop seen from the front, screen blank.
+- Map pin route (Technology, Outdoors) — https://payforlayers.com/images/png/map-pin-route-line-illustration.png
+  A phone showing a location pin, with a faint halftone route sketched behind it.
+- Sitting cross-legged (People) — https://payforlayers.com/images/png/sitting-crosslegged-line-illustration.png
+  A person sitting cross-legged with eyes closed, halftone shading across the chest and legs.
+- Balancing figure (People) — https://payforlayers.com/images/png/balancing-figure-line-illustration.png
+  A person sitting cross-legged, one hand raised in a circle gesture.
+- Desktop monitor (Objects, Technology) — https://payforlayers.com/images/png/desktop-monitor-line-illustration.png
+  A desktop monitor on a small stand, screen left blank.
+- Carrying a box (People, Objects) — https://payforlayers.com/images/png/carrying-box-line-illustration.png
+  A person walking while carrying a large box, leaning forward under the weight.
+- Working on a laptop (People, Technology) — https://payforlayers.com/images/png/working-laptop-line-illustration.png
+  A person typing on a laptop with a halftone-shaded screen.
+- Paint palette (Objects) — https://payforlayers.com/images/png/paint-palette-line-illustration.png
+  A paint palette with two solid dabs of paint and a brush resting in the thumb hole.
+- Running with a pencil (People, Objects) — https://payforlayers.com/images/png/running-pencil-line-illustration.png
+  A figure running while holding an oversized pencil like a javelin.
+- Checking a phone (People, Technology) — https://payforlayers.com/images/png/checking-phone-line-illustration.png
+  A face in profile looking down at a phone held in one hand.
+- Taking a photo (People, Technology) — https://payforlayers.com/images/png/taking-photo-line-illustration.png
+  Two faces looking at a phone between them, motion lines rising from the screen.
+- Piggy bank (Objects) — https://payforlayers.com/images/png/piggy-bank-line-illustration.png
+  A piggy bank seen from the side, ears perked and a coin slot on its back.
+- Airplane (Outdoors, Objects) — https://payforlayers.com/images/png/airplane-line-illustration.png
+  A commercial airplane in profile with a row of small windows along the fuselage.
+- Sticky notes collage (People, Objects) — https://payforlayers.com/images/png/sticky-notes-line-illustration.png
+  A person surrounded by small sticky notes, folders and speech bubbles.
+- Video camera (Objects, Technology) — https://payforlayers.com/images/png/video-camera-line-illustration.png
+  A boxy video camera with a round lens and a triangular viewfinder.
+- Stretching figure (People) — https://payforlayers.com/images/png/stretching-figure-line-illustration.png
+  A figure stretching with arms raised, two small dots marking the feet.
+- Refresh arrows (Objects) — https://payforlayers.com/images/png/refresh-arrows-line-illustration.png
+  Two curved arrows chasing each other in a loop.
+- Robot with idea (Technology) — https://payforlayers.com/images/png/robot-idea-line-illustration.png
+  A boxy robot face with a lightbulb speech bubble above it and a jagged signal line beside its antenna.
+- Scanning a phone (People, Technology) — https://payforlayers.com/images/png/scanning-phone-line-illustration.png
+  A person holding a phone up beside their face, a scan pattern glowing on the screen.
+- Magnifying glass (Objects) — https://payforlayers.com/images/png/magnifying-glass-line-illustration.png
+  A magnifying glass with a few halftone marks inside the lens.
+- Second brain (People, Technology) — https://payforlayers.com/images/png/second-brain-line-illustration.png
+  A person looking at a laptop screen showing a brain, one hand resting thoughtfully on their chin.
+- Waving goodbye (People) — https://payforlayers.com/images/png/waving-goodbye-line-illustration.png
+  A person waving, one hand raised beside a friendly face.
+- Share arrow (Objects, Technology) — https://payforlayers.com/images/png/share-arrow-line-illustration.png
+  A bold arrow curving upward and to the right.
+- Shield (Objects, Technology) — https://payforlayers.com/images/png/shield-line-illustration.png
+  A halftone-shaded shield with a scalloped top edge.
+- Cargo ship (Outdoors, Objects) — https://payforlayers.com/images/png/cargo-ship-line-illustration.png
+  A cargo ship loaded with halftone-patterned containers.
+- Carrying shopping bags (People, Objects) — https://payforlayers.com/images/png/shopping-bags-line-illustration.png
+  A person walking while carrying a halftone-shaded shopping bag.
+- Sitemap tree (People, Technology) — https://payforlayers.com/images/png/sitemap-tree-line-illustration.png
+  A person reaching up to a branching sitemap diagram of connected boxes.
+- Skateboarding (People, Outdoors) — https://payforlayers.com/images/png/skateboarding-line-illustration.png
+  A figure crouched low, riding a skateboard.
+- Sliding a switch (Objects, Technology) — https://payforlayers.com/images/png/sliding-switch-line-illustration.png
+  A hand sliding a lever along a track, with small marks showing motion.
+- Talking gesture (People, Technology) — https://payforlayers.com/images/png/talking-gesture-line-illustration.png
+  A face in profile with one hand raised near the mouth, small marks showing speech.
+- Smartphone (Objects, Technology) — https://payforlayers.com/images/png/smartphone-line-illustration.png
+  A smartphone held upright, screen left blank, a finger pointing at it.
+- Smartwatch alert (People, Technology) — https://payforlayers.com/images/png/smartwatch-alert-line-illustration.png
+  A wrist with a halftone-shaded smartwatch buzzing, small lines showing the vibration.
+- Smartwatch (Objects, Technology) — https://payforlayers.com/images/png/smartwatch-line-illustration.png
+  A smartwatch with a halftone-shaded strap and a round crown button.
+- Layout blocks (Objects, Technology) — https://payforlayers.com/images/png/layout-blocks-line-illustration.png
+  Four rectangular blocks of different sizes arranged like a page layout, two filled with halftone.
+- Layout blocks, alt (Objects, Technology) — https://payforlayers.com/images/png/layout-blocks-alt-line-illustration.png
+  Five rectangular blocks arranged like a page layout, two filled with halftone.
+- Person in a suit (People) — https://payforlayers.com/images/png/suit-line-illustration.png
+  A person in a buttoned jacket, hands clasped in front.
+- Support call (People) — https://payforlayers.com/images/png/support-call-line-illustration.png
+  A face in profile wearing over-ear headphones with a small speech mark beside the mouth.
+- Data table (Objects) — https://payforlayers.com/images/png/data-table-line-illustration.png
+  A three-column table of halftone-shaded rows and numbers.
+- To-do tag (Objects) — https://payforlayers.com/images/png/todo-tag-line-illustration.png
+  A rounded pill tag reading hashtag To Do.
+- Tags label (Objects) — https://payforlayers.com/images/png/tags-label-line-illustration.png
+  A rounded pill tag reading hashtag tags.
+- Archive tag (Objects) — https://payforlayers.com/images/png/archive-tag-line-illustration.png
+  A rounded pill tag reading hashtag archive.
+- Text editor window (Objects, Technology) — https://payforlayers.com/images/png/text-editor-line-illustration.png
+  A browser-style window with halftone-shaded paragraphs of text and a cursor icon in the corner.
+- Checklist (Objects) — https://payforlayers.com/images/png/checklist-line-illustration.png
+  A torn page with a short checklist, two items ticked.
+- Trash can (Objects) — https://payforlayers.com/images/png/trash-can-line-illustration.png
+  A trash can with a lid and halftone-shaded vertical stripes.
+- Test tube (Objects) — https://payforlayers.com/images/png/test-tube-line-illustration.png
+  A test tube half filled with halftone-shaded liquid and small bubbles.
+- Uploading to a cloud (Technology) — https://payforlayers.com/images/png/upload-cloud-line-illustration.png
+  A halftone-shaded cloud with an arrow curling up into it from below.
+- User icon (People, Objects) — https://payforlayers.com/images/png/user-icon-line-illustration.png
+  A simple user icon: a circle head above a rounded body.
+- Video editor (Technology, People) — https://payforlayers.com/images/png/video-editor-line-illustration.png
+  A video editing window showing a face on the timeline, with a set of small tool icons along the side.
+- Game controller (Objects, Technology) — https://payforlayers.com/images/png/game-controller-line-illustration.png
+  A game controller with a cross pad, round buttons and two joysticks, halftone-shaded on the grips.
+- VR headset in space (Technology) — https://payforlayers.com/images/png/vr-headset-space-line-illustration.png
+  A VR headset drifting past a ringed planet, with small stars scattered around it.
+- Wallet (Objects) — https://payforlayers.com/images/png/wallet-line-illustration.png
+  A bifold wallet with a snap closure and a halftone-shaded card peeking out.
+- Drink cup (Objects) — https://payforlayers.com/images/png/drink-cup-line-illustration.png
+  A tall cup with a straw and a halftone-shaded panel on the side.
+- Wi-Fi signal (Technology, Objects) — https://payforlayers.com/images/png/wifi-signal-line-illustration.png
+  Three curved Wi-Fi signal arcs above a solid dot.
+- Wireframe layout (Objects, Technology) — https://payforlayers.com/images/png/wireframe-layout-line-illustration.png
+  A browser window wireframe with a halftone image placeholder, lines of text and a small button.
+- Wavy arrow (Scribbles) — https://payforlayers.com/images/png/scribble-wavy-arrow.png
+  A wavy line curving side to side before ending in an arrowhead pointing right.
+- Thin star burst (Scribbles) — https://payforlayers.com/images/png/scribble-thin-star.png
+  A thin-lined star burst radiating unevenly from the centre.
+- Diagonal scribble (Scribbles) — https://payforlayers.com/images/png/scribble-diagonal-scribble.png
+  A loose patch of diagonal scribbled lines.
+- Thumbs up (Scribbles) — https://payforlayers.com/images/png/scribble-thumbs-up.png
+  A hand-drawn thumbs up.
+- Bold star burst (Scribbles) — https://payforlayers.com/images/png/scribble-bold-star.png
+  A bold spiky star burst with six uneven points.
+- Explosion burst (Scribbles) — https://payforlayers.com/images/png/scribble-burst-blob.png
+  An irregular spiky burst shape, like a small explosion.
+- Halftone stripe (Scribbles) — https://payforlayers.com/images/png/scribble-halftone-stripe.png
+  A diagonal stripe filled with halftone dots.
+- Halftone checkmark (Scribbles) — https://payforlayers.com/images/png/scribble-halftone-check.png
+  A checkmark filled with halftone dots.
+- Oval loop (Scribbles) — https://payforlayers.com/images/png/scribble-oval-loop.png
+  A hand-drawn oval loop circling back on itself.
+- Straight arrow (Scribbles) — https://payforlayers.com/images/png/scribble-straight-arrow.png
+  A straight arrow pointing up and to the right.
+- Flower burst (Scribbles) — https://payforlayers.com/images/png/scribble-flower-burst.png
+  A rounded, petal-like star burst.
+- Spiky star (Scribbles) — https://payforlayers.com/images/png/scribble-spiky-star.png
+  A thin-lined star burst with seven uneven spiky points.
+- Thick oval loop (Scribbles) — https://payforlayers.com/images/png/scribble-thick-oval-loop.png
+  A bold, thick oval loop circling back on itself.
+- Cursive loop arrow (Scribbles) — https://payforlayers.com/images/png/scribble-cursive-arrow.png
+  A looping cursive line ending in an arrow pointing up and to the right.
+- Thin checkmark (Scribbles) — https://payforlayers.com/images/png/scribble-check-thin.png
+  A single thin checkmark.
+- X mark (Scribbles) — https://payforlayers.com/images/png/scribble-x-mark.png
+  A bold hand-drawn X.
+- Rounded checkmark (Scribbles) — https://payforlayers.com/images/png/scribble-check-round.png
+  A bold, rounded checkmark.
+- Squiggle bracket (Scribbles) — https://payforlayers.com/images/png/scribble-squiggle-bracket.png
+  A wavy, bracket-like squiggle.
+- Diagonal line (Scribbles) — https://payforlayers.com/images/png/scribble-diagonal-line.png
+  A single bold diagonal line.
+- Hook arrow (Scribbles) — https://payforlayers.com/images/png/scribble-hook-arrow.png
+  A curved arrow hooking back to point left.
+- Double exclamation (Scribbles) — https://payforlayers.com/images/png/scribble-double-exclamation.png
+  Two bold exclamation marks side by side.
+- Bold checkmark (Scribbles) — https://payforlayers.com/images/png/scribble-check-bold.png
+  A bold, wide checkmark.
+- Open star (Scribbles) — https://payforlayers.com/images/png/scribble-open-star.png
+  An open, uneven star outline with a hollow centre.
+- Zigzag arrow (Scribbles) — https://payforlayers.com/images/png/scribble-zigzag-arrow.png
+  A zigzagging line ending in an arrow pointing down and to the left.
+- Arrow down (Scribbles) — https://payforlayers.com/images/png/scribble-arrow-down.png
+  A straight arrow pointing down.
+- Arrow up (Scribbles) — https://payforlayers.com/images/png/scribble-arrow-up.png
+  A slightly curved arrow pointing up.
+- Swoosh loop arrow (Scribbles) — https://payforlayers.com/images/png/scribble-swoosh-loop-arrow.png
+  A curved swooshing line with a small loop, ending in an arrow pointing right.
+- Bold hatching (Scribbles) — https://payforlayers.com/images/png/scribble-bold-hatching.png
+  A dense patch of bold diagonal scribbled lines.
+- Star outline (Scribbles) — https://payforlayers.com/images/png/scribble-star-outline.png
+  An open five-point star outline.
+- Wavy star outline (Scribbles) — https://payforlayers.com/images/png/scribble-star-outline-wavy.png
+  An open five-point star outline with slightly wavy edges.
+- Solid star (Scribbles) — https://payforlayers.com/images/png/scribble-solid-star.png
+  A solid filled five-point star.
+- Thin X (Scribbles) — https://payforlayers.com/images/png/scribble-x-thin.png
+  A thin, wide hand-drawn X.
+- Bold X (Scribbles) — https://payforlayers.com/images/png/scribble-x-bold.png
+  A bold, large hand-drawn X.
+- Question mark (Scribbles) — https://payforlayers.com/images/png/scribble-question-mark.png
+  A bold hand-drawn question mark.
+- Exclamation mark (Scribbles) — https://payforlayers.com/images/png/scribble-exclamation-mark.png
+  A single bold exclamation mark.
 
 ## Contact
 

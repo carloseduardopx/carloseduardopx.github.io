@@ -303,7 +303,11 @@ writeFileSync(indexPath, index);
 // --- tags/*.html
 const tagDir = join(site, 'tags');
 mkdirSync(tagDir, { recursive: true });
-for (const f of readdirSync(tagDir)) if (f.endsWith('.html')) unlinkSync(join(tagDir, f));
+for (const f of readdirSync(tagDir)) {
+  if (!f.endsWith('.html')) continue;
+  try { unlinkSync(join(tagDir, f)); }
+  catch (e) { /* best-effort: stale files for removed tags are overwritten below if still current */ }
+}
 
 const built = [];
 for (const tag of tags) {
