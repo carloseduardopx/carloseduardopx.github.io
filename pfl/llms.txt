@@ -40,6 +40,7 @@ licence terms and both tier URLs. Prefer it over scraping this text file.
 
 ## Tags
 
+- Free: https://payforlayers.com/tags/free.html
 - Technology: https://payforlayers.com/tags/technology.html
 - People: https://payforlayers.com/tags/people.html
 - Outdoors: https://payforlayers.com/tags/outdoors.html
@@ -58,7 +59,7 @@ licence terms and both tier URLs. Prefer it over scraping this text file.
   A DNA double helix drawn as two twisting ribbons, halftone shading behind the rungs.
 - Hiker between pines (Outdoors, People) — https://payforlayers.com/images/png/hiker-line-illustration.png
   A walker in a knitted hat striding between two halftone pine trees, leaning on a long pole.
-- Backpack (Outdoors, People) — https://payforlayers.com/images/png/backpack-line-illustration.png
+- Backpack (Free, Outdoors, People) — https://payforlayers.com/images/png/backpack-line-illustration.png
   A figure in a patterned cap seen in profile, carrying a large rounded backpack, a long line sweeping away behind.
 - Headphones (Technology, People) — https://payforlayers.com/images/png/headphones-line-illustration.png
   A face with a wide fringe wearing over-ear headphones, the ear cups filled with halftone.
@@ -82,7 +83,7 @@ licence terms and both tier URLs. Prefer it over scraping this text file.
   The angular Bluetooth rune drawn as a single bold line.
 - Book (Objects) — https://payforlayers.com/images/png/book-line-illustration.png
   A closed hardcover book labelled Book, halftone shading along the page edges.
-- Browsing on a tablet (People, Technology) — https://payforlayers.com/images/png/browsing-tablet-line-illustration.png
+- Browsing on a tablet (Free, People, Technology) — https://payforlayers.com/images/png/browsing-tablet-line-illustration.png
   A person with wavy pigtails holding a small starred screen, stars scattered around her head.
 - Office building (Objects, Outdoors) — https://payforlayers.com/images/png/office-building-line-illustration.png
   A multi-storey building with a grid of square windows, a small pine tree standing beside it.
@@ -102,7 +103,7 @@ licence terms and both tier URLs. Prefer it over scraping this text file.
   Two people in profile with speech bubbles floating between them, one holding a small starred card.
 - Checkmark (Scribbles) — https://payforlayers.com/images/png/checkmark-line-illustration.png
   A single bold checkmark.
-- Alarm clock (Objects) — https://payforlayers.com/images/png/alarm-clock-line-illustration.png
+- Alarm clock (Free, Objects) — https://payforlayers.com/images/png/alarm-clock-line-illustration.png
   A round alarm clock with halftone motion lines and a speech bubble above showing it's ringing.
 - Solid cloud (Technology) — https://payforlayers.com/images/png/solid-cloud-line-illustration.png
   A solid halftone cloud shape.
@@ -118,7 +119,7 @@ licence terms and both tier URLs. Prefer it over scraping this text file.
   A round coin outline with a dense halftone blob filling its centre.
 - Party popper (Objects) — https://payforlayers.com/images/png/party-popper-line-illustration.png
   A party popper mid-burst, confetti stars and streamers flying out.
-- Sketching at a desk (People, Objects) — https://payforlayers.com/images/png/sketching-desk-line-illustration.png
+- Sketching at a desk (Free, People, Objects) — https://payforlayers.com/images/png/sketching-desk-line-illustration.png
   A person bent over a desk sketching, small shapes scattered around their pencil.
 - Database stack (Technology, Objects) — https://payforlayers.com/images/png/database-stack-line-illustration.png
   A cylindrical database stack drawn as three stacked discs.
@@ -138,7 +139,7 @@ licence terms and both tier URLs. Prefer it over scraping this text file.
   A bold dollar sign drawn as one continuous line.
 - Double diamond process (Objects, Technology) — https://payforlayers.com/images/png/double-diamond-line-illustration.png
   Two halftone diamonds joined at a point, a dashed line and an X marking stages of a process.
-- Dove with letter (Outdoors, Objects) — https://payforlayers.com/images/png/dove-letter-line-illustration.png
+- Dove with letter (Free, Outdoors, Objects) — https://payforlayers.com/images/png/dove-letter-line-illustration.png
   A dove in flight, a halftone patch on its wing, carrying an envelope in its beak.
 - Envelope (Objects, Technology) — https://payforlayers.com/images/png/envelope-line-illustration.png
   A sealed envelope with a stamp in the corner and three lines beside it standing in for a subject line.
@@ -146,7 +147,7 @@ licence terms and both tier URLs. Prefer it over scraping this text file.
   A bold Euro sign drawn as one continuous line.
 - Export document (Objects, Technology) — https://payforlayers.com/images/png/export-document-line-illustration.png
   A stack of pages with an arrow rising out of the top one, curving up and to the right.
-- Curly-haired face (People) — https://payforlayers.com/images/png/curly-face-line-illustration.png
+- Curly-haired face (Free, People) — https://payforlayers.com/images/png/curly-face-line-illustration.png
   A face in profile with loosely curled hair looping around the forehead.
 - Face with wavy hair (People) — https://payforlayers.com/images/png/wavy-hair-face-line-illustration.png
   A face in profile with short wavy hair and a raised eyebrow.
@@ -168,7 +169,7 @@ licence terms and both tier URLs. Prefer it over scraping this text file.
   A person with windswept hair standing over a potted flower, halftone shading on the pot.
 - Flowers in a vase (Outdoors, Objects) — https://payforlayers.com/images/png/flowers-vase-line-illustration.png
   A vase holding several flowers with halftone-shaded petals.
-- Folder (Objects, Technology) — https://payforlayers.com/images/png/folder-line-illustration.png
+- Folder (Free, Objects, Technology) — https://payforlayers.com/images/png/folder-line-illustration.png
   An open folder with a halftone-shaded tab.
 - Person with folders (People, Objects) — https://payforlayers.com/images/png/person-folders-line-illustration.png
   A seated person at a desk holding open folders, a halftone shadow above.
@@ -180,11 +181,11 @@ licence terms and both tier URLs. Prefer it over scraping this text file.
   A cog with a halftone-shaded face and a hollow centre.
 - Gift box (Objects) — https://payforlayers.com/images/png/gift-box-line-illustration.png
   A wrapped gift box with a large bow, stars and halftone shading scattered around it.
-- Git logo (Technology) — https://payforlayers.com/images/png/git-logo-line-illustration.png
+- Git logo (Free, Technology) — https://payforlayers.com/images/png/git-logo-line-illustration.png
   The branching Git logo on a halftone-shaded diamond.
 - Globe (Outdoors, Technology) — https://payforlayers.com/images/png/globe-line-illustration.png
   A globe drawn with crossing latitude and longitude lines.
-- Flag on a summit (People, Outdoors) — https://payforlayers.com/images/png/summit-flag-line-illustration.png
+- Flag on a summit (Free, People, Outdoors) — https://payforlayers.com/images/png/summit-flag-line-illustration.png
   A figure planting a flag at the top of a rounded hill.
 - Candlestick chart (People, Technology) — https://payforlayers.com/images/png/candlestick-chart-line-illustration.png
   A person studying a candlestick chart on the wall, chin in hand.
@@ -244,7 +245,7 @@ licence terms and both tier URLs. Prefer it over scraping this text file.
   A figure stretching with arms raised, two small dots marking the feet.
 - Refresh arrows (Objects) — https://payforlayers.com/images/png/refresh-arrows-line-illustration.png
   Two curved arrows chasing each other in a loop.
-- Robot with idea (Technology) — https://payforlayers.com/images/png/robot-idea-line-illustration.png
+- Robot with idea (Free, Technology) — https://payforlayers.com/images/png/robot-idea-line-illustration.png
   A boxy robot face with a lightbulb speech bubble above it and a jagged signal line beside its antenna.
 - Scanning a phone (People, Technology) — https://payforlayers.com/images/png/scanning-phone-line-illustration.png
   A person holding a phone up beside their face, a scan pattern glowing on the screen.
@@ -254,7 +255,7 @@ licence terms and both tier URLs. Prefer it over scraping this text file.
   A person looking at a laptop screen showing a brain, one hand resting thoughtfully on their chin.
 - Waving goodbye (People) — https://payforlayers.com/images/png/waving-goodbye-line-illustration.png
   A person waving, one hand raised beside a friendly face.
-- Share arrow (Objects, Technology) — https://payforlayers.com/images/png/share-arrow-line-illustration.png
+- Share arrow (Free, Objects, Technology) — https://payforlayers.com/images/png/share-arrow-line-illustration.png
   A bold arrow curving upward and to the right.
 - Shield (Objects, Technology) — https://payforlayers.com/images/png/shield-line-illustration.png
   A halftone-shaded shield with a scalloped top edge.
@@ -270,7 +271,7 @@ licence terms and both tier URLs. Prefer it over scraping this text file.
   A hand sliding a lever along a track, with small marks showing motion.
 - Talking gesture (People, Technology) — https://payforlayers.com/images/png/talking-gesture-line-illustration.png
   A face in profile with one hand raised near the mouth, small marks showing speech.
-- Smartphone (Objects, Technology) — https://payforlayers.com/images/png/smartphone-line-illustration.png
+- Smartphone (Free, Objects, Technology) — https://payforlayers.com/images/png/smartphone-line-illustration.png
   A smartphone held upright, screen left blank, a finger pointing at it.
 - Smartwatch alert (People, Technology) — https://payforlayers.com/images/png/smartwatch-alert-line-illustration.png
   A wrist with a halftone-shaded smartwatch buzzing, small lines showing the vibration.
@@ -342,9 +343,9 @@ licence terms and both tier URLs. Prefer it over scraping this text file.
   A rounded, petal-like star burst.
 - Spiky star (Scribbles) — https://payforlayers.com/images/png/scribble-spiky-star.png
   A thin-lined star burst with seven uneven spiky points.
-- Thick oval loop (Scribbles) — https://payforlayers.com/images/png/scribble-thick-oval-loop.png
+- Thick oval loop (Free, Scribbles) — https://payforlayers.com/images/png/scribble-thick-oval-loop.png
   A bold, thick oval loop circling back on itself.
-- Cursive loop arrow (Scribbles) — https://payforlayers.com/images/png/scribble-cursive-arrow.png
+- Cursive loop arrow (Free, Scribbles) — https://payforlayers.com/images/png/scribble-cursive-arrow.png
   A looping cursive line ending in an arrow pointing up and to the right.
 - Thin checkmark (Scribbles) — https://payforlayers.com/images/png/scribble-check-thin.png
   A single thin checkmark.
@@ -356,7 +357,7 @@ licence terms and both tier URLs. Prefer it over scraping this text file.
   A wavy, bracket-like squiggle.
 - Diagonal line (Scribbles) — https://payforlayers.com/images/png/scribble-diagonal-line.png
   A single bold diagonal line.
-- Hook arrow (Scribbles) — https://payforlayers.com/images/png/scribble-hook-arrow.png
+- Hook arrow (Free, Scribbles) — https://payforlayers.com/images/png/scribble-hook-arrow.png
   A curved arrow hooking back to point left.
 - Double exclamation (Scribbles) — https://payforlayers.com/images/png/scribble-double-exclamation.png
   Two bold exclamation marks side by side.

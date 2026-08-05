@@ -103,13 +103,13 @@
         "objects"
       ],
       "alt": "An open box tipped towards you, with stars and a halftone swoosh rising out of it.",
-      "width": 1000,
-      "height": 910,
-      "bytes": 177970,
+      "width": 800,
+      "height": 728,
+      "bytes": 335485,
       "thumb": {
         "width": 500,
         "height": 455,
-        "bytes": 68909
+        "bytes": 152798
       },
       "freeSvg": true,
       "svgFree": false
@@ -121,9 +121,9 @@
         "technology"
       ],
       "alt": "A robot's head wearing a cone hat, one antenna bent over, joined by a segmented cable to a plug on the left.",
-      "width": 1000,
-      "height": 494,
-      "bytes": 66614,
+      "width": 800,
+      "height": 395,
+      "bytes": 111541,
       "thumb": {
         "width": 500,
         "height": 247,
@@ -139,13 +139,13 @@
         "technology"
       ],
       "alt": "A cloud lettered Api, with one arrow curving up into it and another curving down and away.",
-      "width": 1000,
-      "height": 704,
-      "bytes": 16516,
+      "width": 800,
+      "height": 563,
+      "bytes": 40562,
       "thumb": {
         "width": 500,
         "height": 352,
-        "bytes": 9956
+        "bytes": 22109
       },
       "freeSvg": true,
       "svgFree": false
@@ -157,13 +157,13 @@
         "technology"
       ],
       "alt": "A DNA double helix drawn as two twisting ribbons, halftone shading behind the rungs.",
-      "width": 350,
-      "height": 1000,
-      "bytes": 63909,
+      "width": 280,
+      "height": 800,
+      "bytes": 151123,
       "thumb": {
         "width": 175,
         "height": 500,
-        "bytes": 30324
+        "bytes": 75072
       },
       "freeSvg": true,
       "svgFree": false
@@ -176,13 +176,13 @@
         "people"
       ],
       "alt": "A walker in a knitted hat striding between two halftone pine trees, leaning on a long pole.",
-      "width": 1000,
-      "height": 939,
-      "bytes": 143879,
+      "width": 800,
+      "height": 751,
+      "bytes": 164026,
       "thumb": {
         "width": 500,
         "height": 469,
-        "bytes": 58148
+        "bytes": 79479
       },
       "freeSvg": true,
       "svgFree": false
@@ -191,20 +191,21 @@
       "slug": "backpack-line-illustration",
       "name": "Backpack",
       "tags": [
+        "free",
         "outdoors",
         "people"
       ],
       "alt": "A figure in a patterned cap seen in profile, carrying a large rounded backpack, a long line sweeping away behind.",
-      "width": 936,
-      "height": 1000,
-      "bytes": 49692,
+      "width": 749,
+      "height": 800,
+      "bytes": 84575,
       "thumb": {
         "width": 468,
         "height": 500,
-        "bytes": 25934
+        "bytes": 45732
       },
       "freeSvg": true,
-      "svgFree": false
+      "svgFree": true
     },
     {
       "slug": "headphones-line-illustration",
@@ -214,9 +215,9 @@
         "people"
       ],
       "alt": "A face with a wide fringe wearing over-ear headphones, the ear cups filled with halftone.",
-      "width": 662,
-      "height": 1000,
-      "bytes": 39851,
+      "width": 530,
+      "height": 800,
+      "bytes": 76989,
       "thumb": {
         "width": 331,
         "height": 500,
@@ -232,13 +233,13 @@
         "people"
       ],
       "alt": "A head in profile with loops and squiggles rising off the top and small spirals drifting away.",
-      "width": 984,
-      "height": 1000,
-      "bytes": 34644,
+      "width": 787,
+      "height": 800,
+      "bytes": 79314,
       "thumb": {
         "width": 492,
         "height": 500,
-        "bytes": 19704
+        "bytes": 44095
       },
       "freeSvg": true,
       "svgFree": false
@@ -305,9 +306,9 @@
       ],
       "alt": "The word Ai in a burst at the centre of a web of connected dots, with a star, a tag and a small document scattered around it.",
       "freeSvg": false,
-      "width": 910,
-      "height": 1000,
-      "bytes": 247137,
+      "width": 728,
+      "height": 800,
+      "bytes": 175588,
       "thumb": {
         "width": 455,
         "height": 500,
@@ -324,9 +325,9 @@
       ],
       "alt": "A halftone speaker beside a face in profile, two speech bubbles reading Sure! and Thanks hovering above.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 816,
-      "bytes": 162008,
+      "width": 800,
+      "height": 652,
+      "bytes": 119015,
       "thumb": {
         "width": 500,
         "height": 408,
@@ -361,9 +362,9 @@
       ],
       "alt": "Two interlocking chain links with arrows looping between them, pointing in opposite directions.",
       "freeSvg": false,
-      "width": 924,
-      "height": 802,
-      "bytes": 53613,
+      "width": 800,
+      "height": 694,
+      "bytes": 86745,
       "thumb": {
         "width": 500,
         "height": 434,
@@ -397,9 +398,9 @@
       ],
       "alt": "A closed hardcover book labelled Book, halftone shading along the page edges.",
       "freeSvg": false,
-      "width": 779,
-      "height": 1000,
-      "bytes": 295956,
+      "width": 623,
+      "height": 800,
+      "bytes": 206429,
       "thumb": {
         "width": 389,
         "height": 500,
@@ -411,20 +412,21 @@
       "slug": "browsing-tablet-line-illustration",
       "name": "Browsing on a tablet",
       "tags": [
+        "free",
         "people",
         "technology"
       ],
       "alt": "A person with wavy pigtails holding a small starred screen, stars scattered around her head.",
-      "freeSvg": false,
-      "width": 870,
-      "height": 1000,
-      "bytes": 192563,
+      "freeSvg": true,
+      "width": 696,
+      "height": 800,
+      "bytes": 146008,
       "thumb": {
         "width": 435,
         "height": 500,
         "bytes": 79834
       },
-      "svgFree": false
+      "svgFree": true
     },
     {
       "slug": "office-building-line-illustration",
@@ -454,9 +456,9 @@
       ],
       "alt": "A compact camera with a halftone lens and a small flash and shutter button.",
       "freeSvg": false,
-      "width": 896,
-      "height": 625,
-      "bytes": 125980,
+      "width": 800,
+      "height": 558,
+      "bytes": 365083,
       "thumb": {
         "width": 500,
         "height": 349,
@@ -473,9 +475,9 @@
       ],
       "alt": "A credit card with a chip, a halftone stripe near the corner and a row of blank lines for the number.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 600,
-      "bytes": 56207,
+      "width": 800,
+      "height": 480,
+      "bytes": 41539,
       "thumb": {
         "width": 500,
         "height": 300,
@@ -528,9 +530,9 @@
       ],
       "alt": "Two chain links joined by a curved double arrow, looping back on itself.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 157,
-      "bytes": 90489,
+      "width": 800,
+      "height": 125,
+      "bytes": 63468,
       "thumb": {
         "width": 500,
         "height": 78,
@@ -547,9 +549,9 @@
       ],
       "alt": "Two people looking at an upward-trending bar chart on a wall-mounted screen, one raising a hand in surprise.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 835,
-      "bytes": 79939,
+      "width": 800,
+      "height": 668,
+      "bytes": 60832,
       "thumb": {
         "width": 500,
         "height": 417,
@@ -566,9 +568,9 @@
       ],
       "alt": "Two people in profile with speech bubbles floating between them, one holding a small starred card.",
       "freeSvg": false,
-      "width": 489,
-      "height": 1000,
-      "bytes": 60113,
+      "width": 391,
+      "height": 800,
+      "bytes": 46440,
       "thumb": {
         "width": 245,
         "height": 500,
@@ -598,10 +600,11 @@
       "slug": "alarm-clock-line-illustration",
       "name": "Alarm clock",
       "tags": [
+        "free",
         "objects"
       ],
       "alt": "A round alarm clock with halftone motion lines and a speech bubble above showing it's ringing.",
-      "freeSvg": false,
+      "freeSvg": true,
       "width": 536,
       "height": 625,
       "bytes": 25938,
@@ -610,7 +613,7 @@
         "height": 500,
         "bytes": 37991
       },
-      "svgFree": false
+      "svgFree": true
     },
     {
       "slug": "solid-cloud-line-illustration",
@@ -620,9 +623,9 @@
       ],
       "alt": "A solid halftone cloud shape.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 476,
-      "bytes": 299156,
+      "width": 800,
+      "height": 381,
+      "bytes": 211227,
       "thumb": {
         "width": 500,
         "height": 238,
@@ -638,9 +641,9 @@
       ],
       "alt": "A cloud with three arrows branching down to a laptop, a phone and a monitor.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 782,
-      "bytes": 76109,
+      "width": 800,
+      "height": 626,
+      "bytes": 57736,
       "thumb": {
         "width": 500,
         "height": 391,
@@ -656,9 +659,9 @@
       ],
       "alt": "A code editor window with rows of code brackets and comparison symbols.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 647,
-      "bytes": 146232,
+      "width": 800,
+      "height": 517,
+      "bytes": 107736,
       "thumb": {
         "width": 500,
         "height": 323,
@@ -730,9 +733,9 @@
       ],
       "alt": "A party popper mid-burst, confetti stars and streamers flying out.",
       "freeSvg": false,
-      "width": 842,
-      "height": 1000,
-      "bytes": 145637,
+      "width": 673,
+      "height": 800,
+      "bytes": 104361,
       "thumb": {
         "width": 421,
         "height": 500,
@@ -744,20 +747,21 @@
       "slug": "sketching-desk-line-illustration",
       "name": "Sketching at a desk",
       "tags": [
+        "free",
         "people",
         "objects"
       ],
       "alt": "A person bent over a desk sketching, small shapes scattered around their pencil.",
-      "freeSvg": false,
-      "width": 752,
-      "height": 1000,
-      "bytes": 156848,
+      "freeSvg": true,
+      "width": 602,
+      "height": 800,
+      "bytes": 115802,
       "thumb": {
         "width": 376,
         "height": 500,
         "bytes": 61121
       },
-      "svgFree": false
+      "svgFree": true
     },
     {
       "slug": "database-stack-line-illustration",
@@ -840,9 +844,9 @@
       ],
       "alt": "Three overlapping report pages showing a pie chart, a line of text and a bar chart.",
       "freeSvg": false,
-      "width": 877,
-      "height": 1000,
-      "bytes": 143998,
+      "width": 702,
+      "height": 800,
+      "bytes": 111194,
       "thumb": {
         "width": 439,
         "height": 500,
@@ -858,9 +862,9 @@
       ],
       "alt": "Three overlapping pages showing a pie chart, lines of text and a bar chart, fanned out.",
       "freeSvg": false,
-      "width": 827,
-      "height": 1000,
-      "bytes": 128877,
+      "width": 662,
+      "height": 800,
+      "bytes": 95504,
       "thumb": {
         "width": 414,
         "height": 500,
@@ -876,9 +880,9 @@
       ],
       "alt": "A dog trotting sideways, tail curled and one ear up.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 744,
-      "bytes": 64061,
+      "width": 800,
+      "height": 595,
+      "bytes": 49252,
       "thumb": {
         "width": 500,
         "height": 372,
@@ -913,9 +917,9 @@
       ],
       "alt": "Two halftone diamonds joined at a point, a dashed line and an X marking stages of a process.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 575,
-      "bytes": 166202,
+      "width": 800,
+      "height": 460,
+      "bytes": 117807,
       "thumb": {
         "width": 500,
         "height": 287,
@@ -927,20 +931,21 @@
       "slug": "dove-letter-line-illustration",
       "name": "Dove with letter",
       "tags": [
+        "free",
         "outdoors",
         "objects"
       ],
       "alt": "A dove in flight, a halftone patch on its wing, carrying an envelope in its beak.",
-      "freeSvg": false,
-      "width": 883,
-      "height": 1000,
-      "bytes": 129673,
+      "freeSvg": true,
+      "width": 706,
+      "height": 800,
+      "bytes": 94936,
       "thumb": {
         "width": 442,
         "height": 500,
         "bytes": 48283
       },
-      "svgFree": false
+      "svgFree": true
     },
     {
       "slug": "envelope-line-illustration",
@@ -951,9 +956,9 @@
       ],
       "alt": "A sealed envelope with a stamp in the corner and three lines beside it standing in for a subject line.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 442,
-      "bytes": 46088,
+      "width": 800,
+      "height": 354,
+      "bytes": 34893,
       "thumb": {
         "width": 500,
         "height": 221,
@@ -988,9 +993,9 @@
       ],
       "alt": "A stack of pages with an arrow rising out of the top one, curving up and to the right.",
       "freeSvg": false,
-      "width": 793,
-      "height": 849,
-      "bytes": 73398,
+      "width": 747,
+      "height": 800,
+      "bytes": 141563,
       "thumb": {
         "width": 467,
         "height": 500,
@@ -1002,19 +1007,20 @@
       "slug": "curly-face-line-illustration",
       "name": "Curly-haired face",
       "tags": [
+        "free",
         "people"
       ],
       "alt": "A face in profile with loosely curled hair looping around the forehead.",
-      "freeSvg": false,
-      "width": 1000,
-      "height": 841,
-      "bytes": 90375,
+      "freeSvg": true,
+      "width": 800,
+      "height": 673,
+      "bytes": 69333,
       "thumb": {
         "width": 500,
         "height": 420,
         "bytes": 38724
       },
-      "svgFree": false
+      "svgFree": true
     },
     {
       "slug": "wavy-hair-face-line-illustration",
@@ -1024,9 +1030,9 @@
       ],
       "alt": "A face in profile with short wavy hair and a raised eyebrow.",
       "freeSvg": false,
-      "width": 929,
-      "height": 1000,
-      "bytes": 69646,
+      "width": 743,
+      "height": 800,
+      "bytes": 53905,
       "thumb": {
         "width": 465,
         "height": 500,
@@ -1042,9 +1048,9 @@
       ],
       "alt": "A round, smiling face wearing glasses with halftone-shaded lenses.",
       "freeSvg": false,
-      "width": 948,
-      "height": 1000,
-      "bytes": 221902,
+      "width": 759,
+      "height": 800,
+      "bytes": 155043,
       "thumb": {
         "width": 474,
         "height": 500,
@@ -1060,9 +1066,9 @@
       ],
       "alt": "A gaunt face in profile with a pointed beard and combed-back hair.",
       "freeSvg": false,
-      "width": 733,
-      "height": 1000,
-      "bytes": 149584,
+      "width": 587,
+      "height": 800,
+      "bytes": 108798,
       "thumb": {
         "width": 367,
         "height": 500,
@@ -1078,9 +1084,9 @@
       ],
       "alt": "A face in profile, one hand raised to a pair of glasses, hair shaded in halftone.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 881,
-      "bytes": 169563,
+      "width": 800,
+      "height": 705,
+      "bytes": 122730,
       "thumb": {
         "width": 500,
         "height": 441,
@@ -1097,9 +1103,9 @@
       ],
       "alt": "A person surrounded by floating folders, tags, a speech bubble and a heart.",
       "freeSvg": false,
-      "width": 924,
-      "height": 1000,
-      "bytes": 156043,
+      "width": 739,
+      "height": 800,
+      "bytes": 118140,
       "thumb": {
         "width": 462,
         "height": 500,
@@ -1134,9 +1140,9 @@
       ],
       "alt": "Five stars in a row above a hand giving a thumbs up, a small heart floating nearby.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 479,
-      "bytes": 89282,
+      "width": 800,
+      "height": 384,
+      "bytes": 64823,
       "thumb": {
         "width": 500,
         "height": 240,
@@ -1153,9 +1159,9 @@
       ],
       "alt": "Two faces in profile passing a photo between them, with hands and a curved arrow showing the exchange.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 684,
-      "bytes": 85520,
+      "width": 800,
+      "height": 547,
+      "bytes": 63973,
       "thumb": {
         "width": 500,
         "height": 342,
@@ -1172,9 +1178,9 @@
       ],
       "alt": "A person with windswept hair standing over a potted flower, halftone shading on the pot.",
       "freeSvg": false,
-      "width": 933,
-      "height": 1000,
-      "bytes": 111728,
+      "width": 746,
+      "height": 800,
+      "bytes": 84858,
       "thumb": {
         "width": 467,
         "height": 500,
@@ -1191,9 +1197,9 @@
       ],
       "alt": "A vase holding several flowers with halftone-shaded petals.",
       "freeSvg": false,
-      "width": 502,
-      "height": 1000,
-      "bytes": 396489,
+      "width": 402,
+      "height": 800,
+      "bytes": 277714,
       "thumb": {
         "width": 251,
         "height": 500,
@@ -1205,11 +1211,12 @@
       "slug": "folder-line-illustration",
       "name": "Folder",
       "tags": [
+        "free",
         "objects",
         "technology"
       ],
       "alt": "An open folder with a halftone-shaded tab.",
-      "freeSvg": false,
+      "freeSvg": true,
       "width": 435,
       "height": 377,
       "bytes": 12603,
@@ -1218,7 +1225,7 @@
         "height": 377,
         "bytes": 12603
       },
-      "svgFree": false
+      "svgFree": true
     },
     {
       "slug": "person-folders-line-illustration",
@@ -1229,9 +1236,9 @@
       ],
       "alt": "A seated person at a desk holding open folders, a halftone shadow above.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 942,
-      "bytes": 164481,
+      "width": 800,
+      "height": 753,
+      "bytes": 121677,
       "thumb": {
         "width": 500,
         "height": 471,
@@ -1247,9 +1254,9 @@
       ],
       "alt": "A dollop of halftone-shaded food on a plate, with a couple of highlighted spots.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 725,
-      "bytes": 243833,
+      "width": 800,
+      "height": 580,
+      "bytes": 175321,
       "thumb": {
         "width": 500,
         "height": 363,
@@ -1265,9 +1272,9 @@
       ],
       "alt": "A patterned bowl of noodles with steam lines and chopsticks resting inside.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 986,
-      "bytes": 211258,
+      "width": 800,
+      "height": 789,
+      "bytes": 152021,
       "thumb": {
         "width": 500,
         "height": 493,
@@ -1284,9 +1291,9 @@
       ],
       "alt": "A cog with a halftone-shaded face and a hollow centre.",
       "freeSvg": false,
-      "width": 989,
-      "height": 1000,
-      "bytes": 566759,
+      "width": 791,
+      "height": 800,
+      "bytes": 396261,
       "thumb": {
         "width": 494,
         "height": 500,
@@ -1302,9 +1309,9 @@
       ],
       "alt": "A wrapped gift box with a large bow, stars and halftone shading scattered around it.",
       "freeSvg": false,
-      "width": 907,
-      "height": 1000,
-      "bytes": 176288,
+      "width": 725,
+      "height": 800,
+      "bytes": 126810,
       "thumb": {
         "width": 453,
         "height": 500,
@@ -1316,19 +1323,20 @@
       "slug": "git-logo-line-illustration",
       "name": "Git logo",
       "tags": [
+        "free",
         "technology"
       ],
       "alt": "The branching Git logo on a halftone-shaded diamond.",
-      "freeSvg": false,
-      "width": 1000,
-      "height": 998,
-      "bytes": 443387,
+      "freeSvg": true,
+      "width": 800,
+      "height": 799,
+      "bytes": 315022,
       "thumb": {
         "width": 500,
         "height": 499,
         "bytes": 147277
       },
-      "svgFree": false
+      "svgFree": true
     },
     {
       "slug": "globe-line-illustration",
@@ -1339,9 +1347,9 @@
       ],
       "alt": "A globe drawn with crossing latitude and longitude lines.",
       "freeSvg": false,
-      "width": 817,
-      "height": 789,
-      "bytes": 45580,
+      "width": 800,
+      "height": 773,
+      "bytes": 98599,
       "thumb": {
         "width": 500,
         "height": 483,
@@ -1353,20 +1361,21 @@
       "slug": "summit-flag-line-illustration",
       "name": "Flag on a summit",
       "tags": [
+        "free",
         "people",
         "outdoors"
       ],
       "alt": "A figure planting a flag at the top of a rounded hill.",
-      "freeSvg": false,
-      "width": 621,
-      "height": 1000,
-      "bytes": 65886,
+      "freeSvg": true,
+      "width": 497,
+      "height": 800,
+      "bytes": 49944,
       "thumb": {
         "width": 310,
         "height": 500,
         "bytes": 26683
       },
-      "svgFree": false
+      "svgFree": true
     },
     {
       "slug": "candlestick-chart-line-illustration",
@@ -1377,9 +1386,9 @@
       ],
       "alt": "A person studying a candlestick chart on the wall, chin in hand.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 710,
-      "bytes": 87882,
+      "width": 800,
+      "height": 568,
+      "bytes": 67177,
       "thumb": {
         "width": 500,
         "height": 355,
@@ -1396,9 +1405,9 @@
       ],
       "alt": "Two people looking at a chart with a line dropping sharply, one wiping their brow.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 887,
-      "bytes": 77383,
+      "width": 800,
+      "height": 710,
+      "bytes": 59140,
       "thumb": {
         "width": 500,
         "height": 444,
@@ -1415,9 +1424,9 @@
       ],
       "alt": "A person gesturing at a funnel-shaped chart narrowing from top to bottom.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 754,
-      "bytes": 105483,
+      "width": 800,
+      "height": 603,
+      "bytes": 79898,
       "thumb": {
         "width": 500,
         "height": 377,
@@ -1433,9 +1442,9 @@
       ],
       "alt": "A scatter of small circles linked by straight lines into an irregular network.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 761,
-      "bytes": 78344,
+      "width": 800,
+      "height": 609,
+      "bytes": 58649,
       "thumb": {
         "width": 500,
         "height": 381,
@@ -1451,9 +1460,9 @@
       ],
       "alt": "Two faces in profile with hands reaching toward each other between them.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 686,
-      "bytes": 57918,
+      "width": 800,
+      "height": 549,
+      "bytes": 43891,
       "thumb": {
         "width": 500,
         "height": 343,
@@ -1489,9 +1498,9 @@
       ],
       "alt": "A house with a halftone-shaded roof, a round window and an arched door.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 890,
-      "bytes": 246390,
+      "width": 800,
+      "height": 712,
+      "bytes": 174713,
       "thumb": {
         "width": 500,
         "height": 445,
@@ -1507,9 +1516,9 @@
       ],
       "alt": "A small wand tapping a boxy robot head, sparkles flying off on contact.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 494,
-      "bytes": 152186,
+      "width": 800,
+      "height": 395,
+      "bytes": 110365,
       "thumb": {
         "width": 500,
         "height": 247,
@@ -1544,9 +1553,9 @@
       ],
       "alt": "A person crouched under a barbell, mid-lift.",
       "freeSvg": false,
-      "width": 891,
-      "height": 1000,
-      "bytes": 105806,
+      "width": 713,
+      "height": 800,
+      "bytes": 80975,
       "thumb": {
         "width": 446,
         "height": 500,
@@ -1581,9 +1590,9 @@
       ],
       "alt": "A smiling face with heart-shaped eyes and curly hair.",
       "freeSvg": false,
-      "width": 812,
-      "height": 1000,
-      "bytes": 163666,
+      "width": 649,
+      "height": 800,
+      "bytes": 121512,
       "thumb": {
         "width": 406,
         "height": 500,
@@ -1600,9 +1609,9 @@
       ],
       "alt": "An open laptop seen from the front, screen blank.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 647,
-      "bytes": 28233,
+      "width": 800,
+      "height": 517,
+      "bytes": 21595,
       "thumb": {
         "width": 500,
         "height": 323,
@@ -1619,9 +1628,9 @@
       ],
       "alt": "A phone showing a location pin, with a faint halftone route sketched behind it.",
       "freeSvg": false,
-      "width": 489,
-      "height": 1000,
-      "bytes": 767937,
+      "width": 391,
+      "height": 800,
+      "bytes": 525817,
       "thumb": {
         "width": 245,
         "height": 500,
@@ -1637,9 +1646,9 @@
       ],
       "alt": "A person sitting cross-legged with eyes closed, halftone shading across the chest and legs.",
       "freeSvg": false,
-      "width": 919,
-      "height": 1000,
-      "bytes": 162257,
+      "width": 735,
+      "height": 800,
+      "bytes": 119082,
       "thumb": {
         "width": 459,
         "height": 500,
@@ -1655,9 +1664,9 @@
       ],
       "alt": "A person sitting cross-legged, one hand raised in a circle gesture.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 958,
-      "bytes": 87516,
+      "width": 800,
+      "height": 766,
+      "bytes": 66606,
       "thumb": {
         "width": 500,
         "height": 479,
@@ -1693,9 +1702,9 @@
       ],
       "alt": "A person walking while carrying a large box, leaning forward under the weight.",
       "freeSvg": false,
-      "width": 654,
-      "height": 1000,
-      "bytes": 339063,
+      "width": 523,
+      "height": 800,
+      "bytes": 234970,
       "thumb": {
         "width": 327,
         "height": 500,
@@ -1712,9 +1721,9 @@
       ],
       "alt": "A person typing on a laptop with a halftone-shaded screen.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 872,
-      "bytes": 170557,
+      "width": 800,
+      "height": 698,
+      "bytes": 123284,
       "thumb": {
         "width": 500,
         "height": 436,
@@ -1730,9 +1739,9 @@
       ],
       "alt": "A paint palette with two solid dabs of paint and a brush resting in the thumb hole.",
       "freeSvg": false,
-      "width": 740,
-      "height": 1000,
-      "bytes": 96486,
+      "width": 592,
+      "height": 800,
+      "bytes": 71348,
       "thumb": {
         "width": 370,
         "height": 500,
@@ -1749,9 +1758,9 @@
       ],
       "alt": "A figure running while holding an oversized pencil like a javelin.",
       "freeSvg": false,
-      "width": 874,
-      "height": 1000,
-      "bytes": 104378,
+      "width": 699,
+      "height": 800,
+      "bytes": 78936,
       "thumb": {
         "width": 437,
         "height": 500,
@@ -1768,9 +1777,9 @@
       ],
       "alt": "A face in profile looking down at a phone held in one hand.",
       "freeSvg": false,
-      "width": 812,
-      "height": 1000,
-      "bytes": 82891,
+      "width": 650,
+      "height": 800,
+      "bytes": 63239,
       "thumb": {
         "width": 406,
         "height": 500,
@@ -1787,9 +1796,9 @@
       ],
       "alt": "Two faces looking at a phone between them, motion lines rising from the screen.",
       "freeSvg": false,
-      "width": 863,
-      "height": 1000,
-      "bytes": 94082,
+      "width": 691,
+      "height": 800,
+      "bytes": 70920,
       "thumb": {
         "width": 432,
         "height": 500,
@@ -1805,9 +1814,9 @@
       ],
       "alt": "A piggy bank seen from the side, ears perked and a coin slot on its back.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 643,
-      "bytes": 62866,
+      "width": 800,
+      "height": 514,
+      "bytes": 47628,
       "thumb": {
         "width": 500,
         "height": 322,
@@ -1824,9 +1833,9 @@
       ],
       "alt": "A commercial airplane in profile with a row of small windows along the fuselage.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 505,
-      "bytes": 58787,
+      "width": 800,
+      "height": 404,
+      "bytes": 43621,
       "thumb": {
         "width": 500,
         "height": 253,
@@ -1843,9 +1852,9 @@
       ],
       "alt": "A person surrounded by small sticky notes, folders and speech bubbles.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 738,
-      "bytes": 210859,
+      "width": 800,
+      "height": 590,
+      "bytes": 152850,
       "thumb": {
         "width": 500,
         "height": 369,
@@ -1880,9 +1889,9 @@
       ],
       "alt": "A figure stretching with arms raised, two small dots marking the feet.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 686,
-      "bytes": 79778,
+      "width": 800,
+      "height": 549,
+      "bytes": 59846,
       "thumb": {
         "width": 500,
         "height": 343,
@@ -1912,19 +1921,20 @@
       "slug": "robot-idea-line-illustration",
       "name": "Robot with idea",
       "tags": [
+        "free",
         "technology"
       ],
       "alt": "A boxy robot face with a lightbulb speech bubble above it and a jagged signal line beside its antenna.",
-      "freeSvg": false,
-      "width": 1000,
-      "height": 782,
-      "bytes": 193087,
+      "freeSvg": true,
+      "width": 800,
+      "height": 625,
+      "bytes": 140036,
       "thumb": {
         "width": 500,
         "height": 391,
         "bytes": 72801
       },
-      "svgFree": false
+      "svgFree": true
     },
     {
       "slug": "scanning-phone-line-illustration",
@@ -1935,9 +1945,9 @@
       ],
       "alt": "A person holding a phone up beside their face, a scan pattern glowing on the screen.",
       "freeSvg": false,
-      "width": 813,
-      "height": 1000,
-      "bytes": 168972,
+      "width": 651,
+      "height": 800,
+      "bytes": 124363,
       "thumb": {
         "width": 407,
         "height": 500,
@@ -1972,9 +1982,9 @@
       ],
       "alt": "A person looking at a laptop screen showing a brain, one hand resting thoughtfully on their chin.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 902,
-      "bytes": 325149,
+      "width": 800,
+      "height": 722,
+      "bytes": 230841,
       "thumb": {
         "width": 500,
         "height": 451,
@@ -1990,9 +2000,9 @@
       ],
       "alt": "A person waving, one hand raised beside a friendly face.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 935,
-      "bytes": 93636,
+      "width": 800,
+      "height": 748,
+      "bytes": 71913,
       "thumb": {
         "width": 500,
         "height": 467,
@@ -2004,20 +2014,21 @@
       "slug": "share-arrow-line-illustration",
       "name": "Share arrow",
       "tags": [
+        "free",
         "objects",
         "technology"
       ],
       "alt": "A bold arrow curving upward and to the right.",
-      "freeSvg": false,
-      "width": 1000,
-      "height": 739,
-      "bytes": 45083,
+      "freeSvg": true,
+      "width": 800,
+      "height": 591,
+      "bytes": 33988,
       "thumb": {
         "width": 500,
         "height": 370,
         "bytes": 19125
       },
-      "svgFree": false
+      "svgFree": true
     },
     {
       "slug": "shield-line-illustration",
@@ -2028,9 +2039,9 @@
       ],
       "alt": "A halftone-shaded shield with a scalloped top edge.",
       "freeSvg": false,
-      "width": 740,
-      "height": 1000,
-      "bytes": 503436,
+      "width": 592,
+      "height": 800,
+      "bytes": 359269,
       "thumb": {
         "width": 370,
         "height": 500,
@@ -2047,9 +2058,9 @@
       ],
       "alt": "A cargo ship loaded with halftone-patterned containers.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 458,
-      "bytes": 77036,
+      "width": 800,
+      "height": 366,
+      "bytes": 58219,
       "thumb": {
         "width": 500,
         "height": 229,
@@ -2066,9 +2077,9 @@
       ],
       "alt": "A person walking while carrying a halftone-shaded shopping bag.",
       "freeSvg": false,
-      "width": 728,
-      "height": 1000,
-      "bytes": 153669,
+      "width": 582,
+      "height": 800,
+      "bytes": 111612,
       "thumb": {
         "width": 364,
         "height": 500,
@@ -2085,9 +2096,9 @@
       ],
       "alt": "A person reaching up to a branching sitemap diagram of connected boxes.",
       "freeSvg": false,
-      "width": 910,
-      "height": 1000,
-      "bytes": 131321,
+      "width": 728,
+      "height": 800,
+      "bytes": 99482,
       "thumb": {
         "width": 455,
         "height": 500,
@@ -2104,9 +2115,9 @@
       ],
       "alt": "A figure crouched low, riding a skateboard.",
       "freeSvg": false,
-      "width": 833,
-      "height": 1000,
-      "bytes": 80644,
+      "width": 666,
+      "height": 800,
+      "bytes": 60431,
       "thumb": {
         "width": 416,
         "height": 500,
@@ -2123,9 +2134,9 @@
       ],
       "alt": "A hand sliding a lever along a track, with small marks showing motion.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 756,
-      "bytes": 90690,
+      "width": 800,
+      "height": 605,
+      "bytes": 68090,
       "thumb": {
         "width": 500,
         "height": 378,
@@ -2142,9 +2153,9 @@
       ],
       "alt": "A face in profile with one hand raised near the mouth, small marks showing speech.",
       "freeSvg": false,
-      "width": 840,
-      "height": 1000,
-      "bytes": 73466,
+      "width": 672,
+      "height": 800,
+      "bytes": 56278,
       "thumb": {
         "width": 420,
         "height": 500,
@@ -2156,20 +2167,21 @@
       "slug": "smartphone-line-illustration",
       "name": "Smartphone",
       "tags": [
+        "free",
         "objects",
         "technology"
       ],
       "alt": "A smartphone held upright, screen left blank, a finger pointing at it.",
-      "freeSvg": false,
-      "width": 694,
-      "height": 1000,
-      "bytes": 126655,
+      "freeSvg": true,
+      "width": 555,
+      "height": 800,
+      "bytes": 90729,
       "thumb": {
         "width": 347,
         "height": 500,
         "bytes": 45341
       },
-      "svgFree": false
+      "svgFree": true
     },
     {
       "slug": "smartwatch-alert-line-illustration",
@@ -2180,9 +2192,9 @@
       ],
       "alt": "A wrist with a halftone-shaded smartwatch buzzing, small lines showing the vibration.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 862,
-      "bytes": 100384,
+      "width": 800,
+      "height": 690,
+      "bytes": 75285,
       "thumb": {
         "width": 500,
         "height": 431,
@@ -2237,9 +2249,9 @@
       ],
       "alt": "Five rectangular blocks arranged like a page layout, two filled with halftone.",
       "freeSvg": false,
-      "width": 568,
-      "height": 899,
-      "bytes": 75679,
+      "width": 505,
+      "height": 800,
+      "bytes": 117379,
       "thumb": {
         "width": 316,
         "height": 500,
@@ -2255,9 +2267,9 @@
       ],
       "alt": "A person in a buttoned jacket, hands clasped in front.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 914,
-      "bytes": 102038,
+      "width": 800,
+      "height": 731,
+      "bytes": 78922,
       "thumb": {
         "width": 500,
         "height": 457,
@@ -2273,9 +2285,9 @@
       ],
       "alt": "A face in profile wearing over-ear headphones with a small speech mark beside the mouth.",
       "freeSvg": false,
-      "width": 662,
-      "height": 1000,
-      "bytes": 100534,
+      "width": 529,
+      "height": 800,
+      "bytes": 74520,
       "thumb": {
         "width": 331,
         "height": 500,
@@ -2291,9 +2303,9 @@
       ],
       "alt": "A three-column table of halftone-shaded rows and numbers.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 842,
-      "bytes": 636945,
+      "width": 800,
+      "height": 673,
+      "bytes": 455811,
       "thumb": {
         "width": 500,
         "height": 421,
@@ -2364,9 +2376,9 @@
       ],
       "alt": "A browser-style window with halftone-shaded paragraphs of text and a cursor icon in the corner.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 741,
-      "bytes": 671070,
+      "width": 800,
+      "height": 593,
+      "bytes": 465949,
       "thumb": {
         "width": 500,
         "height": 370,
@@ -2382,9 +2394,9 @@
       ],
       "alt": "A torn page with a short checklist, two items ticked.",
       "freeSvg": false,
-      "width": 779,
-      "height": 849,
-      "bytes": 35085,
+      "width": 734,
+      "height": 800,
+      "bytes": 57411,
       "thumb": {
         "width": 459,
         "height": 500,
@@ -2400,9 +2412,9 @@
       ],
       "alt": "A trash can with a lid and halftone-shaded vertical stripes.",
       "freeSvg": false,
-      "width": 669,
-      "height": 897,
-      "bytes": 59020,
+      "width": 597,
+      "height": 800,
+      "bytes": 92043,
       "thumb": {
         "width": 373,
         "height": 500,
@@ -2436,9 +2448,9 @@
       ],
       "alt": "A halftone-shaded cloud with an arrow curling up into it from below.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 760,
-      "bytes": 757326,
+      "width": 800,
+      "height": 608,
+      "bytes": 540228,
       "thumb": {
         "width": 500,
         "height": 380,
@@ -2474,9 +2486,9 @@
       ],
       "alt": "A video editing window showing a face on the timeline, with a set of small tool icons along the side.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 739,
-      "bytes": 263796,
+      "width": 800,
+      "height": 591,
+      "bytes": 192850,
       "thumb": {
         "width": 500,
         "height": 369,
@@ -2493,9 +2505,9 @@
       ],
       "alt": "A game controller with a cross pad, round buttons and two joysticks, halftone-shaded on the grips.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 704,
-      "bytes": 85105,
+      "width": 800,
+      "height": 563,
+      "bytes": 64419,
       "thumb": {
         "width": 500,
         "height": 352,
@@ -2511,9 +2523,9 @@
       ],
       "alt": "A VR headset drifting past a ringed planet, with small stars scattered around it.",
       "freeSvg": false,
-      "width": 1000,
-      "height": 873,
-      "bytes": 156972,
+      "width": 800,
+      "height": 699,
+      "bytes": 116088,
       "thumb": {
         "width": 500,
         "height": 437,
@@ -2547,9 +2559,9 @@
       ],
       "alt": "A tall cup with a straw and a halftone-shaded panel on the side.",
       "freeSvg": false,
-      "width": 614,
-      "height": 1000,
-      "bytes": 97230,
+      "width": 491,
+      "height": 800,
+      "bytes": 70777,
       "thumb": {
         "width": 307,
         "height": 500,
@@ -2566,9 +2578,9 @@
       ],
       "alt": "Three curved Wi-Fi signal arcs above a solid dot.",
       "freeSvg": false,
-      "width": 944,
-      "height": 722,
-      "bytes": 33630,
+      "width": 800,
+      "height": 612,
+      "bytes": 59944,
       "thumb": {
         "width": 500,
         "height": 382,
@@ -2585,9 +2597,9 @@
       ],
       "alt": "A browser window wireframe with a halftone image placeholder, lines of text and a small button.",
       "freeSvg": false,
-      "width": 670,
-      "height": 1000,
-      "bytes": 347023,
+      "width": 536,
+      "height": 800,
+      "bytes": 246062,
       "thumb": {
         "width": 335,
         "height": 500,
@@ -2815,10 +2827,11 @@
       "slug": "scribble-thick-oval-loop",
       "name": "Thick oval loop",
       "tags": [
+        "free",
         "scribbles"
       ],
       "alt": "A bold, thick oval loop circling back on itself.",
-      "freeSvg": false,
+      "freeSvg": true,
       "width": 507,
       "height": 424,
       "bytes": 10010,
@@ -2827,25 +2840,26 @@
         "height": 418,
         "bytes": 18739
       },
-      "svgFree": false
+      "svgFree": true
     },
     {
       "slug": "scribble-cursive-arrow",
       "name": "Cursive loop arrow",
       "tags": [
+        "free",
         "scribbles"
       ],
       "alt": "A looping cursive line ending in an arrow pointing up and to the right.",
-      "freeSvg": false,
-      "width": 436,
-      "height": 845,
-      "bytes": 15774,
+      "freeSvg": true,
+      "width": 413,
+      "height": 800,
+      "bytes": 27903,
       "thumb": {
         "width": 258,
         "height": 500,
         "bytes": 15476
       },
-      "svgFree": false
+      "svgFree": true
     },
     {
       "slug": "scribble-check-thin",
@@ -2941,10 +2955,11 @@
       "slug": "scribble-hook-arrow",
       "name": "Hook arrow",
       "tags": [
+        "free",
         "scribbles"
       ],
       "alt": "A curved arrow hooking back to point left.",
-      "freeSvg": false,
+      "freeSvg": true,
       "width": 540,
       "height": 274,
       "bytes": 6140,
@@ -2953,7 +2968,7 @@
         "height": 254,
         "bytes": 11159
       },
-      "svgFree": false
+      "svgFree": true
     },
     {
       "slug": "scribble-double-exclamation",
@@ -3017,9 +3032,9 @@
       ],
       "alt": "A zigzagging line ending in an arrow pointing down and to the left.",
       "freeSvg": false,
-      "width": 342,
-      "height": 1000,
-      "bytes": 31432,
+      "width": 274,
+      "height": 800,
+      "bytes": 24287,
       "thumb": {
         "width": 171,
         "height": 500,
@@ -3035,9 +3050,9 @@
       ],
       "alt": "A straight arrow pointing down.",
       "freeSvg": false,
-      "width": 215,
-      "height": 816,
-      "bytes": 9519,
+      "width": 211,
+      "height": 800,
+      "bytes": 16900,
       "thumb": {
         "width": 132,
         "height": 500,
@@ -3053,9 +3068,9 @@
       ],
       "alt": "A slightly curved arrow pointing up.",
       "freeSvg": false,
-      "width": 368,
-      "height": 1000,
-      "bytes": 26813,
+      "width": 295,
+      "height": 800,
+      "bytes": 20476,
       "thumb": {
         "width": 184,
         "height": 500,
@@ -3071,9 +3086,9 @@
       ],
       "alt": "A curved swooshing line with a small loop, ending in an arrow pointing right.",
       "freeSvg": false,
-      "width": 848,
-      "height": 266,
-      "bytes": 8901,
+      "width": 800,
+      "height": 251,
+      "bytes": 18443,
       "thumb": {
         "width": 500,
         "height": 157,

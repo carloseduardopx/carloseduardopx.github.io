@@ -1027,6 +1027,101 @@
     </image:image>
   </url>
   <url>
+    <loc>https://payforlayers.com/tags/free.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/backpack-line-illustration.png</image:loc>
+      <image:title>Backpack</image:title>
+      <image:caption>A figure in a patterned cap seen in profile, carrying a large rounded backpack, a long line sweeping away behind.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/browsing-tablet-line-illustration.png</image:loc>
+      <image:title>Browsing on a tablet</image:title>
+      <image:caption>A person with wavy pigtails holding a small starred screen, stars scattered around her head.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/alarm-clock-line-illustration.png</image:loc>
+      <image:title>Alarm clock</image:title>
+      <image:caption>A round alarm clock with halftone motion lines and a speech bubble above showing it's ringing.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/sketching-desk-line-illustration.png</image:loc>
+      <image:title>Sketching at a desk</image:title>
+      <image:caption>A person bent over a desk sketching, small shapes scattered around their pencil.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/dove-letter-line-illustration.png</image:loc>
+      <image:title>Dove with letter</image:title>
+      <image:caption>A dove in flight, a halftone patch on its wing, carrying an envelope in its beak.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/curly-face-line-illustration.png</image:loc>
+      <image:title>Curly-haired face</image:title>
+      <image:caption>A face in profile with loosely curled hair looping around the forehead.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/folder-line-illustration.png</image:loc>
+      <image:title>Folder</image:title>
+      <image:caption>An open folder with a halftone-shaded tab.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/git-logo-line-illustration.png</image:loc>
+      <image:title>Git logo</image:title>
+      <image:caption>The branching Git logo on a halftone-shaded diamond.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/summit-flag-line-illustration.png</image:loc>
+      <image:title>Flag on a summit</image:title>
+      <image:caption>A figure planting a flag at the top of a rounded hill.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/robot-idea-line-illustration.png</image:loc>
+      <image:title>Robot with idea</image:title>
+      <image:caption>A boxy robot face with a lightbulb speech bubble above it and a jagged signal line beside its antenna.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/share-arrow-line-illustration.png</image:loc>
+      <image:title>Share arrow</image:title>
+      <image:caption>A bold arrow curving upward and to the right.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/smartphone-line-illustration.png</image:loc>
+      <image:title>Smartphone</image:title>
+      <image:caption>A smartphone held upright, screen left blank, a finger pointing at it.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-thick-oval-loop.png</image:loc>
+      <image:title>Thick oval loop</image:title>
+      <image:caption>A bold, thick oval loop circling back on itself.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-cursive-arrow.png</image:loc>
+      <image:title>Cursive loop arrow</image:title>
+      <image:caption>A looping cursive line ending in an arrow pointing up and to the right.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://payforlayers.com/images/png/scribble-hook-arrow.png</image:loc>
+      <image:title>Hook arrow</image:title>
+      <image:caption>A curved arrow hooking back to point left.</image:caption>
+      <image:license>https://payforlayers.com/licence.html</image:license>
+    </image:image>
+  </url>
+  <url>
     <loc>https://payforlayers.com/tags/technology.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
